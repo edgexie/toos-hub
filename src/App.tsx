@@ -12,6 +12,7 @@ import {
   Paintbrush,
   RefreshCw,
   Ruler,
+  Search,
   Wrench,
 } from "lucide-react";
 import { zhCN } from "date-fns/locale/zh-CN";
@@ -214,6 +215,12 @@ function PageHeader({
 }
 
 function HomeView() {
+  const [query, setQuery] = useState("");
+  const normalizedQuery = query.trim().toLowerCase();
+  const filteredTools = normalizedQuery
+    ? tools.filter((tool) => `${tool.title} ${tool.summary}`.toLowerCase().includes(normalizedQuery))
+    : tools;
+
   return (
     <main className="mx-auto w-[min(1120px,calc(100%-32px))] py-10">
       <section className="grid gap-5 border-b pb-8">
@@ -221,10 +228,20 @@ function HomeView() {
         <p className="max-w-2xl text-base leading-8 text-muted-foreground">
           把高频小工具集中到一个干净的入口里。先从颜色转换和时间戳转换开始，后续可以继续添加编码、文本、图片等工具。
         </p>
+        <div className="relative max-w-xl">
+          <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+          <Input
+            aria-label="搜索工具"
+            className="pl-9"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="搜索工具，例如 JSON、颜色、Base64"
+          />
+        </div>
       </section>
 
       <section className="grid grid-cols-1 gap-4 pt-7 md:grid-cols-2" aria-label="工具入口">
-        {tools.map((tool) => {
+        {filteredTools.map((tool) => {
           const Icon = tool.icon;
           return (
             <Card
@@ -249,6 +266,14 @@ function HomeView() {
             </Card>
           );
         })}
+        {filteredTools.length === 0 ? (
+          <Card className="md:col-span-2">
+            <CardContent className="grid gap-2 py-10 text-center">
+              <CardTitle>没有找到匹配的工具</CardTitle>
+              <CardDescription>换一个关键词试试，比如 JSON、URL、颜色或时间戳。</CardDescription>
+            </CardContent>
+          </Card>
+        ) : null}
       </section>
     </main>
   );
