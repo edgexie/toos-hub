@@ -27,7 +27,7 @@ import { Label } from "@/components/ui/label";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Separator } from "@/components/ui/separator";
 import { Textarea } from "@/components/ui/textarea";
-import { tools } from "@/tools/registry";
+import { toolCategories, tools } from "@/tools/registry";
 import {
   type CMYK,
   type HSL,
@@ -216,10 +216,28 @@ function PageHeader({
 
 function HomeView() {
   const [query, setQuery] = useState("");
+  const [activeCategory, setActiveCategory] = useState<(typeof toolCategories)[number]["id"]>("all");
   const normalizedQuery = query.trim().toLowerCase();
-  const filteredTools = normalizedQuery
-    ? tools.filter((tool) => `${tool.title} ${tool.summary}`.toLowerCase().includes(normalizedQuery))
-    : tools;
+  const categoryCounts = useMemo(
+    () =>
+      toolCategories.reduce(
+        (counts, category) => ({
+          ...counts,
+          [category.id]:
+            category.id === "all" ? tools.length : tools.filter((tool) => tool.category === category.id).length,
+        }),
+        {} as Record<(typeof toolCategories)[number]["id"], number>,
+      ),
+    [],
+  );
+  const filteredTools = tools.filter((tool) => {
+    const matchesCategory = activeCategory === "all" || tool.category === activeCategory;
+    const matchesQuery = normalizedQuery
+      ? `${tool.title} ${tool.summary}`.toLowerCase().includes(normalizedQuery)
+      : true;
+
+    return matchesCategory && matchesQuery;
+  });
 
   return (
     <main className="mx-auto w-[min(1120px,calc(100%-32px))] py-10">
@@ -237,6 +255,20 @@ function HomeView() {
             onChange={(event) => setQuery(event.target.value)}
             placeholder="搜索工具，例如 JSON、颜色、Base64"
           />
+        </div>
+        <div className="flex flex-wrap gap-2" aria-label="工具分类">
+          {toolCategories.map((category) => (
+            <Button
+              key={category.id}
+              variant={activeCategory === category.id ? "default" : "outline"}
+              size="sm"
+              type="button"
+              onClick={() => setActiveCategory(category.id)}
+            >
+              {category.label}
+              <Badge variant={activeCategory === category.id ? "secondary" : "outline"}>{categoryCounts[category.id]}</Badge>
+            </Button>
+          ))}
         </div>
       </section>
 
