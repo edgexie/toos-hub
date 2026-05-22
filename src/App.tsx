@@ -1,4 +1,19 @@
-import { ArrowRight, CalendarIcon, Check, Clipboard, Clock3, Home, Palette, RefreshCw, Wrench } from "lucide-react";
+import {
+  ArrowRight,
+  Binary,
+  Braces,
+  CalendarIcon,
+  Check,
+  Clipboard,
+  Clock3,
+  Home,
+  LinkIcon,
+  Palette,
+  Paintbrush,
+  RefreshCw,
+  Ruler,
+  Wrench,
+} from "lucide-react";
 import { zhCN } from "date-fns/locale/zh-CN";
 import { useEffect, useMemo, useState } from "react";
 import { Link, Navigate, Route, Routes } from "react-router";
@@ -10,6 +25,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Separator } from "@/components/ui/separator";
+import { Textarea } from "@/components/ui/textarea";
 import { tools } from "@/tools/registry";
 import {
   type CMYK,
@@ -62,6 +78,43 @@ const parseTimestamp = (value: string) => {
 
   return trimmed.length <= 10 ? numberValue * 1000 : numberValue;
 };
+
+const encodeBase64 = (value: string) => {
+  const bytes = new TextEncoder().encode(value);
+  let binary = "";
+  bytes.forEach((byte) => {
+    binary += String.fromCharCode(byte);
+  });
+  return btoa(binary);
+};
+
+const decodeBase64 = (value: string) => {
+  const binary = atob(value);
+  const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+};
+
+function ToolPage({
+  children,
+  icon,
+  kicker,
+  title,
+}: {
+  children: React.ReactNode;
+  icon: React.ReactNode;
+  kicker: string;
+  title: string;
+}) {
+  return (
+    <main className="mx-auto w-[min(1120px,calc(100%-32px))] py-9">
+      <BackHomeButton />
+      <div className="grid gap-6">
+        <PageHeader icon={icon} kicker={kicker} title={title} />
+        {children}
+      </div>
+    </main>
+  );
+}
 
 const NumberField = ({ label, max, min = 0, onChange, value }: NumberFieldProps) => (
   <div className="grid gap-2">
@@ -419,12 +472,257 @@ function TimestampConverter() {
   );
 }
 
+function JsonFormatter() {
+  const [input, setInput] = useState('{"name":"tools-hub","enabled":true,"items":[1,2,3]}');
+  const [indent, setIndent] = useState(2);
+
+  const result = useMemo(() => {
+    try {
+      const parsed = JSON.parse(input);
+      return {
+        error: "",
+        formatted: JSON.stringify(parsed, null, indent),
+        compact: JSON.stringify(parsed),
+      };
+    } catch (error) {
+      return {
+        error: error instanceof Error ? error.message : "JSON 解析失败",
+        formatted: "",
+        compact: "",
+      };
+    }
+  }, [indent, input]);
+
+  return (
+    <ToolPage icon={<Braces size={28} />} kicker="JSON Formatter" title="JSON 格式化">
+      <section className="grid gap-6 lg:grid-cols-2">
+        <Card>
+          <CardHeader>
+            <CardTitle>输入</CardTitle>
+            <CardDescription>粘贴 JSON，自动校验并生成格式化结果。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4">
+            <Textarea className="min-h-80 font-mono" value={input} onChange={(event) => setInput(event.target.value)} />
+            <div className="grid gap-2 sm:w-48">
+              <Label htmlFor="json-indent">缩进空格</Label>
+              <Input id="json-indent" type="number" min={0} max={8} value={indent} onChange={(event) => setIndent(Number(event.target.value))} />
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>结果</CardTitle>
+            <CardDescription>{result.error ? "JSON 有错误" : "可复制格式化或压缩后的 JSON"}</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4">
+            {result.error ? <p className="rounded-lg border border-destructive/30 bg-destructive/10 p-3 text-sm text-destructive">{result.error}</p> : null}
+            <Textarea className="min-h-80 font-mono" readOnly value={result.error ? "" : result.formatted} />
+            <div className="grid gap-3 sm:grid-cols-2">
+              <CopyRow label="格式化 JSON" value={result.formatted || "-"} />
+              <CopyRow label="压缩 JSON" value={result.compact || "-"} />
+            </div>
+          </CardContent>
+        </Card>
+      </section>
+    </ToolPage>
+  );
+}
+
+function UrlCodec() {
+  const [input, setInput] = useState("https://example.com/search?q=hello world&lang=zh-CN");
+  const encoded = useMemo(() => encodeURIComponent(input), [input]);
+  const decoded = useMemo(() => {
+    try {
+      return { value: decodeURIComponent(input), error: "" };
+    } catch {
+      return { value: "", error: "URL 解码失败，请检查 % 编码是否完整。" };
+    }
+  }, [input]);
+  const queryRows = useMemo(() => {
+    try {
+      const url = input.includes("://") ? new URL(input) : new URL(input, "https://example.com");
+      return Array.from(url.searchParams.entries());
+    } catch {
+      return [];
+    }
+  }, [input]);
+
+  return (
+    <ToolPage icon={<LinkIcon size={28} />} kicker="URL Codec" title="URL 编解码">
+      <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
+        <Card>
+          <CardHeader>
+            <CardTitle>输入</CardTitle>
+            <CardDescription>支持 URL、URL 片段和 Query 字符串。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4">
+            <Textarea className="min-h-48 font-mono" value={input} onChange={(event) => setInput(event.target.value)} />
+            {decoded.error ? <p className="text-sm text-destructive">{decoded.error}</p> : null}
+            <CopyRow label="encodeURIComponent" value={encoded} />
+            <CopyRow label="decodeURIComponent" value={decoded.value || "-"} />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Query 参数</CardTitle>
+            <CardDescription>从输入中解析出的参数。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-3">
+            {queryRows.length === 0 ? <p className="text-sm text-muted-foreground">没有解析到 Query 参数。</p> : null}
+            {queryRows.map(([key, value], index) => (
+              <div key={`${key}-${index}`} className="grid gap-1 rounded-lg border bg-muted/35 p-3">
+                <span className="text-xs font-semibold text-muted-foreground">{key}</span>
+                <strong className="break-words text-sm">{value}</strong>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      </section>
+    </ToolPage>
+  );
+}
+
+function Base64Codec() {
+  const [input, setInput] = useState("Hello，工具集");
+  const encoded = useMemo(() => encodeBase64(input), [input]);
+  const decoded = useMemo(() => {
+    try {
+      return { value: decodeBase64(input.trim()), error: "" };
+    } catch {
+      return { value: "", error: "Base64 解码失败，请检查输入内容。" };
+    }
+  }, [input]);
+
+  return (
+    <ToolPage icon={<Binary size={28} />} kicker="Base64 Codec" title="Base64 编解码">
+      <section className="grid gap-6 lg:grid-cols-2">
+        <Card>
+          <CardHeader>
+            <CardTitle>输入</CardTitle>
+            <CardDescription>支持 UTF-8 文本编码，也可以粘贴 Base64 解码。</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Textarea className="min-h-64 font-mono" value={input} onChange={(event) => setInput(event.target.value)} />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>结果</CardTitle>
+            <CardDescription>编码和解码结果会同时生成。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-3">
+            {decoded.error ? <p className="text-sm text-destructive">{decoded.error}</p> : null}
+            <CopyRow label="Base64 编码" value={encoded} />
+            <CopyRow label="Base64 解码" value={decoded.value || "-"} />
+          </CardContent>
+        </Card>
+      </section>
+    </ToolPage>
+  );
+}
+
+function CssUnitConverter() {
+  const [px, setPx] = useState(16);
+  const [rootSize, setRootSize] = useState(16);
+  const [viewportWidth, setViewportWidth] = useState(1440);
+  const [viewportHeight, setViewportHeight] = useState(900);
+  const rem = px / rootSize;
+  const vw = (px / viewportWidth) * 100;
+  const vh = (px / viewportHeight) * 100;
+
+  return (
+    <ToolPage icon={<Ruler size={28} />} kicker="CSS Unit Converter" title="CSS 单位换算">
+      <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
+        <Card>
+          <CardHeader>
+            <CardTitle>参数</CardTitle>
+            <CardDescription>输入 px 值，并设置根字号和视口尺寸。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4 sm:grid-cols-2">
+            <NumberField label="PX" min={0} max={100000} value={px} onChange={setPx} />
+            <NumberField label="Root Font Size" min={1} max={200} value={rootSize} onChange={setRootSize} />
+            <NumberField label="Viewport Width" min={1} max={10000} value={viewportWidth} onChange={setViewportWidth} />
+            <NumberField label="Viewport Height" min={1} max={10000} value={viewportHeight} onChange={setViewportHeight} />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>换算结果</CardTitle>
+            <CardDescription>常用 CSS 单位输出。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-3">
+            <CopyRow label="px" value={`${px}px`} />
+            <CopyRow label="rem" value={`${rem.toFixed(4)}rem`} />
+            <CopyRow label="em" value={`${rem.toFixed(4)}em`} />
+            <CopyRow label="vw" value={`${vw.toFixed(4)}vw`} />
+            <CopyRow label="vh" value={`${vh.toFixed(4)}vh`} />
+          </CardContent>
+        </Card>
+      </section>
+    </ToolPage>
+  );
+}
+
+function GradientGenerator() {
+  const [colorA, setColorA] = useState("#2D6CDF");
+  const [colorB, setColorB] = useState("#14B8A6");
+  const [angle, setAngle] = useState(135);
+  const css = `linear-gradient(${angle}deg, ${colorA}, ${colorB})`;
+
+  return (
+    <ToolPage icon={<Paintbrush size={28} />} kicker="Gradient Generator" title="Gradient 生成器">
+      <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
+        <Card>
+          <CardHeader>
+            <CardTitle>预览</CardTitle>
+            <CardDescription>调整颜色和角度，生成 CSS 渐变。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-5">
+            <div className="h-72 rounded-lg border" style={{ background: css }} />
+            <CopyRow label="CSS" value={css} />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>控制</CardTitle>
+            <CardDescription>当前先支持线性渐变，后续可以加多色 stop。</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4">
+            <div className="grid gap-2">
+              <Label htmlFor="gradient-a">起始颜色</Label>
+              <Input id="gradient-a" type="color" value={colorA} onChange={(event) => setColorA(event.target.value)} />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="gradient-b">结束颜色</Label>
+              <Input id="gradient-b" type="color" value={colorB} onChange={(event) => setColorB(event.target.value)} />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="gradient-angle">角度</Label>
+              <Input id="gradient-angle" type="number" min={0} max={360} value={angle} onChange={(event) => setAngle(Number(event.target.value))} />
+            </div>
+          </CardContent>
+        </Card>
+      </section>
+    </ToolPage>
+  );
+}
+
 export function App() {
   return (
     <Routes>
       <Route path="/" element={<HomeView />} />
       <Route path="/color-converter" element={<ColorConverter />} />
       <Route path="/timestamp-converter" element={<TimestampConverter />} />
+      <Route path="/json-formatter" element={<JsonFormatter />} />
+      <Route path="/url-codec" element={<UrlCodec />} />
+      <Route path="/base64-codec" element={<Base64Codec />} />
+      <Route path="/css-unit-converter" element={<CssUnitConverter />} />
+      <Route path="/gradient-generator" element={<GradientGenerator />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

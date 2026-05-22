@@ -1,4 +1,4 @@
-import { Clock3, Palette } from "lucide-react";
+import { Binary, Braces, Clock3, LinkIcon, Palette, Paintbrush, Ruler } from "lucide-react";
 
 export const tools = [
   {
@@ -16,5 +16,45 @@ export const tools = [
     summary: "秒、毫秒时间戳与本地时间、UTC、ISO 时间互转。",
     status: "已可用",
     icon: Clock3,
+  },
+  {
+    id: "json-formatter",
+    path: "/json-formatter",
+    title: "JSON 格式化",
+    summary: "JSON 校验、格式化、压缩，并显示解析错误。",
+    status: "已可用",
+    icon: Braces,
+  },
+  {
+    id: "url-codec",
+    path: "/url-codec",
+    title: "URL 编解码",
+    summary: "URL encode/decode，并解析 Query 参数。",
+    status: "已可用",
+    icon: LinkIcon,
+  },
+  {
+    id: "base64-codec",
+    path: "/base64-codec",
+    title: "Base64 编解码",
+    summary: "UTF-8 文本 Base64 编码和解码。",
+    status: "已可用",
+    icon: Binary,
+  },
+  {
+    id: "css-unit-converter",
+    path: "/css-unit-converter",
+    title: "CSS 单位换算",
+    summary: "px、rem、em、vw、vh 常用单位换算。",
+    status: "已可用",
+    icon: Ruler,
+  },
+  {
+    id: "gradient-generator",
+    path: "/gradient-generator",
+    title: "Gradient 生成器",
+    summary: "可视化生成 linear-gradient CSS。",
+    status: "已可用",
+    icon: Paintbrush,
   },
 ] as const;
