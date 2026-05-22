@@ -18,6 +18,8 @@ import {
 import { zhCN } from "date-fns/locale/zh-CN";
 import { useEffect, useMemo, useState } from "react";
 import { Link, Navigate, Route, Routes } from "react-router";
+import { AnimatedGradientText } from "@/components/ui/animated-gradient-text";
+import { AnimatedGridPattern } from "@/components/ui/animated-grid-pattern";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
@@ -27,6 +29,7 @@ import { Label } from "@/components/ui/label";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Separator } from "@/components/ui/separator";
 import { Textarea } from "@/components/ui/textarea";
+import { TextAnimate } from "@/components/ui/text-animate";
 import { toolCategories, tools } from "@/tools/registry";
 import {
   type CMYK,
@@ -231,9 +234,31 @@ function HomeView() {
     .filter((group) => group.tools.length > 0);
 
   return (
-    <main className="mx-auto w-[min(1120px,calc(100%-32px))] py-10">
+    <main className="relative min-h-svh overflow-hidden">
+      <AnimatedGridPattern
+        numSquares={42}
+        maxOpacity={0.12}
+        duration={3}
+        repeatDelay={1}
+        className="inset-x-0 inset-y-[-18%] h-[130%] skew-y-6 text-primary/35 [mask-image:radial-gradient(760px_circle_at_center,white,transparent)]"
+      />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-64 bg-linear-to-b from-primary/10 to-transparent" />
+
+      <div className="relative mx-auto w-[min(1120px,calc(100%-32px))] py-10">
       <section className="grid gap-5 border-b pb-8">
-        <PageHeader icon={<Wrench size={30} />} kicker="Tools Hub" title="常用工具集" />
+        <div className="w-fit rounded-full border bg-background/80 px-4 py-1.5 shadow-sm backdrop-blur">
+          <AnimatedGradientText colorFrom="#0f766e" colorTo="#2563eb" className="text-sm font-semibold">
+            Tools Hub
+          </AnimatedGradientText>
+        </div>
+        <div className="flex items-center gap-4">
+          <div className="text-primary">
+            <Wrench size={30} />
+          </div>
+          <TextAnimate as="h1" animation="blurInUp" by="word" once className="text-4xl font-bold tracking-normal sm:text-6xl">
+            常用工具集
+          </TextAnimate>
+        </div>
         <p className="max-w-2xl text-base leading-8 text-muted-foreground">
           把高频小工具集中到一个干净的入口里。先从颜色转换和时间戳转换开始，后续可以继续添加编码、文本、图片等工具。
         </p>
@@ -260,9 +285,10 @@ function HomeView() {
               {group.tools.map((tool) => {
                 const Icon = tool.icon;
                 return (
-                  <Card key={tool.id} className="transition hover:-translate-y-0.5 hover:shadow-lg">
+                  <Card key={tool.id} className="group transition hover:-translate-y-0.5 hover:shadow-lg">
                     <Link to={tool.path} className="block text-left">
-                      <CardHeader className="grid grid-cols-[auto_1fr_auto] items-center gap-4">
+                      <CardHeader className="relative grid grid-cols-[auto_1fr_auto] items-center gap-4 overflow-hidden">
+                        <div className="pointer-events-none absolute inset-x-8 -top-12 h-24 rounded-full bg-primary/10 blur-2xl transition-opacity group-hover:opacity-100" />
                         <div className="grid size-12 place-items-center rounded-lg bg-primary/10 text-primary">
                           <Icon size={24} />
                         </div>
@@ -291,6 +317,7 @@ function HomeView() {
           </Card>
         ) : null}
       </section>
+      </div>
     </main>
   );
 }
