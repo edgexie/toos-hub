@@ -216,28 +216,19 @@ function PageHeader({
 
 function HomeView() {
   const [query, setQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState<(typeof toolCategories)[number]["id"]>("all");
   const normalizedQuery = query.trim().toLowerCase();
-  const categoryCounts = useMemo(
-    () =>
-      toolCategories.reduce(
-        (counts, category) => ({
-          ...counts,
-          [category.id]:
-            category.id === "all" ? tools.length : tools.filter((tool) => tool.category === category.id).length,
-        }),
-        {} as Record<(typeof toolCategories)[number]["id"], number>,
-      ),
-    [],
-  );
   const filteredTools = tools.filter((tool) => {
-    const matchesCategory = activeCategory === "all" || tool.category === activeCategory;
-    const matchesQuery = normalizedQuery
+    return normalizedQuery
       ? `${tool.title} ${tool.summary}`.toLowerCase().includes(normalizedQuery)
       : true;
-
-    return matchesCategory && matchesQuery;
   });
+  const groupedTools = toolCategories
+    .filter((category) => category.id !== "all")
+    .map((category) => ({
+      ...category,
+      tools: filteredTools.filter((tool) => tool.category === category.id),
+    }))
+    .filter((group) => group.tools.length > 0);
 
   return (
     <main className="mx-auto w-[min(1120px,calc(100%-32px))] py-10">
@@ -256,50 +247,43 @@ function HomeView() {
             placeholder="搜索工具，例如 JSON、颜色、Base64"
           />
         </div>
-        <div className="flex flex-wrap gap-2" aria-label="工具分类">
-          {toolCategories.map((category) => (
-            <Button
-              key={category.id}
-              variant={activeCategory === category.id ? "default" : "outline"}
-              size="sm"
-              type="button"
-              onClick={() => setActiveCategory(category.id)}
-            >
-              {category.label}
-              <Badge variant={activeCategory === category.id ? "secondary" : "outline"}>{categoryCounts[category.id]}</Badge>
-            </Button>
-          ))}
-        </div>
       </section>
 
-      <section className="grid grid-cols-1 gap-4 pt-7 md:grid-cols-2" aria-label="工具入口">
-        {filteredTools.map((tool) => {
-          const Icon = tool.icon;
-          return (
-            <Card
-              key={tool.id}
-              className="transition hover:-translate-y-0.5 hover:shadow-lg"
-            >
-              <Link to={tool.path} className="block text-left">
-                <CardHeader className="grid grid-cols-[auto_1fr_auto] items-center gap-4">
-                <div className="grid size-12 place-items-center rounded-lg bg-primary/10 text-primary">
-                  <Icon size={24} />
-                </div>
-                <div>
-                  <div className="mb-2 flex flex-wrap items-center gap-2">
-                    <CardTitle className="text-lg">{tool.title}</CardTitle>
-                    <Badge variant="secondary">{tool.status}</Badge>
-                  </div>
-                  <CardDescription>{tool.summary}</CardDescription>
-                </div>
-                <ArrowRight className="text-muted-foreground" size={20} />
-                </CardHeader>
-              </Link>
-            </Card>
-          );
-        })}
+      <section className="grid gap-8 pt-7" aria-label="工具入口">
+        {groupedTools.map((group) => (
+          <div className="grid gap-3" key={group.id}>
+            <div className="flex items-center gap-3">
+              <h2 className="text-xl font-semibold">{group.label}</h2>
+              <Badge variant="outline">{group.tools.length}</Badge>
+            </div>
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              {group.tools.map((tool) => {
+                const Icon = tool.icon;
+                return (
+                  <Card key={tool.id} className="transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <Link to={tool.path} className="block text-left">
+                      <CardHeader className="grid grid-cols-[auto_1fr_auto] items-center gap-4">
+                        <div className="grid size-12 place-items-center rounded-lg bg-primary/10 text-primary">
+                          <Icon size={24} />
+                        </div>
+                        <div>
+                          <div className="mb-2 flex flex-wrap items-center gap-2">
+                            <CardTitle className="text-lg">{tool.title}</CardTitle>
+                            <Badge variant="secondary">{tool.status}</Badge>
+                          </div>
+                          <CardDescription>{tool.summary}</CardDescription>
+                        </div>
+                        <ArrowRight className="text-muted-foreground" size={20} />
+                      </CardHeader>
+                    </Link>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        ))}
         {filteredTools.length === 0 ? (
-          <Card className="md:col-span-2">
+          <Card>
             <CardContent className="grid gap-2 py-10 text-center">
               <CardTitle>没有找到匹配的工具</CardTitle>
               <CardDescription>换一个关键词试试，比如 JSON、URL、颜色或时间戳。</CardDescription>
