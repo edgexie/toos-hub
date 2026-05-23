@@ -1,4 +1,4 @@
-import { Binary, Braces, Clock3, LinkIcon, Palette, Paintbrush, Ruler } from "lucide-react";
+import { Binary, Braces, Clock3, Fingerprint, KeyRound, LinkIcon, Palette, Paintbrush, Regex, Ruler } from "lucide-react";
 
 export const toolCategories = [
   { id: "all", label: "全部" },
@@ -6,6 +6,7 @@ export const toolCategories = [
   { id: "encoding", label: "编码" },
   { id: "formatting", label: "格式化" },
   { id: "css", label: "CSS" },
+  { id: "generation", label: "生成" },
 ] as const;
 
 export const tools = [
@@ -71,5 +72,32 @@ export const tools = [
     summary: "可视化生成 linear-gradient CSS。",
     status: "已可用",
     icon: Paintbrush,
+  },
+  {
+    id: "regex-tester",
+    path: "/regex-tester",
+    category: "formatting",
+    title: "Regex 测试器",
+    summary: "测试正则表达式，查看匹配结果和捕获组。",
+    status: "已可用",
+    icon: Regex,
+  },
+  {
+    id: "uuid-generator",
+    path: "/uuid-generator",
+    category: "generation",
+    title: "UUID 生成器",
+    summary: "批量生成 UUID v4，支持大小写输出。",
+    status: "已可用",
+    icon: KeyRound,
+  },
+  {
+    id: "hash-generator",
+    path: "/hash-generator",
+    category: "encoding",
+    title: "Hash 生成器",
+    summary: "生成 SHA-1、SHA-256、SHA-384、SHA-512 文本摘要。",
+    status: "已可用",
+    icon: Fingerprint,
   },
 ] as const;
