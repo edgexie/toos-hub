@@ -175,3 +175,21 @@
   margin: 12px 14px;
   line-height: 1.55;
 }
+
+.botw-map .botw-location-label {
+  border: 1px solid oklch(1 0 0 / 36%);
+  border-radius: 999px;
+  background: oklch(0.12 0.02 95 / 72%);
+  box-shadow: 0 5px 16px oklch(0 0 0 / 32%);
+  color: white;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1;
+  padding: 4px 7px;
+  text-shadow: 0 1px 2px oklch(0 0 0 / 70%);
+  transform: translateY(-50%);
+  white-space: nowrap;
+  width: max-content !important;
+  height: auto !important;
+  pointer-events: auto;
+}

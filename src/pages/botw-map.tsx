@@ -53,6 +53,11 @@ const getMarkerDisplayName = (marker: BotwMapMarker) => marker.nameZh || marker.
 
 const getMarkerDisplayDescription = (marker: BotwMapMarker) => marker.descriptionZh || marker.description;
 
+const isLocationMarker = (marker: BotwMapMarker) => {
+  const category = categoryMap[marker.categoryId];
+  return marker.categoryId === "1920" || category?.parentId === "1920";
+};
+
 const getMarkerPopupHtml = (marker: BotwMapMarker) => {
   const category = categoryMap[marker.categoryId];
   const displayName = getMarkerDisplayName(marker);
@@ -140,6 +145,7 @@ export function BotwMapPage() {
     markerLayer.clearLayers();
     filteredMarkers.forEach((marker) => {
       const category = categoryMap[marker.categoryId];
+      const popupHtml = getMarkerPopupHtml(marker);
 
       L.circleMarker([marker.y, marker.x], {
         color: "#111827",
@@ -148,8 +154,21 @@ export function BotwMapPage() {
         radius: marker.categoryId === "1916" ? 5 : 7,
         weight: 2,
       })
-        .bindPopup(getMarkerPopupHtml(marker), { className: "botw-marker-popup" })
+        .bindPopup(popupHtml, { className: "botw-marker-popup" })
         .addTo(markerLayer);
+
+      if (isLocationMarker(marker)) {
+        L.marker([marker.y, marker.x], {
+          icon: L.divIcon({
+            className: "botw-location-label",
+            html: escapeHtml(getMarkerDisplayName(marker)),
+            iconAnchor: [-10, 14],
+          }),
+          keyboard: false,
+        })
+          .bindPopup(popupHtml, { className: "botw-marker-popup" })
+          .addTo(markerLayer);
+      }
     });
   }, [filteredMarkers]);
 

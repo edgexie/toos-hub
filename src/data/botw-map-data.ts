@@ -20,7 +20,7 @@ export type BotwMapMarker = {
   y: number;
 };
 
-export const defaultBotwCategoryIds = ["1925"] as const;
+export const defaultBotwCategoryIds = ["1921", "1923", "1924", "1925", "1926", "1927", "1937", "1938"] as const;
 
 export const botwMarkerCategories = [
   {
