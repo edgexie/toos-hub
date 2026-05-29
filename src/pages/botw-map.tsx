@@ -58,6 +58,16 @@ const isLocationMarker = (marker: BotwMapMarker) => {
   return marker.categoryId === "1920" || category?.parentId === "1920";
 };
 
+const getLocationLabelMinZoom = (marker: BotwMapMarker) => {
+  if (marker.categoryId === "1925") {
+    return 4;
+  }
+  if (marker.categoryId === "1927" || marker.categoryId === "1937") {
+    return 3;
+  }
+  return 2;
+};
+
 const getMarkerPopupHtml = (marker: BotwMapMarker) => {
   const category = categoryMap[marker.categoryId];
   const displayName = getMarkerDisplayName(marker);
@@ -82,6 +92,7 @@ export function BotwMapPage() {
   const [query, setQuery] = useState("");
   const [searchPanelOpen, setSearchPanelOpen] = useState(false);
   const [layerPanelOpen, setLayerPanelOpen] = useState(false);
+  const [zoom, setZoom] = useState(2);
 
   const filteredMarkers = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -125,7 +136,9 @@ export function BotwMapPage() {
       noWrap: true,
     }).addTo(map);
     map.setView([0, 0], 2);
+    setZoom(map.getZoom());
     window.setTimeout(() => map.invalidateSize(), 0);
+    map.on("zoomend", () => setZoom(map.getZoom()));
     mapRef.current = map;
     markerLayerRef.current = L.layerGroup().addTo(map);
 
@@ -157,7 +170,7 @@ export function BotwMapPage() {
         .bindPopup(popupHtml, { className: "botw-marker-popup" })
         .addTo(markerLayer);
 
-      if (isLocationMarker(marker)) {
+      if (isLocationMarker(marker) && (query.trim() || zoom >= getLocationLabelMinZoom(marker))) {
         L.marker([marker.y, marker.x], {
           icon: L.divIcon({
             className: "botw-location-label",
@@ -170,7 +183,7 @@ export function BotwMapPage() {
           .addTo(markerLayer);
       }
     });
-  }, [filteredMarkers]);
+  }, [filteredMarkers, query, zoom]);
 
   useEffect(() => {
     if (!searchPanelOpen) {
