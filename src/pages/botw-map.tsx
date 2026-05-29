@@ -49,13 +49,21 @@ const escapeHtml = (value: string) =>
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
 
+const getMarkerDisplayName = (marker: BotwMapMarker) => marker.nameZh || marker.name;
+
+const getMarkerDisplayDescription = (marker: BotwMapMarker) => marker.descriptionZh || marker.description;
+
 const getMarkerPopupHtml = (marker: BotwMapMarker) => {
   const category = categoryMap[marker.categoryId];
+  const displayName = getMarkerDisplayName(marker);
+  const displayDescription = getMarkerDisplayDescription(marker);
 
   return [
-    `<strong>${escapeHtml(marker.name)}</strong>`,
+    `<strong>${escapeHtml(displayName)}</strong>`,
+    displayName !== marker.name ? `<br/><small>${escapeHtml(marker.name)}</small>` : "",
     `<br/><span>${escapeHtml(category?.label ?? "未分类")} / ${escapeHtml(category?.parentName ?? category?.name ?? "标注")}</span>`,
-    marker.description ? `<br/><small>${escapeHtml(marker.description)}</small>` : "",
+    displayDescription ? `<br/><small>${escapeHtml(displayDescription)}</small>` : "",
+    displayDescription && displayDescription !== marker.description ? `<br/><small>${escapeHtml(marker.description)}</small>` : "",
     `<br/><small>x: ${marker.x.toFixed(3)}, y: ${marker.y.toFixed(3)}</small>`,
   ].join("");
 };
@@ -76,7 +84,7 @@ export function BotwMapPage() {
       const category = categoryMap[marker.categoryId];
       const matchesCategory = normalizedQuery ? true : activeCategoryIds.has(marker.categoryId);
       const matchesQuery = normalizedQuery
-        ? `${marker.name} ${marker.description} ${category?.label ?? ""} ${category?.name ?? ""} ${category?.parentName ?? ""}`
+        ? `${marker.name} ${marker.nameZh} ${marker.description} ${marker.descriptionZh} ${category?.label ?? ""} ${category?.name ?? ""} ${category?.parentName ?? ""}`
             .toLowerCase()
             .includes(normalizedQuery)
         : true;
@@ -230,11 +238,12 @@ export function BotwMapPage() {
                     </Button>
                   </div>
                 </div>
-                <Input ref={searchInputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索：Shrine、Tower、Korok..." />
+                <Input ref={searchInputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索：神庙、驿站、Korok..." />
                 <div className="grid max-h-[min(42svh,380px)] gap-2 overflow-auto pr-1">
                   {filteredMarkers.length === 0 ? <p className="rounded-md border bg-muted/35 p-3 text-sm text-muted-foreground">没有匹配的标注。</p> : null}
                   {filteredMarkers.map((marker) => {
                     const category = categoryMap[marker.categoryId];
+                    const displayName = getMarkerDisplayName(marker);
                     return (
                       <button
                         key={marker.id}
@@ -243,11 +252,12 @@ export function BotwMapPage() {
                         className="grid gap-1 rounded-md border bg-background/72 p-3 text-left transition hover:border-primary/35 hover:bg-background"
                       >
                         <div className="flex items-center justify-between gap-2">
-                          <strong className="truncate text-sm">{marker.name}</strong>
+                          <strong className="truncate text-sm">{displayName}</strong>
                           <Badge variant="outline" className="shrink-0 bg-card/80">
                             {category?.label ?? "标注"}
                           </Badge>
                         </div>
+                        {displayName !== marker.name ? <span className="truncate text-xs text-muted-foreground">{marker.name}</span> : null}
                         <span className="truncate text-xs text-muted-foreground">
                           {category?.parentName ?? category?.name ?? "未分类"} / x {marker.x.toFixed(3)}, y {marker.y.toFixed(3)}
                         </span>

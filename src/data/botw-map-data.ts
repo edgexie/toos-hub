@@ -14,6 +14,8 @@ export type BotwMapMarker = {
   categoryId: string;
   name: string;
   description: string;
+  nameZh: string;
+  descriptionZh: string;
   x: number;
   y: number;
 };
@@ -330,7 +332,9 @@ export const botwMapMarkers = [
     "name": "Korgu Chideh Shrine",
     "description": "",
     "x": 202.00965625,
-    "y": -186.931125
+    "y": -186.931125,
+    "nameZh": "卡奥尔格乌查伊德埃神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2951",
@@ -338,7 +342,9 @@ export const botwMapMarkers = [
     "name": "Chaas Qeta Shrine",
     "description": "",
     "x": 190.679421875,
-    "y": -174.716109375
+    "y": -174.716109375,
+    "nameZh": "查斯卡埃特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2950",
@@ -346,7 +352,9 @@ export const botwMapMarkers = [
     "name": "Tahno O'ah Shrine",
     "description": "",
     "x": 193.355703125,
-    "y": -154.35246875
+    "y": -154.35246875,
+    "nameZh": "塔恩奥奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2949",
@@ -354,7 +362,9 @@ export const botwMapMarkers = [
     "name": "Shai Yota Shrine",
     "description": "",
     "x": 194.33196875,
-    "y": -131.96730625
+    "y": -131.96730625,
+    "nameZh": "夏艾亚奥特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2948",
@@ -362,7 +372,9 @@ export const botwMapMarkers = [
     "name": "Ke'nai Shakah Shrine",
     "description": "",
     "x": 193.54240625,
-    "y": -114.6264375
+    "y": -114.6264375,
+    "nameZh": "卡埃纳艾夏克神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2947",
@@ -370,7 +382,9 @@ export const botwMapMarkers = [
     "name": "Kah Mael Shrine",
     "description": "",
     "x": 201.5713125,
-    "y": -107.538890625
+    "y": -107.538890625,
+    "nameZh": "卡玛艾尔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2946",
@@ -378,7 +392,9 @@ export const botwMapMarkers = [
     "name": "Ritaag Zumo Shrine",
     "description": "",
     "x": 198.70375,
-    "y": -94.743859375
+    "y": -94.743859375,
+    "nameZh": "拉伊特阿格扎乌姆奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2945",
@@ -386,7 +402,9 @@ export const botwMapMarkers = [
     "name": "Katosa Aug Shrine",
     "description": "",
     "x": 195.107828125,
-    "y": -85.345703125
+    "y": -85.345703125,
+    "nameZh": "卡特奥斯奥格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2944",
@@ -394,7 +412,9 @@ export const botwMapMarkers = [
     "name": "East Akkala Stable",
     "description": "",
     "x": 194.0596875,
-    "y": -85.066109375
+    "y": -85.066109375,
+    "nameZh": "东阿卡莱驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2943",
@@ -402,7 +422,9 @@ export const botwMapMarkers = [
     "name": "Tu Ka'loh Shrine",
     "description": "",
     "x": 200.734375,
-    "y": -70.046875
+    "y": -70.046875,
+    "nameZh": "塔乌卡拉奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2942",
@@ -410,7 +432,9 @@ export const botwMapMarkers = [
     "name": "Kah Yah Shrine",
     "description": "",
     "x": 181.707578125,
-    "y": -179.8311875
+    "y": -179.8311875,
+    "nameZh": "卡亚神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2941",
@@ -418,7 +442,9 @@ export const botwMapMarkers = [
     "name": "Muwo Jeem Shrine",
     "description": "",
     "x": 185.143234375,
-    "y": -179.687390625
+    "y": -179.687390625,
+    "nameZh": "玛乌乌奥加伊姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2940",
@@ -426,7 +452,9 @@ export const botwMapMarkers = [
     "name": "Lurelin Village",
     "description": "",
     "x": 175.02295312500002,
-    "y": -182.341765625
+    "y": -182.341765625,
+    "nameZh": "沃托里村",
+    "descriptionZh": ""
   },
   {
     "id": "2939",
@@ -434,7 +462,9 @@ export const botwMapMarkers = [
     "name": "Myahm Agana Shrine",
     "description": "",
     "x": 180.932921875,
-    "y": -162.61140625000002
+    "y": -162.61140625000002,
+    "nameZh": "玛伊姆格恩神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2938",
@@ -442,7 +472,9 @@ export const botwMapMarkers = [
     "name": "Hateno Village",
     "description": "",
     "x": 184.136609375,
-    "y": -161.15393749999998
+    "y": -161.15393749999998,
+    "nameZh": "哈特诺村",
+    "descriptionZh": ""
   },
   {
     "id": "2937",
@@ -450,7 +482,9 @@ export const botwMapMarkers = [
     "name": "Jitan Sa'mi Shrine",
     "description": "",
     "x": 188.6723125,
-    "y": -148.552515625
+    "y": -148.552515625,
+    "nameZh": "加伊特恩萨玛伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2936",
@@ -458,7 +492,9 @@ export const botwMapMarkers = [
     "name": "Rucco Maag Shrine",
     "description": "",
     "x": 180.0859375,
-    "y": -134.2890625
+    "y": -134.2890625,
+    "nameZh": "拉乌克克奥玛格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2935",
@@ -466,7 +502,9 @@ export const botwMapMarkers = [
     "name": "Dagah Keek Shrine",
     "description": "",
     "x": 177.20081249999998,
-    "y": -121.4792203125
+    "y": -121.4792203125,
+    "nameZh": "达格卡伊克神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2934",
@@ -474,7 +512,9 @@ export const botwMapMarkers = [
     "name": "Ne'ez Yohma Shrine",
     "description": "",
     "x": 179.924515625,
-    "y": -119.90751875
+    "y": -119.90751875,
+    "nameZh": "纳埃埃兹亚奥姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2933",
@@ -482,7 +522,9 @@ export const botwMapMarkers = [
     "name": "Zora's Domain",
     "description": "",
     "x": 179.122890625,
-    "y": -121.7267453125
+    "y": -121.7267453125,
+    "nameZh": "卓拉领地",
+    "descriptionZh": ""
   },
   {
     "id": "2932",
@@ -490,7 +532,9 @@ export const botwMapMarkers = [
     "name": "Tarrey Town",
     "description": "",
     "x": 189.9515,
-    "y": -102.765359375
+    "y": -102.765359375,
+    "nameZh": "一始村",
+    "descriptionZh": ""
   },
   {
     "id": "2931",
@@ -498,7 +542,9 @@ export const botwMapMarkers = [
     "name": "Ze Kasho Shrine",
     "description": "Ze Kasho Apparatus",
     "x": 175.31715624999998,
-    "y": -101.937265625
+    "y": -101.937265625,
+    "nameZh": "扎埃卡斯奥神庙",
+    "descriptionZh": "泽卡修机关。"
   },
   {
     "id": "2930",
@@ -506,7 +552,9 @@ export const botwMapMarkers = [
     "name": "Dah Hesho Shrine",
     "description": "",
     "x": 188.93267187499998,
-    "y": -107.62821875
+    "y": -107.62821875,
+    "nameZh": "达哈埃斯奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2929",
@@ -514,7 +562,9 @@ export const botwMapMarkers = [
     "name": "Akkala Tower",
     "description": "",
     "x": 179.6875,
-    "y": -104.5609375
+    "y": -104.5609375,
+    "nameZh": "阿卡莱之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2928",
@@ -522,7 +572,9 @@ export const botwMapMarkers = [
     "name": "South Akkala Stable",
     "description": "",
     "x": 177.216125,
-    "y": -101.552390625
+    "y": -101.552390625,
+    "nameZh": "南阿卡莱驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2927",
@@ -530,7 +582,9 @@ export const botwMapMarkers = [
     "name": "Tutsuwa Nima Shrine",
     "description": "",
     "x": 187.01960937500002,
-    "y": -85.74892187500001
+    "y": -85.74892187500001,
+    "nameZh": "塔乌特斯乌乌纳伊姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2926",
@@ -538,7 +592,9 @@ export const botwMapMarkers = [
     "name": "Zuna Kai Shrine",
     "description": "",
     "x": 179.938828125,
-    "y": -74.54110937499999
+    "y": -74.54110937499999,
+    "nameZh": "扎乌恩卡艾神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2925",
@@ -546,7 +602,9 @@ export const botwMapMarkers = [
     "name": "Qukah Nata Shrine",
     "description": "",
     "x": 159.373453125,
-    "y": -179.32134374999998
+    "y": -179.32134374999998,
+    "nameZh": "卡乌克纳特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2924",
@@ -554,7 +612,9 @@ export const botwMapMarkers = [
     "name": "Yah Rin Shrine",
     "description": "",
     "x": 172.273953125,
-    "y": -179.74934375
+    "y": -179.74934375,
+    "nameZh": "亚拉伊恩神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2923",
@@ -562,7 +622,9 @@ export const botwMapMarkers = [
     "name": "Tawa Jinn Shrine",
     "description": "",
     "x": 169.19829687499998,
-    "y": -172.27896875
+    "y": -172.27896875,
+    "nameZh": "塔乌加伊恩恩神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2922",
@@ -570,7 +632,9 @@ export const botwMapMarkers = [
     "name": "Hateno Tower",
     "description": "",
     "x": 170.7421875,
-    "y": -161.3359375
+    "y": -161.3359375,
+    "nameZh": "哈特诺之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2921",
@@ -578,7 +642,9 @@ export const botwMapMarkers = [
     "name": "Kam Urog Shrine",
     "description": "",
     "x": 167.0890625,
-    "y": -151.36846875
+    "y": -151.36846875,
+    "nameZh": "卡姆乌尔奥格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2920",
@@ -586,7 +652,9 @@ export const botwMapMarkers = [
     "name": "Dow Na'eh Shrine",
     "description": "",
     "x": 170.137,
-    "y": -148.828390625
+    "y": -148.828390625,
+    "nameZh": "达奥乌纳埃神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2919",
@@ -594,7 +662,9 @@ export const botwMapMarkers = [
     "name": "Mezza Lo Shrine",
     "description": "",
     "x": 168.96281249999998,
-    "y": -133.92553437499998
+    "y": -133.92553437499998,
+    "nameZh": "玛埃兹兹拉奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2918",
@@ -602,7 +672,9 @@ export const botwMapMarkers = [
     "name": "Lakna Rokee Shrine",
     "description": "",
     "x": 159.869265625,
-    "y": -143.18288124999998
+    "y": -143.18288124999998,
+    "nameZh": "拉克恩拉奥克伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2917",
@@ -610,7 +682,9 @@ export const botwMapMarkers = [
     "name": "Lanayru Tower",
     "description": "",
     "x": 163.28125,
-    "y": -126.296875
+    "y": -126.296875,
+    "nameZh": "拉聂尔之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2916",
@@ -618,7 +692,9 @@ export const botwMapMarkers = [
     "name": "Soh Kofi Shrine",
     "description": "",
     "x": 162.987703125,
-    "y": -123.43078125
+    "y": -123.43078125,
+    "nameZh": "萨奥卡奥夫伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2915",
@@ -626,7 +702,9 @@ export const botwMapMarkers = [
     "name": "Tah Muhl Shrine",
     "description": "",
     "x": 163.96034375,
-    "y": -113.301159375
+    "y": -113.301159375,
+    "nameZh": "塔玛乌尔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2914",
@@ -634,7 +712,9 @@ export const botwMapMarkers = [
     "name": "Sah Dahaj Shrine",
     "description": "",
     "x": 169.65812499999998,
-    "y": -103.30737500000001
+    "y": -103.30737500000001,
+    "nameZh": "萨达吉神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2913",
@@ -642,7 +722,9 @@ export const botwMapMarkers = [
     "name": "Mo'a Keet Shrine",
     "description": "",
     "x": 170.54809375,
-    "y": -109.79425
+    "y": -109.79425,
+    "nameZh": "玛奥阿卡伊特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2912",
@@ -650,7 +732,9 @@ export const botwMapMarkers = [
     "name": "Eldin Tower",
     "description": "",
     "x": 161.971109375,
-    "y": -103.675296875
+    "y": -103.675296875,
+    "nameZh": "奥尔汀之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2911",
@@ -658,7 +742,9 @@ export const botwMapMarkers = [
     "name": "Foothill Stable",
     "description": "",
     "x": 168.8333125,
-    "y": -110.132609375
+    "y": -110.132609375,
+    "nameZh": "山麓驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2910",
@@ -666,7 +752,9 @@ export const botwMapMarkers = [
     "name": "Kayra Mah Shrine",
     "description": "",
     "x": 160.434734375,
-    "y": -96.12940625
+    "y": -96.12940625,
+    "nameZh": "卡伊尔玛神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2909",
@@ -674,7 +762,9 @@ export const botwMapMarkers = [
     "name": "Daqa Koh Shrine",
     "description": "",
     "x": 160.265203125,
-    "y": -91.62696875
+    "y": -91.62696875,
+    "nameZh": "达克卡奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2908",
@@ -682,7 +772,9 @@ export const botwMapMarkers = [
     "name": "Gorae Torr Shrine",
     "description": "",
     "x": 169.604796875,
-    "y": -73.981140625
+    "y": -73.981140625,
+    "nameZh": "加奥尔艾塔奥尔尔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2907",
@@ -690,7 +782,9 @@ export const botwMapMarkers = [
     "name": "Faron Tower",
     "description": "",
     "x": 148.80004687500002,
-    "y": -179.151921875
+    "y": -179.151921875,
+    "nameZh": "费罗尼之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2906",
@@ -698,7 +792,9 @@ export const botwMapMarkers = [
     "name": "Shai Utoh Shrine",
     "description": "",
     "x": 152.787109375,
-    "y": -184.468625
+    "y": -184.468625,
+    "nameZh": "夏艾乌特奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2905",
@@ -706,7 +802,9 @@ export const botwMapMarkers = [
     "name": "Lakeside Stable",
     "description": "",
     "x": 152.25035937500002,
-    "y": -183.278734375
+    "y": -183.278734375,
+    "nameZh": "湖畔驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2904",
@@ -714,7 +812,9 @@ export const botwMapMarkers = [
     "name": "Shoda Sah Shrine",
     "description": "",
     "x": 155.972765625,
-    "y": -174.7635
+    "y": -174.7635,
+    "nameZh": "夏奥德萨神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2903",
@@ -722,7 +822,9 @@ export const botwMapMarkers = [
     "name": "Toto Sah Shrine",
     "description": "",
     "x": 156.852515625,
-    "y": -166.65196874999998
+    "y": -166.65196874999998,
+    "nameZh": "塔奥特奥萨神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2902",
@@ -730,7 +832,9 @@ export const botwMapMarkers = [
     "name": "Dueling Peaks Stable",
     "description": "",
     "x": 155.52053125,
-    "y": -158.09756249999998
+    "y": -158.09756249999998,
+    "nameZh": "双子山驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2901",
@@ -738,7 +842,9 @@ export const botwMapMarkers = [
     "name": "Ree Dahee Shrine",
     "description": "",
     "x": 147.88932812500002,
-    "y": -156.81109375
+    "y": -156.81109375,
+    "nameZh": "拉伊达伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2900",
@@ -746,7 +852,9 @@ export const botwMapMarkers = [
     "name": "Ha Dahamar Shrine",
     "description": "",
     "x": 153.983859375,
-    "y": -158.0374375
+    "y": -158.0374375,
+    "nameZh": "哈达姆尔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2899",
@@ -754,7 +862,9 @@ export const botwMapMarkers = [
     "name": "Shee Vaneer Shrine",
     "description": "",
     "x": 147.785453125,
-    "y": -158.2921875
+    "y": -158.2921875,
+    "nameZh": "夏伊瓦恩伊尔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2898",
@@ -762,7 +872,9 @@ export const botwMapMarkers = [
     "name": "Shee Venath Shrine",
     "description": "",
     "x": 147.45496875,
-    "y": -156.91314062499998
+    "y": -156.91314062499998,
+    "nameZh": "夏伊瓦埃恩特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2897",
@@ -770,7 +882,9 @@ export const botwMapMarkers = [
     "name": "Dueling Peaks Tower",
     "description": "",
     "x": 143.887140625,
-    "y": -154.78253125
+    "y": -154.78253125,
+    "nameZh": "双子山之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2896",
@@ -778,7 +892,9 @@ export const botwMapMarkers = [
     "name": "Kakariko Village",
     "description": "",
     "x": 156.218796875,
-    "y": -143.38686875000002
+    "y": -143.38686875000002,
+    "nameZh": "卡卡利科村",
+    "descriptionZh": ""
   },
   {
     "id": "2895",
@@ -786,7 +902,9 @@ export const botwMapMarkers = [
     "name": "Ta'loh Naeg Shrine",
     "description": "",
     "x": 156.769140625,
-    "y": -141.9236328125
+    "y": -141.9236328125,
+    "nameZh": "塔拉奥纳艾格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2894",
@@ -794,7 +912,9 @@ export const botwMapMarkers = [
     "name": "Daka Tuss Shrine",
     "description": "",
     "x": 153.02864062499998,
-    "y": -135.230528125
+    "y": -135.230528125,
+    "nameZh": "达克塔乌斯斯神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2893",
@@ -802,7 +922,9 @@ export const botwMapMarkers = [
     "name": "Sheh Rata Shrine",
     "description": "",
     "x": 151.585625,
-    "y": -122.105953125
+    "y": -122.105953125,
+    "nameZh": "夏埃拉特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2892",
@@ -810,7 +932,9 @@ export const botwMapMarkers = [
     "name": "Qua Raym Shrine",
     "description": "",
     "x": 156.441265625,
-    "y": -104.282765625
+    "y": -104.282765625,
+    "nameZh": "卡瓦拉伊姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2891",
@@ -818,7 +942,9 @@ export const botwMapMarkers = [
     "name": "Mirro Shaz Shrine",
     "description": "",
     "x": 147.234328125,
-    "y": -109.051125
+    "y": -109.051125,
+    "nameZh": "玛伊尔尔奥夏兹神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2890",
@@ -826,7 +952,9 @@ export const botwMapMarkers = [
     "name": "Woodland Stable",
     "description": "",
     "x": 144.65109375,
-    "y": -110.16276562499999
+    "y": -110.16276562499999,
+    "nameZh": "森林驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2889",
@@ -834,7 +962,9 @@ export const botwMapMarkers = [
     "name": "Shae Mo'sah Shrine",
     "description": "",
     "x": 155.446421875,
-    "y": -87.973421875
+    "y": -87.973421875,
+    "nameZh": "夏艾玛奥萨神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2888",
@@ -842,7 +972,9 @@ export const botwMapMarkers = [
     "name": "Goron City",
     "description": "",
     "x": 154.3305,
-    "y": -89.445390625
+    "y": -89.445390625,
+    "nameZh": "鼓隆城",
+    "descriptionZh": ""
   },
   {
     "id": "2887",
@@ -850,7 +982,9 @@ export const botwMapMarkers = [
     "name": "Shora Hah Shrine",
     "description": "",
     "x": 152.00326562499998,
-    "y": -79.2895625
+    "y": -79.2895625,
+    "nameZh": "夏奥尔哈神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2886",
@@ -858,7 +992,9 @@ export const botwMapMarkers = [
     "name": "Shoqa Tatone Shrine",
     "description": "",
     "x": 129.4843496875,
-    "y": -188.014734375
+    "y": -188.014734375,
+    "nameZh": "夏奥克塔特奥恩埃神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2885",
@@ -866,7 +1002,9 @@ export const botwMapMarkers = [
     "name": "Ka'o Makagh Shrine",
     "description": "",
     "x": 136.171159375,
-    "y": -183.0831875
+    "y": -183.0831875,
+    "nameZh": "卡奥玛克格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2884",
@@ -874,7 +1012,9 @@ export const botwMapMarkers = [
     "name": "Highland Stable",
     "description": "",
     "x": 136.2750015625,
-    "y": -181.920046875
+    "y": -181.920046875,
+    "nameZh": "高原驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2883",
@@ -882,7 +1022,9 @@ export const botwMapMarkers = [
     "name": "Shae Katha Shrine",
     "description": "",
     "x": 141.6014796875,
-    "y": -164.398875
+    "y": -164.398875,
+    "nameZh": "夏艾卡特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2882",
@@ -890,7 +1032,9 @@ export const botwMapMarkers = [
     "name": "Pumaag Nitae Shrine",
     "description": "",
     "x": 136.7400625,
-    "y": -174.73715625
+    "y": -174.73715625,
+    "nameZh": "帕乌姆阿格纳伊特艾神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2881",
@@ -898,7 +1042,9 @@ export const botwMapMarkers = [
     "name": "Bosh Kala Shrine",
     "description": "",
     "x": 129.35963296875002,
-    "y": -153.90165625
+    "y": -153.90165625,
+    "nameZh": "巴奥斯卡尔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2880",
@@ -906,7 +1052,9 @@ export const botwMapMarkers = [
     "name": "Wahgo Katta Shrine",
     "description": "",
     "x": 133.399803125,
-    "y": -143.746390625
+    "y": -143.746390625,
+    "nameZh": "瓦格奥卡特特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2879",
@@ -914,7 +1062,9 @@ export const botwMapMarkers = [
     "name": "Riverside Stable",
     "description": "",
     "x": 133.30050625,
-    "y": -145.114015625
+    "y": -145.114015625,
+    "nameZh": "河畔驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2878",
@@ -922,7 +1072,9 @@ export const botwMapMarkers = [
     "name": "Hila Rao Shrine",
     "description": "",
     "x": 141.3437984375,
-    "y": -141.105284375
+    "y": -141.105284375,
+    "nameZh": "哈伊尔拉奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2877",
@@ -930,7 +1082,9 @@ export const botwMapMarkers = [
     "name": "Kaya Wan Shrine",
     "description": "",
     "x": 140.893209375,
-    "y": -130.929828125
+    "y": -130.929828125,
+    "nameZh": "卡伊瓦恩神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2876",
@@ -938,7 +1092,9 @@ export const botwMapMarkers = [
     "name": "Wetland Stable",
     "description": "",
     "x": 141.8759625,
-    "y": -130.7136296875
+    "y": -130.7136296875,
+    "nameZh": "湿地驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2875",
@@ -946,7 +1102,9 @@ export const botwMapMarkers = [
     "name": "Namika Ozz Shrine",
     "description": "",
     "x": 139.8795390625,
-    "y": -115.1658265625
+    "y": -115.1658265625,
+    "nameZh": "纳姆伊克奥兹兹神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2874",
@@ -954,7 +1112,9 @@ export const botwMapMarkers = [
     "name": "Kuhn Sidajj Shrine",
     "description": "",
     "x": 128.288195625,
-    "y": -97.629625
+    "y": -97.629625,
+    "nameZh": "卡乌恩萨伊德吉吉神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2873",
@@ -962,7 +1122,9 @@ export const botwMapMarkers = [
     "name": "Woodland Tower",
     "description": "",
     "x": 141.8106921875,
-    "y": -102.91078125
+    "y": -102.91078125,
+    "nameZh": "森林之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2872",
@@ -970,7 +1132,9 @@ export const botwMapMarkers = [
     "name": "Maag Halan Shrine",
     "description": "",
     "x": 141.072403125,
-    "y": -90.206078125
+    "y": -90.206078125,
+    "nameZh": "玛格哈尔恩神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2871",
@@ -978,7 +1142,9 @@ export const botwMapMarkers = [
     "name": "Keo Ruug Shrine",
     "description": "",
     "x": 135.3586703125,
-    "y": -94.127859375
+    "y": -94.127859375,
+    "nameZh": "卡埃奥拉乌乌格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2870",
@@ -986,7 +1152,9 @@ export const botwMapMarkers = [
     "name": "Korok Forest",
     "description": "",
     "x": 134.6873609375,
-    "y": -94.602015625
+    "y": -94.602015625,
+    "nameZh": "克洛格森林",
+    "descriptionZh": ""
   },
   {
     "id": "2869",
@@ -994,7 +1162,9 @@ export const botwMapMarkers = [
     "name": "Ketoh Wawai Shrine",
     "description": "",
     "x": 132.44375,
-    "y": -79.25625
+    "y": -79.25625,
+    "nameZh": "卡埃特奥瓦乌艾神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2868",
@@ -1002,7 +1172,9 @@ export const botwMapMarkers = [
     "name": "Ishto Soh Shrine",
     "description": "",
     "x": 112.5970453125,
-    "y": -183.70278125
+    "y": -183.70278125,
+    "nameZh": "伊斯特奥萨奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2867",
@@ -1010,7 +1182,9 @@ export const botwMapMarkers = [
     "name": "Ya Naga Shrine",
     "description": "",
     "x": 122.85677187499999,
-    "y": -168.62685937499998
+    "y": -168.62685937499998,
+    "nameZh": "亚纳格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2866",
@@ -1018,7 +1192,9 @@ export const botwMapMarkers = [
     "name": "Owa Daim Shrine",
     "description": "",
     "x": 113.5464015625,
-    "y": -164.253578125
+    "y": -164.253578125,
+    "nameZh": "奥乌达艾姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2865",
@@ -1026,7 +1202,9 @@ export const botwMapMarkers = [
     "name": "Lake Tower",
     "description": "",
     "x": 127.50288203124998,
-    "y": -174.27501562499998
+    "y": -174.27501562499998,
+    "nameZh": "湖之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2864",
@@ -1034,7 +1212,9 @@ export const botwMapMarkers = [
     "name": "Great Plateau Tower",
     "description": "",
     "x": 119.24945,
-    "y": -154.48223437500002
+    "y": -154.48223437500002,
+    "nameZh": "初始台地之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2863",
@@ -1042,7 +1222,9 @@ export const botwMapMarkers = [
     "name": "Oman Au Shrine",
     "description": "",
     "x": 117.4927765625,
-    "y": -151.65046875000002
+    "y": -151.65046875000002,
+    "nameZh": "奥姆恩奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2862",
@@ -1050,7 +1232,9 @@ export const botwMapMarkers = [
     "name": "Ja Baij Shrine",
     "description": "",
     "x": 121.0047640625,
-    "y": -159.09659375
+    "y": -159.09659375,
+    "nameZh": "加巴艾吉神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2861",
@@ -1058,7 +1242,9 @@ export const botwMapMarkers = [
     "name": "Central Tower",
     "description": "",
     "x": 115.677421875,
-    "y": -134.906728125
+    "y": -134.906728125,
+    "nameZh": "中央之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2860",
@@ -1066,7 +1252,9 @@ export const botwMapMarkers = [
     "name": "Kaam Ya'tak Shrine",
     "description": "",
     "x": 112.880634375,
-    "y": -139.2012390625
+    "y": -139.2012390625,
+    "nameZh": "卡姆亚塔克神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2859",
@@ -1074,7 +1262,9 @@ export const botwMapMarkers = [
     "name": "Katah Chuki Shrine",
     "description": "",
     "x": 118.0611890625,
-    "y": -122.6224234375
+    "y": -122.6224234375,
+    "nameZh": "卡特查乌克伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2858",
@@ -1082,7 +1272,9 @@ export const botwMapMarkers = [
     "name": "Noya Neha Shrine",
     "description": "",
     "x": 113.1222921875,
-    "y": -118.251803125
+    "y": -118.251803125,
+    "nameZh": "纳奥伊纳埃神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2857",
@@ -1090,7 +1282,9 @@ export const botwMapMarkers = [
     "name": "Saas Ko'sah Shrine",
     "description": "",
     "x": 125.68132499999999,
-    "y": -109.88521875
+    "y": -109.88521875,
+    "nameZh": "萨斯卡奥萨神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2856",
@@ -1098,7 +1292,9 @@ export const botwMapMarkers = [
     "name": "Daag Chokah Shrine",
     "description": "",
     "x": 127.59249453125,
-    "y": -89.598625
+    "y": -89.598625,
+    "nameZh": "达格查奥克神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2855",
@@ -1106,7 +1302,9 @@ export const botwMapMarkers = [
     "name": "Qaza Tokki Shrine",
     "description": "",
     "x": 115.1640625,
-    "y": -72.765625
+    "y": -72.765625,
+    "nameZh": "卡兹塔奥克克伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2854",
@@ -1114,7 +1312,9 @@ export const botwMapMarkers = [
     "name": "Dila Maag Shrine",
     "description": "",
     "x": 99.953125,
-    "y": -182.131109375
+    "y": -182.131109375,
+    "nameZh": "达伊尔玛格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2853",
@@ -1122,7 +1322,9 @@ export const botwMapMarkers = [
     "name": "Suma Sahma Shrine",
     "description": "",
     "x": 105.847234375,
-    "y": -181.89384375
+    "y": -181.89384375,
+    "nameZh": "萨乌姆萨姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2852",
@@ -1130,7 +1332,9 @@ export const botwMapMarkers = [
     "name": "Jee Noh Shrine",
     "description": "",
     "x": 99.980390625,
-    "y": -165.85134375
+    "y": -165.85134375,
+    "nameZh": "加伊纳奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2851",
@@ -1138,7 +1342,9 @@ export const botwMapMarkers = [
     "name": "Keh Namut Shrine",
     "description": "",
     "x": 105.572078125,
-    "y": -159.10478125
+    "y": -159.10478125,
+    "nameZh": "卡埃纳姆乌特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2850",
@@ -1146,7 +1352,9 @@ export const botwMapMarkers = [
     "name": "Dah Kaso Shrine",
     "description": "",
     "x": 101.50446875,
-    "y": -154.57853125
+    "y": -154.57853125,
+    "nameZh": "达卡斯奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2849",
@@ -1154,7 +1362,9 @@ export const botwMapMarkers = [
     "name": "Rota Ooh Shrine",
     "description": "",
     "x": 103.589171875,
-    "y": -148.465359375
+    "y": -148.465359375,
+    "nameZh": "拉奥特乌神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2848",
@@ -1162,7 +1372,9 @@ export const botwMapMarkers = [
     "name": "Outskirt Stable",
     "description": "",
     "x": 105.351671875,
-    "y": -147.828296875
+    "y": -147.828296875,
+    "nameZh": "平原外围驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2847",
@@ -1170,7 +1382,9 @@ export const botwMapMarkers = [
     "name": "Shrine of Resurrection",
     "description": "",
     "x": 110.777609375,
-    "y": -157.37704687500002
+    "y": -157.37704687500002,
+    "nameZh": "复苏神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2846",
@@ -1178,7 +1392,9 @@ export const botwMapMarkers = [
     "name": "Sheem Dagoze Shrine",
     "description": "",
     "x": 98.43098437500001,
-    "y": -129.422351875
+    "y": -129.422351875,
+    "nameZh": "夏伊姆达格奥兹埃神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2845",
@@ -1186,7 +1402,9 @@ export const botwMapMarkers = [
     "name": "Ridgeland Tower",
     "description": "",
     "x": 100.5734375,
-    "y": -115.9015625
+    "y": -115.9015625,
+    "nameZh": "丘陵之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2844",
@@ -1194,7 +1412,9 @@ export const botwMapMarkers = [
     "name": "Zalta Wa Shrine",
     "description": "",
     "x": 105.615390625,
-    "y": -118.73053125
+    "y": -118.73053125,
+    "nameZh": "扎尔特瓦神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2843",
@@ -1202,7 +1422,9 @@ export const botwMapMarkers = [
     "name": "Monya Toma Shrine",
     "description": "",
     "x": 104.730625,
-    "y": -104.971828125
+    "y": -104.971828125,
+    "nameZh": "玛奥恩伊塔奥姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2842",
@@ -1210,7 +1432,9 @@ export const botwMapMarkers = [
     "name": "Maag No'rah Shrine",
     "description": "",
     "x": 97.68009375,
-    "y": -105.202828125
+    "y": -105.202828125,
+    "nameZh": "玛格纳奥拉神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2841",
@@ -1218,7 +1442,9 @@ export const botwMapMarkers = [
     "name": "Serenne Stable",
     "description": "",
     "x": 103.634765625,
-    "y": -99.889796875
+    "y": -99.889796875,
+    "nameZh": "玛丽塔驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2840",
@@ -1226,7 +1452,9 @@ export const botwMapMarkers = [
     "name": "Rona Kachta Shrine",
     "description": "",
     "x": 110.9875,
-    "y": -86.42587499999999
+    "y": -86.42587499999999,
+    "nameZh": "拉奥恩卡克特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2839",
@@ -1234,7 +1462,9 @@ export const botwMapMarkers = [
     "name": "Rin Oyaa Shrine",
     "description": "",
     "x": 101.118921875,
-    "y": -88.08396875
+    "y": -88.08396875,
+    "nameZh": "拉伊恩奥伊阿神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2838",
@@ -1242,7 +1472,9 @@ export const botwMapMarkers = [
     "name": "Snowfield Stable",
     "description": "",
     "x": 102.142453125,
-    "y": -87.8100625
+    "y": -87.8100625,
+    "nameZh": "雪原驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2837",
@@ -1250,7 +1482,9 @@ export const botwMapMarkers = [
     "name": "Sha Gehma Shrine",
     "description": "",
     "x": 101.8694375,
-    "y": -69.2651875
+    "y": -69.2651875,
+    "nameZh": "夏加埃姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2836",
@@ -1258,7 +1492,9 @@ export const botwMapMarkers = [
     "name": "Misae Suma Shrine",
     "description": "",
     "x": 81.596875,
-    "y": -187.07240625
+    "y": -187.07240625,
+    "nameZh": "玛伊斯艾萨乌姆神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2835",
@@ -1266,7 +1502,9 @@ export const botwMapMarkers = [
     "name": "Korsh O'hu Shrine",
     "description": "",
     "x": 85.979578125,
-    "y": -171.936046875
+    "y": -171.936046875,
+    "nameZh": "卡奥尔斯奥哈乌神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2834",
@@ -1274,7 +1512,9 @@ export const botwMapMarkers = [
     "name": "Kay Noh Shrine",
     "description": "",
     "x": 84.09425,
-    "y": -163.940265625
+    "y": -163.940265625,
+    "nameZh": "卡伊纳奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2833",
@@ -1282,7 +1522,9 @@ export const botwMapMarkers = [
     "name": "Wasteland Tower",
     "description": "",
     "x": 91.95568750000001,
-    "y": -166.083125
+    "y": -166.083125,
+    "nameZh": "荒野之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2832",
@@ -1290,7 +1532,9 @@ export const botwMapMarkers = [
     "name": "Gerudo Canyon Stable",
     "description": "",
     "x": 84.1904375,
-    "y": -162.777578125
+    "y": -162.777578125,
+    "nameZh": "格鲁德峡谷驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2831",
@@ -1298,7 +1542,9 @@ export const botwMapMarkers = [
     "name": "Joloo Nah Shrine",
     "description": "",
     "x": 96.687375,
-    "y": -154.17598437499998
+    "y": -154.17598437499998,
+    "nameZh": "加奥尔乌纳神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2830",
@@ -1306,7 +1552,9 @@ export const botwMapMarkers = [
     "name": "Mijah Rokee Shrine",
     "description": "",
     "x": 85.125125,
-    "y": -131.5272921875
+    "y": -131.5272921875,
+    "nameZh": "玛伊吉拉奥克伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2829",
@@ -1314,7 +1562,9 @@ export const botwMapMarkers = [
     "name": "Mogg Latan Shrine",
     "description": "",
     "x": 92.097125,
-    "y": -135.2135015625
+    "y": -135.2135015625,
+    "nameZh": "玛奥格格拉特恩神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2828",
@@ -1322,7 +1572,9 @@ export const botwMapMarkers = [
     "name": "Toh Yahsa Shrine",
     "description": "",
     "x": 92.5453125,
-    "y": -113.9203125
+    "y": -113.9203125,
+    "nameZh": "塔奥亚斯神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2827",
@@ -1330,7 +1582,9 @@ export const botwMapMarkers = [
     "name": "Shae Loya Shrine",
     "description": "",
     "x": 82.206875,
-    "y": -121.2337734375
+    "y": -121.2337734375,
+    "nameZh": "夏艾拉奥伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2826",
@@ -1338,7 +1592,9 @@ export const botwMapMarkers = [
     "name": "Tabantha Bridge Stable",
     "description": "",
     "x": 82.19425,
-    "y": -119.44378125
+    "y": -119.44378125,
+    "nameZh": "塔邦挞大桥驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2825",
@@ -1346,7 +1602,9 @@ export const botwMapMarkers = [
     "name": "Dunba Taag Shrine",
     "description": "",
     "x": 83.749015625,
-    "y": -103.35732812500001
+    "y": -103.35732812500001,
+    "nameZh": "达乌恩布塔格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2824",
@@ -1354,7 +1612,9 @@ export const botwMapMarkers = [
     "name": "Goma Asaagh Shrine",
     "description": "",
     "x": 84.35509375000001,
-    "y": -82.967765625
+    "y": -82.967765625,
+    "nameZh": "加奥姆斯阿格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2823",
@@ -1362,7 +1622,9 @@ export const botwMapMarkers = [
     "name": "Gee Ha'rah Shrine",
     "description": "",
     "x": 90.805953125,
-    "y": -92.7593125
+    "y": -92.7593125,
+    "nameZh": "加伊哈拉神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2822",
@@ -1370,7 +1632,9 @@ export const botwMapMarkers = [
     "name": "Hebra Tower",
     "description": "",
     "x": 94.046875,
-    "y": -96.21875
+    "y": -96.21875,
+    "nameZh": "海布拉之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2821",
@@ -1378,7 +1642,9 @@ export const botwMapMarkers = [
     "name": "Lanno Kooh Shrine",
     "description": "",
     "x": 86.800859375,
-    "y": -95.79237499999999
+    "y": -95.79237499999999,
+    "nameZh": "拉恩恩奥卡乌神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2820",
@@ -1386,7 +1652,9 @@ export const botwMapMarkers = [
     "name": "Rok Uwog Shrine",
     "description": "",
     "x": 90.859109375,
-    "y": -77.61546875
+    "y": -77.61546875,
+    "nameZh": "拉奥克乌乌奥格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2819",
@@ -1394,7 +1662,9 @@ export const botwMapMarkers = [
     "name": "Shada Naw Shrine",
     "description": "",
     "x": 81.151484375,
-    "y": -77.677578125
+    "y": -77.677578125,
+    "nameZh": "夏德纳乌神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2818",
@@ -1402,7 +1672,9 @@ export const botwMapMarkers = [
     "name": "Raqa Zunzo Shrine",
     "description": "",
     "x": 68.47562500000001,
-    "y": -176.85715625
+    "y": -176.85715625,
+    "nameZh": "拉克扎乌恩兹奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2817",
@@ -1410,7 +1682,9 @@ export const botwMapMarkers = [
     "name": "Daqo Chisay Shrine",
     "description": "",
     "x": 68.37009375,
-    "y": -172.049328125
+    "y": -172.049328125,
+    "nameZh": "达克奥查伊斯伊神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2816",
@@ -1418,7 +1692,9 @@ export const botwMapMarkers = [
     "name": "Dako Tah Shrine",
     "description": "",
     "x": 76.17496875,
-    "y": -161.791859375
+    "y": -161.791859375,
+    "nameZh": "达克奥塔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2815",
@@ -1426,7 +1702,9 @@ export const botwMapMarkers = [
     "name": "Gerudo Town",
     "description": "",
     "x": 68.078125,
-    "y": -173.546875
+    "y": -173.546875,
+    "nameZh": "格鲁德小镇",
+    "descriptionZh": ""
   },
   {
     "id": "2814",
@@ -1434,7 +1712,9 @@ export const botwMapMarkers = [
     "name": "Sasa Kai Shrine",
     "description": "",
     "x": 72.370515625,
-    "y": -158.529265625
+    "y": -158.529265625,
+    "nameZh": "萨斯卡艾神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2813",
@@ -1442,7 +1722,9 @@ export const botwMapMarkers = [
     "name": "Sho Dantu Shrine",
     "description": "",
     "x": 66.89667187500001,
-    "y": -153.82860937499998
+    "y": -153.82860937499998,
+    "nameZh": "夏奥达恩特乌神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2812",
@@ -1450,7 +1732,9 @@ export const botwMapMarkers = [
     "name": "Kuh Takkar Shrine",
     "description": "",
     "x": 79.81854687500001,
-    "y": -147.09046875
+    "y": -147.09046875,
+    "nameZh": "卡乌塔克克尔神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2811",
@@ -1458,7 +1742,9 @@ export const botwMapMarkers = [
     "name": "Gerudo Tower",
     "description": "",
     "x": 70.71875,
-    "y": -156.571875
+    "y": -156.571875,
+    "nameZh": "格鲁德之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2810",
@@ -1466,7 +1752,9 @@ export const botwMapMarkers = [
     "name": "Keeha Yoog Shrine",
     "description": "",
     "x": 67.8053125,
-    "y": -139.19309375
+    "y": -139.19309375,
+    "nameZh": "卡伊亚乌格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2809",
@@ -1474,7 +1762,9 @@ export const botwMapMarkers = [
     "name": "Tabantha Tower",
     "description": "",
     "x": 71.5351875,
-    "y": -112.52867656250001
+    "y": -112.52867656250001,
+    "nameZh": "塔邦挞之塔",
+    "descriptionZh": ""
   },
   {
     "id": "2808",
@@ -1482,7 +1772,9 @@ export const botwMapMarkers = [
     "name": "Tena Ko'sah Shrine",
     "description": "",
     "x": 73.838171875,
-    "y": -121.007821875
+    "y": -121.007821875,
+    "nameZh": "塔埃恩卡奥萨神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2807",
@@ -1490,7 +1782,9 @@ export const botwMapMarkers = [
     "name": "Bareeda Naag Shrine",
     "description": "",
     "x": 71.60959375,
-    "y": -104.306609375
+    "y": -104.306609375,
+    "nameZh": "巴尔伊德纳格神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2806",
@@ -1498,7 +1792,9 @@ export const botwMapMarkers = [
     "name": "Akh Va'quot Shrine",
     "description": "",
     "x": 70.87448437500001,
-    "y": -100.5359375
+    "y": -100.5359375,
+    "nameZh": "克瓦卡乌奥特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2805",
@@ -1506,7 +1802,9 @@ export const botwMapMarkers = [
     "name": "Rito Stable",
     "description": "",
     "x": 77.131703125,
-    "y": -100.537109375
+    "y": -100.537109375,
+    "nameZh": "利特驿站",
+    "descriptionZh": ""
   },
   {
     "id": "2804",
@@ -1514,7 +1812,9 @@ export const botwMapMarkers = [
     "name": "Rito Village",
     "description": "",
     "x": 71.467046875,
-    "y": -99.756109375
+    "y": -99.756109375,
+    "nameZh": "利特村",
+    "descriptionZh": ""
   },
   {
     "id": "2803",
@@ -1522,7 +1822,9 @@ export const botwMapMarkers = [
     "name": "Sha Warvo Shrine",
     "description": "",
     "x": 68.277546875,
-    "y": -93.51724999999999
+    "y": -93.51724999999999,
+    "nameZh": "夏瓦尔夫奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2802",
@@ -1530,7 +1832,9 @@ export const botwMapMarkers = [
     "name": "Mozo Shenno Shrine",
     "description": "",
     "x": 71.33265625,
-    "y": -80.527203125
+    "y": -80.527203125,
+    "nameZh": "玛奥兹奥夏埃恩恩奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2801",
@@ -1538,7 +1842,9 @@ export const botwMapMarkers = [
     "name": "Hawa Koth Shrine",
     "description": "",
     "x": 52.25884375,
-    "y": -186.96168749999998
+    "y": -186.96168749999998,
+    "nameZh": "哈乌卡奥特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2800",
@@ -1546,7 +1852,9 @@ export const botwMapMarkers = [
     "name": "Tho Kayu Shrine",
     "description": "",
     "x": 53.0289375,
-    "y": -171.75048437499998
+    "y": -171.75048437499998,
+    "nameZh": "塔奥卡伊乌神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2799",
@@ -1554,7 +1862,9 @@ export const botwMapMarkers = [
     "name": "Kema Zoos Shrine",
     "description": "",
     "x": 54.976093750000004,
-    "y": -158.76234375
+    "y": -158.76234375,
+    "nameZh": "卡埃姆扎乌斯神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2798",
@@ -1562,7 +1872,9 @@ export const botwMapMarkers = [
     "name": "Kema Kosassa Shrine",
     "description": "",
     "x": 55.226671874999994,
-    "y": -142.1401515625
+    "y": -142.1401515625,
+    "nameZh": "卡埃姆卡奥斯斯斯神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2797",
@@ -1570,7 +1882,9 @@ export const botwMapMarkers = [
     "name": "Kah Okeo Shrine",
     "description": "",
     "x": 63.603140624999995,
-    "y": -121.528128125
+    "y": -121.528128125,
+    "nameZh": "卡奥克埃奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2796",
@@ -1578,7 +1892,9 @@ export const botwMapMarkers = [
     "name": "Voo Lota Shrine",
     "description": "",
     "x": 65.25996875,
-    "y": -101.08615625
+    "y": -101.08615625,
+    "nameZh": "瓦乌拉奥特神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2795",
@@ -1586,7 +1902,9 @@ export const botwMapMarkers = [
     "name": "Maka Rah Shrine",
     "description": "",
     "x": 64.580703125,
-    "y": -88.808484375
+    "y": -88.808484375,
+    "nameZh": "玛克拉神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2794",
@@ -1594,7 +1912,9 @@ export const botwMapMarkers = [
     "name": "Hia Miu Shrine",
     "description": "",
     "x": 58.53096875,
-    "y": -68.587203125
+    "y": -68.587203125,
+    "nameZh": "哈亚玛伊乌神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2793",
@@ -1602,7 +1922,9 @@ export const botwMapMarkers = [
     "name": "To Quomo Shrine",
     "description": "",
     "x": 65.154265625,
-    "y": -70.004734375
+    "y": -70.004734375,
+    "nameZh": "塔奥卡乌奥姆奥神庙",
+    "descriptionZh": ""
   },
   {
     "id": "2532",
@@ -1610,7 +1932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 198.9676875,
-    "y": -165.588125
+    "y": -165.588125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2531",
@@ -1618,7 +1942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 191.806171875,
-    "y": -174.457203125
+    "y": -174.457203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2530",
@@ -1626,7 +1952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 192.23403125,
-    "y": -168.440125
+    "y": -168.440125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2529",
@@ -1634,7 +1962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 193.80990624999998,
-    "y": -163.474578125
+    "y": -163.474578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2528",
@@ -1642,7 +1972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 198.883203125,
-    "y": -167.37925
+    "y": -167.37925,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2527",
@@ -1650,7 +1982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 198.601515625,
-    "y": -164.1955625
+    "y": -164.1955625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2526",
@@ -1658,7 +1992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 200.854875,
-    "y": -165.12900000000002
+    "y": -165.12900000000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2525",
@@ -1666,7 +2002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 197.35790624999998,
-    "y": -150.38931250000002
+    "y": -150.38931250000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2524",
@@ -1674,7 +2012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 200.111609375,
-    "y": -157.92928125
+    "y": -157.92928125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2523",
@@ -1682,7 +2022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 194.91696875,
-    "y": -153.86978125000002
+    "y": -153.86978125000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2522",
@@ -1690,7 +2032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 194.7869375,
-    "y": -158.953453125
+    "y": -158.953453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2521",
@@ -1698,7 +2042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 191.874,
-    "y": -145.849546875
+    "y": -145.849546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2520",
@@ -1706,7 +2052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 198.83496875,
-    "y": -143.984140625
+    "y": -143.984140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2519",
@@ -1714,7 +2062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 198.29878125,
-    "y": -143.85953125
+    "y": -143.85953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2518",
@@ -1722,7 +2072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 193.6165,
-    "y": -135.244921875
+    "y": -135.244921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2517",
@@ -1730,7 +2082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 195.1065625,
-    "y": -129.22657734375
+    "y": -129.22657734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2516",
@@ -1738,7 +2092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 192.75684375,
-    "y": -131.0620234375
+    "y": -131.0620234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2515",
@@ -1746,7 +2102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 197.572671875,
-    "y": -135.56208750000002
+    "y": -135.56208750000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2514",
@@ -1754,7 +2112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 192.607265625,
-    "y": -128.94251296875
+    "y": -128.94251296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2513",
@@ -1762,7 +2122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 199.445875,
-    "y": -138.12333125
+    "y": -138.12333125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2512",
@@ -1770,7 +2132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 194.63217187499998,
-    "y": -137.81595
+    "y": -137.81595,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2511",
@@ -1778,7 +2142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 191.15965625,
-    "y": -117.6567828125
+    "y": -117.6567828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2510",
@@ -1786,7 +2152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 191.75634374999998,
-    "y": -124.6127734375
+    "y": -124.6127734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2509",
@@ -1794,7 +2162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 192.754078125,
-    "y": -118.6879984375
+    "y": -118.6879984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2508",
@@ -1802,7 +2172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 191.621765625,
-    "y": -120.827284375
+    "y": -120.827284375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2507",
@@ -1810,7 +2182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 192.63446875,
-    "y": -121.6161453125
+    "y": -121.6161453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2506",
@@ -1818,7 +2192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 200.13189062499998,
-    "y": -118.0308015625
+    "y": -118.0308015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2505",
@@ -1826,7 +2202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 194.13646875,
-    "y": -124.6822828125
+    "y": -124.6822828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2504",
@@ -1834,7 +2212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 194.239890625,
-    "y": -112.4022171875
+    "y": -112.4022171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2503",
@@ -1842,7 +2222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 201.40375,
-    "y": -119.45265625
+    "y": -119.45265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2502",
@@ -1850,7 +2232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 195.701875,
-    "y": -117.11510625
+    "y": -117.11510625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2501",
@@ -1858,7 +2242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 196.074671875,
-    "y": -104.1234375
+    "y": -104.1234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2500",
@@ -1866,7 +2252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 201.30796875,
-    "y": -100.22921875
+    "y": -100.22921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2499",
@@ -1874,7 +2262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 192.036203125,
-    "y": -100.55525
+    "y": -100.55525,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2498",
@@ -1882,7 +2272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 201.547765625,
-    "y": -106.8278125
+    "y": -106.8278125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2497",
@@ -1890,7 +2282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 191.09703125,
-    "y": -108.39262500000001
+    "y": -108.39262500000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2496",
@@ -1898,7 +2292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 192.13371875,
-    "y": -106.895859375
+    "y": -106.895859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2495",
@@ -1906,7 +2302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 201.420375,
-    "y": -112.327734375
+    "y": -112.327734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2494",
@@ -1914,7 +2312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 201.4825625,
-    "y": -111.760453125
+    "y": -111.760453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2493",
@@ -1922,7 +2322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 200.412640625,
-    "y": -99.23521875
+    "y": -99.23521875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2492",
@@ -1930,7 +2332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 191.996609375,
-    "y": -102.570875
+    "y": -102.570875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2491",
@@ -1938,7 +2342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 198.44896875,
-    "y": -86.693671875
+    "y": -86.693671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2490",
@@ -1946,7 +2352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 193.32878125000002,
-    "y": -88.30615625
+    "y": -88.30615625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2489",
@@ -1954,7 +2362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 190.634421875,
-    "y": -85.245203125
+    "y": -85.245203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2488",
@@ -1962,7 +2372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 195.782671875,
-    "y": -89.89815625
+    "y": -89.89815625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2487",
@@ -1970,7 +2382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 196.7005,
-    "y": -85.47525
+    "y": -85.47525,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2486",
@@ -1978,7 +2392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 198.796015625,
-    "y": -95.212875
+    "y": -95.212875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2485",
@@ -1986,7 +2402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 192.14771875,
-    "y": -83.6765625
+    "y": -83.6765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2484",
@@ -1994,7 +2412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 203.242203125,
-    "y": -76.43365625
+    "y": -76.43365625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2483",
@@ -2002,7 +2422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 197.200546875,
-    "y": -78.2671875
+    "y": -78.2671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2482",
@@ -2010,7 +2432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 195.875890625,
-    "y": -78.338
+    "y": -78.338,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2481",
@@ -2018,7 +2442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 203.26871875,
-    "y": -79.65284375
+    "y": -79.65284375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2480",
@@ -2026,7 +2452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 197.108796875,
-    "y": -75.809078125
+    "y": -75.809078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2479",
@@ -2034,7 +2462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 198.369671875,
-    "y": -78.5564375
+    "y": -78.5564375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2478",
@@ -2042,7 +2472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 177.53775000000002,
-    "y": -187.75493749999998
+    "y": -187.75493749999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2477",
@@ -2050,7 +2482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 177.616296875,
-    "y": -178.06296875
+    "y": -178.06296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2476",
@@ -2058,7 +2492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 175.256328125,
-    "y": -185.09729687499998
+    "y": -185.09729687499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2475",
@@ -2066,7 +2502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 181.78028125,
-    "y": -176.7793125
+    "y": -176.7793125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2474",
@@ -2074,7 +2512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 180.6110625,
-    "y": -185.086515625
+    "y": -185.086515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2473",
@@ -2082,7 +2522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 187.32209375,
-    "y": -184.545234375
+    "y": -184.545234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2472",
@@ -2090,7 +2532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 184.87146875,
-    "y": -178.90975
+    "y": -178.90975,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2471",
@@ -2098,7 +2542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 179.39964062500002,
-    "y": -180.168640625
+    "y": -180.168640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2470",
@@ -2106,7 +2552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 180.306546875,
-    "y": -163.1445625
+    "y": -163.1445625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2469",
@@ -2114,7 +2562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 177.132296875,
-    "y": -162.841484375
+    "y": -162.841484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2468",
@@ -2122,7 +2572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 181.45225,
-    "y": -165.348234375
+    "y": -165.348234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2467",
@@ -2130,7 +2582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 177.19875,
-    "y": -165.54343749999998
+    "y": -165.54343749999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2466",
@@ -2138,7 +2592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 178.465859375,
-    "y": -172.50690625
+    "y": -172.50690625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2465",
@@ -2146,7 +2602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 182.93934375,
-    "y": -169.06846875
+    "y": -169.06846875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2464",
@@ -2154,7 +2612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 185.62435937499998,
-    "y": -165.710828125
+    "y": -165.710828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2463",
@@ -2162,7 +2622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 176.202046875,
-    "y": -173.07264062500002
+    "y": -173.07264062500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2462",
@@ -2170,7 +2632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 188.95440625,
-    "y": -160.761390625
+    "y": -160.761390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2461",
@@ -2178,7 +2642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 187.120703125,
-    "y": -161.20600000000002
+    "y": -161.20600000000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2460",
@@ -2186,7 +2652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 175.3286875,
-    "y": -159.526203125
+    "y": -159.526203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2459",
@@ -2194,7 +2662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 179.21521875,
-    "y": -150.437546875
+    "y": -150.437546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2458",
@@ -2202,7 +2672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 177.56157812499998,
-    "y": -151.295859375
+    "y": -151.295859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2457",
@@ -2210,7 +2682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 187.34265625,
-    "y": -147.831203125
+    "y": -147.831203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2456",
@@ -2218,7 +2692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 177.6689375,
-    "y": -153.114125
+    "y": -153.114125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2455",
@@ -2226,7 +2702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 181.63971875,
-    "y": -145.97359375
+    "y": -145.97359375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2454",
@@ -2234,7 +2712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 183.0935,
-    "y": -154.728484375
+    "y": -154.728484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2453",
@@ -2242,7 +2722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 177.4738125,
-    "y": -156.576421875
+    "y": -156.576421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2452",
@@ -2250,7 +2732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 178.453625,
-    "y": -152.14445312499998
+    "y": -152.14445312499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2451",
@@ -2258,7 +2742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 188.885,
-    "y": -152.3209375
+    "y": -152.3209375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2450",
@@ -2266,7 +2752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 185.95610937499998,
-    "y": -158.360734375
+    "y": -158.360734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2449",
@@ -2274,7 +2762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 182.306859375,
-    "y": -157.941578125
+    "y": -157.941578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2448",
@@ -2282,7 +2772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 183.2658125,
-    "y": -149.50176562500002
+    "y": -149.50176562500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2447",
@@ -2290,7 +2782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 186.464375,
-    "y": -146.064390625
+    "y": -146.064390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2446",
@@ -2298,7 +2792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 181.93734375,
-    "y": -136.6061390625
+    "y": -136.6061390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2445",
@@ -2306,7 +2802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 183.655359375,
-    "y": -137.78624374999998
+    "y": -137.78624374999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2444",
@@ -2314,7 +2812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 181.611578125,
-    "y": -136.183553125
+    "y": -136.183553125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2443",
@@ -2322,7 +2822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 180.859875,
-    "y": -143.356625
+    "y": -143.356625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2442",
@@ -2330,7 +2832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 189.747921875,
-    "y": -138.87325625
+    "y": -138.87325625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2441",
@@ -2338,7 +2842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 179.111625,
-    "y": -138.262825
+    "y": -138.262825,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2440",
@@ -2346,7 +2852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 186.14473437499998,
-    "y": -137.650415625
+    "y": -137.650415625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2439",
@@ -2354,7 +2862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 179.621,
-    "y": -128.35286859375
+    "y": -128.35286859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2438",
@@ -2362,7 +2872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 178.1056875,
-    "y": -128.37001375
+    "y": -128.37001375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2437",
@@ -2370,7 +2882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 188.22368749999998,
-    "y": -133.5040140625
+    "y": -133.5040140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2436",
@@ -2378,7 +2892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 177.075890625,
-    "y": -133.0776140625
+    "y": -133.0776140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2435",
@@ -2386,7 +2902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 183.01,
-    "y": -122.0064328125
+    "y": -122.0064328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2434",
@@ -2394,7 +2912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 179.89840625,
-    "y": -119.96479375
+    "y": -119.96479375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2433",
@@ -2402,7 +2922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 189.884625,
-    "y": -114.5845609375
+    "y": -114.5845609375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2432",
@@ -2410,7 +2932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 176.795015625,
-    "y": -127.728145625
+    "y": -127.728145625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2431",
@@ -2418,7 +2942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 188.8360625,
-    "y": -116.9963546875
+    "y": -116.9963546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2430",
@@ -2426,7 +2952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 176.175609375,
-    "y": -125.37985
+    "y": -125.37985,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2429",
@@ -2434,7 +2962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 179.93618750000002,
-    "y": -119.8825734375
+    "y": -119.8825734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2428",
@@ -2442,7 +2972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 183.113859375,
-    "y": -123.6755640625
+    "y": -123.6755640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2427",
@@ -2450,7 +2982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 179.4370625,
-    "y": -123.919990625
+    "y": -123.919990625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2426",
@@ -2458,7 +2992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 183.71696875,
-    "y": -113.6887140625
+    "y": -113.6887140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2425",
@@ -2466,7 +3002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 184.32453125,
-    "y": -112.24003125
+    "y": -112.24003125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2424",
@@ -2474,7 +3012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 176.633625,
-    "y": -107.760484375
+    "y": -107.760484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2423",
@@ -2482,7 +3022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 175.033671875,
-    "y": -109.183625
+    "y": -109.183625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2422",
@@ -2490,7 +3032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 179.52642187499998,
-    "y": -103.25325000000001
+    "y": -103.25325000000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2421",
@@ -2498,7 +3042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 186.223515625,
-    "y": -110.34826562500001
+    "y": -110.34826562500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2420",
@@ -2506,7 +3052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 178.701828125,
-    "y": -96.74515625000001
+    "y": -96.74515625000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2419",
@@ -2514,7 +3062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 179.503625,
-    "y": -105.79551562500001
+    "y": -105.79551562500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2418",
@@ -2522,7 +3072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 188.66482812499999,
-    "y": -107.06226562500001
+    "y": -107.06226562500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2417",
@@ -2530,7 +3082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 178.590578125,
-    "y": -104.12896875
+    "y": -104.12896875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2416",
@@ -2538,7 +3092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 179.385546875,
-    "y": -103.39707812500001
+    "y": -103.39707812500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2415",
@@ -2546,7 +3102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 178.13551562499998,
-    "y": -112.19959374999999
+    "y": -112.19959374999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2414",
@@ -2554,7 +3112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 185.95925,
-    "y": -101.696171875
+    "y": -101.696171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2413",
@@ -2562,7 +3122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 179.4393125,
-    "y": -105.67792187500001
+    "y": -105.67792187500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2412",
@@ -2570,7 +3132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 181.24009375,
-    "y": -108.026140625
+    "y": -108.026140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2411",
@@ -2578,7 +3142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 186.325625,
-    "y": -90.137265625
+    "y": -90.137265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2410",
@@ -2586,7 +3152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 181.69671875,
-    "y": -88.411671875
+    "y": -88.411671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2409",
@@ -2594,7 +3162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 179.921,
-    "y": -84.202125
+    "y": -84.202125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2408",
@@ -2602,7 +3172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 186.385453125,
-    "y": -82.922125
+    "y": -82.922125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2407",
@@ -2610,7 +3182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 185.231,
-    "y": -95.6981875
+    "y": -95.6981875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2406",
@@ -2618,7 +3192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 182.37446875,
-    "y": -95.541546875
+    "y": -95.541546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2405",
@@ -2626,7 +3202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 188.586625,
-    "y": -90.93964062500001
+    "y": -90.93964062500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2404",
@@ -2634,7 +3212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 180.68824999999998,
-    "y": -91.825109375
+    "y": -91.825109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2403",
@@ -2642,7 +3222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 186.231125,
-    "y": -86.16465625000001
+    "y": -86.16465625000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2402",
@@ -2650,7 +3232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 181.993984375,
-    "y": -72.03321875
+    "y": -72.03321875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2401",
@@ -2658,7 +3242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 187.057921875,
-    "y": -75.47625
+    "y": -75.47625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2400",
@@ -2666,7 +3252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 177.25928125000002,
-    "y": -75.9945625
+    "y": -75.9945625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2399",
@@ -2674,7 +3262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 190.43435937499999,
-    "y": -78.819046875
+    "y": -78.819046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2398",
@@ -2682,7 +3272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 177.67159375,
-    "y": -79.97395312500001
+    "y": -79.97395312500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2397",
@@ -2690,7 +3282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 182.627546875,
-    "y": -75.27660937499999
+    "y": -75.27660937499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2396",
@@ -2698,7 +3292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 183.825671875,
-    "y": -80.39170312499999
+    "y": -80.39170312499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2395",
@@ -2706,7 +3302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 179.983796875,
-    "y": -71.91862499999999
+    "y": -71.91862499999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2394",
@@ -2714,7 +3312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 187.585265625,
-    "y": -74.57468750000001
+    "y": -74.57468750000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2393",
@@ -2722,7 +3322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 180.345359375,
-    "y": -79.877515625
+    "y": -79.877515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2392",
@@ -2730,7 +3332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 176.060546875,
-    "y": -70.43154687500001
+    "y": -70.43154687500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2391",
@@ -2738,7 +3342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 159.75440625,
-    "y": -177.44289062500002
+    "y": -177.44289062500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2390",
@@ -2746,7 +3352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 163.85125,
-    "y": -175.315171875
+    "y": -175.315171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2389",
@@ -2754,7 +3362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 174.38623437500002,
-    "y": -180.81534375
+    "y": -180.81534375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2388",
@@ -2762,7 +3372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 172.634109375,
-    "y": -185.05890625
+    "y": -185.05890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2387",
@@ -2770,7 +3382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 161.437203125,
-    "y": -183.1865625
+    "y": -183.1865625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2386",
@@ -2778,7 +3392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 161.925171875,
-    "y": -179.201671875
+    "y": -179.201671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2385",
@@ -2786,7 +3402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 173.928625,
-    "y": -181.54821875
+    "y": -181.54821875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2384",
@@ -2794,7 +3412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 167.18984375,
-    "y": -187.779828125
+    "y": -187.779828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2383",
@@ -2802,7 +3422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 167.988140625,
-    "y": -184.292375
+    "y": -184.292375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2382",
@@ -2810,7 +3432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 169.191140625,
-    "y": -177.96560937499999
+    "y": -177.96560937499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2381",
@@ -2818,7 +3442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 172.32753125,
-    "y": -181.94942187499998
+    "y": -181.94942187499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2380",
@@ -2826,7 +3452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 174.114703125,
-    "y": -174.96815625
+    "y": -174.96815625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2379",
@@ -2834,7 +3462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 174.740515625,
-    "y": -163.50228125
+    "y": -163.50228125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2378",
@@ -2842,7 +3472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 160.106703125,
-    "y": -160.69890625
+    "y": -160.69890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2377",
@@ -2850,7 +3482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 172.747828125,
-    "y": -162.107859375
+    "y": -162.107859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2376",
@@ -2858,7 +3492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 160.873671875,
-    "y": -170.595296875
+    "y": -170.595296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2375",
@@ -2866,7 +3502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 171.92681249999998,
-    "y": -165.37384375
+    "y": -165.37384375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2374",
@@ -2874,7 +3512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 170.408328125,
-    "y": -164.649265625
+    "y": -164.649265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2373",
@@ -2882,7 +3522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 164.9775,
-    "y": -163.992171875
+    "y": -163.992171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2372",
@@ -2890,7 +3532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 160.808140625,
-    "y": -169.0245625
+    "y": -169.0245625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2371",
@@ -2898,7 +3542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 165.559859375,
-    "y": -167.23784375
+    "y": -167.23784375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2370",
@@ -2906,7 +3552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 162.08948437499998,
-    "y": -167.604625
+    "y": -167.604625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2369",
@@ -2914,7 +3562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 163.69176562500002,
-    "y": -169.5620625
+    "y": -169.5620625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2368",
@@ -2922,7 +3572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 163.99234375,
-    "y": -165.111484375
+    "y": -165.111484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2367",
@@ -2930,7 +3582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 172.920546875,
-    "y": -169.927625
+    "y": -169.927625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2366",
@@ -2938,7 +3592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 166.82546875,
-    "y": -160.865515625
+    "y": -160.865515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2365",
@@ -2946,7 +3602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 172.3175,
-    "y": -161.132921875
+    "y": -161.132921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2364",
@@ -2954,7 +3612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 164.2604375,
-    "y": -154.974484375
+    "y": -154.974484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2363",
@@ -2962,7 +3622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 173.0639375,
-    "y": -155.578546875
+    "y": -155.578546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2362",
@@ -2970,7 +3632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 160.16414062500002,
-    "y": -146.88365625
+    "y": -146.88365625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2361",
@@ -2978,7 +3642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 166.997703125,
-    "y": -156.19065625000002
+    "y": -156.19065625000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2360",
@@ -2986,7 +3652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 163.614296875,
-    "y": -153.13039062500002
+    "y": -153.13039062500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2359",
@@ -2994,7 +3662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 170.272484375,
-    "y": -146.202265625
+    "y": -146.202265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2358",
@@ -3002,7 +3672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 167.478390625,
-    "y": -147.649671875
+    "y": -147.649671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2357",
@@ -3010,7 +3682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 169.19009375000002,
-    "y": -145.328078125
+    "y": -145.328078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2356",
@@ -3018,7 +3692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 163.56303125,
-    "y": -151.462828125
+    "y": -151.462828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2355",
@@ -3026,7 +3702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 164.418375,
-    "y": -156.56268749999998
+    "y": -156.56268749999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2354",
@@ -3034,7 +3712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 167.241140625,
-    "y": -152.555078125
+    "y": -152.555078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2353",
@@ -3042,7 +3722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 162.488828125,
-    "y": -149.460625
+    "y": -149.460625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2352",
@@ -3050,7 +3732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 173.7104375,
-    "y": -149.899578125
+    "y": -149.899578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2351",
@@ -3058,7 +3742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 161.810875,
-    "y": -144.16776562500002
+    "y": -144.16776562500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2350",
@@ -3066,7 +3752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 171.280421875,
-    "y": -133.45072031249998
+    "y": -133.45072031249998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2349",
@@ -3074,7 +3762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 169.182703125,
-    "y": -133.7967828125
+    "y": -133.7967828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2348",
@@ -3082,7 +3772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 161.583703125,
-    "y": -140.34379218750001
+    "y": -140.34379218750001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2347",
@@ -3090,7 +3782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 162.994765625,
-    "y": -139.3492625
+    "y": -139.3492625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2346",
@@ -3098,7 +3792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 165.649171875,
-    "y": -141.2706078125
+    "y": -141.2706078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2345",
@@ -3106,7 +3802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 166.654515625,
-    "y": -135.21400625
+    "y": -135.21400625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2344",
@@ -3114,7 +3812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 173.74478125000002,
-    "y": -133.20000625
+    "y": -133.20000625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2343",
@@ -3122,7 +3822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 161.31909374999998,
-    "y": -138.6070125
+    "y": -138.6070125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2342",
@@ -3130,7 +3832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 160.5904375,
-    "y": -130.838478125
+    "y": -130.838478125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2341",
@@ -3138,7 +3842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 163.758234375,
-    "y": -138.93158281249998
+    "y": -138.93158281249998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2340",
@@ -3146,7 +3852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 173.172390625,
-    "y": -136.091734375
+    "y": -136.091734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2339",
@@ -3154,7 +3862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 165.16078125,
-    "y": -133.83041875
+    "y": -133.83041875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2338",
@@ -3162,7 +3872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 169.950859375,
-    "y": -136.7934640625
+    "y": -136.7934640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2337",
@@ -3170,7 +3882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 170.639328125,
-    "y": -142.13015625
+    "y": -142.13015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2336",
@@ -3178,7 +3892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 171.616625,
-    "y": -120.1729375
+    "y": -120.1729375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2335",
@@ -3186,7 +3902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 170.90856250000002,
-    "y": -125.24371875
+    "y": -125.24371875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2334",
@@ -3194,7 +3912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 163.54696875,
-    "y": -116.747690625
+    "y": -116.747690625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2333",
@@ -3202,7 +3922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 165.9338125,
-    "y": -121.5606
+    "y": -121.5606,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2332",
@@ -3210,7 +3932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 169.64892187499998,
-    "y": -127.9797081875
+    "y": -127.9797081875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2331",
@@ -3218,7 +3942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 169.496703125,
-    "y": -112.8254515625
+    "y": -112.8254515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2330",
@@ -3226,7 +3952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 167.335953125,
-    "y": -124.679978125
+    "y": -124.679978125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2329",
@@ -3234,7 +3962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 170.245484375,
-    "y": -100.667640625
+    "y": -100.667640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2328",
@@ -3242,7 +3972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 166.727703125,
-    "y": -106.25637499999999
+    "y": -106.25637499999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2327",
@@ -3250,7 +3982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 165.613609375,
-    "y": -102.7875625
+    "y": -102.7875625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2326",
@@ -3258,7 +3992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 166.142765625,
-    "y": -108.59796875
+    "y": -108.59796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2325",
@@ -3266,7 +4002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 163.52810937499999,
-    "y": -99.512109375
+    "y": -99.512109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2324",
@@ -3274,7 +4012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 165.628046875,
-    "y": -108.782015625
+    "y": -108.782015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2323",
@@ -3282,7 +4022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 170.985421875,
-    "y": -101.81393750000001
+    "y": -101.81393750000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2322",
@@ -3290,7 +4032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 167.1324375,
-    "y": -107.6205625
+    "y": -107.6205625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2321",
@@ -3298,7 +4042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 162.055484375,
-    "y": -107.968203125
+    "y": -107.968203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2320",
@@ -3306,7 +4052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 164.172296875,
-    "y": -110.292859375
+    "y": -110.292859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2319",
@@ -3314,7 +4062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 163.4149375,
-    "y": -103.53928125
+    "y": -103.53928125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2318",
@@ -3322,7 +4072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 171.00459375,
-    "y": -106.65100000000001
+    "y": -106.65100000000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2317",
@@ -3330,7 +4082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 165.880171875,
-    "y": -100.8359375
+    "y": -100.8359375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2316",
@@ -3338,7 +4092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 161.91778124999996,
-    "y": -95.038203125
+    "y": -95.038203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2315",
@@ -3346,7 +4102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 159.55337500000002,
-    "y": -94.04845312500001
+    "y": -94.04845312500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2314",
@@ -3354,7 +4112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 160.20278125,
-    "y": -84.9153125
+    "y": -84.9153125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2313",
@@ -3362,7 +4122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 164.8105625,
-    "y": -95.69725
+    "y": -95.69725,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2312",
@@ -3370,7 +4132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 169.623390625,
-    "y": -95.705109375
+    "y": -95.705109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2311",
@@ -3378,7 +4142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 160.611171875,
-    "y": -72.16318749999999
+    "y": -72.16318749999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2310",
@@ -3386,7 +4152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 162.304734375,
-    "y": -81.002484375
+    "y": -81.002484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2309",
@@ -3394,7 +4162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 169.603625,
-    "y": -73.756484375
+    "y": -73.756484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2308",
@@ -3402,7 +4172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 162.906125,
-    "y": -70.601171875
+    "y": -70.601171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2307",
@@ -3410,7 +4182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 166.592390625,
-    "y": -78.398390625
+    "y": -78.398390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2306",
@@ -3418,7 +4192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 167.86034375,
-    "y": -71.864421875
+    "y": -71.864421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2305",
@@ -3426,7 +4202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 151.65221875,
-    "y": -186.203703125
+    "y": -186.203703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2304",
@@ -3434,7 +4212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 149.532796875,
-    "y": -182.743140625
+    "y": -182.743140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2303",
@@ -3442,7 +4222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 153.939859375,
-    "y": -177.43190625
+    "y": -177.43190625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2302",
@@ -3450,7 +4232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 156.760765625,
-    "y": -184.18479687500002
+    "y": -184.18479687500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2301",
@@ -3458,7 +4242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 153.39834374999998,
-    "y": -188.8083125
+    "y": -188.8083125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2300",
@@ -3466,7 +4252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 156.18334375,
-    "y": -178.3436875
+    "y": -178.3436875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2299",
@@ -3474,7 +4262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 155.899015625,
-    "y": -175.04796875
+    "y": -175.04796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2298",
@@ -3482,7 +4272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 158.37103125,
-    "y": -175.02221874999998
+    "y": -175.02221874999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2297",
@@ -3490,7 +4282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 144.78984375,
-    "y": -184.577265625
+    "y": -184.577265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2296",
@@ -3498,7 +4292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 152.25760937500002,
-    "y": -183.144390625
+    "y": -183.144390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2295",
@@ -3506,7 +4302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 144.4861875,
-    "y": -178.855796875
+    "y": -178.855796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2294",
@@ -3514,7 +4312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 143.813546875,
-    "y": -178.909109375
+    "y": -178.909109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2293",
@@ -3522,7 +4322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 155.46565625,
-    "y": -185.59340625
+    "y": -185.59340625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2292",
@@ -3530,7 +4332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 151.314328125,
-    "y": -180.663828125
+    "y": -180.663828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2291",
@@ -3538,7 +4342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 148.711890625,
-    "y": -175.01059375
+    "y": -175.01059375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2290",
@@ -3546,7 +4352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 155.080640625,
-    "y": -181.915453125
+    "y": -181.915453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2289",
@@ -3554,7 +4362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 149.979890625,
-    "y": -177.98054687500002
+    "y": -177.98054687500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2288",
@@ -3562,7 +4372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 149.478453125,
-    "y": -186.616625
+    "y": -186.616625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2287",
@@ -3570,7 +4382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 156.1159375,
-    "y": -177.33835937499998
+    "y": -177.33835937499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2286",
@@ -3578,7 +4392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 147.02165625,
-    "y": -183.064140625
+    "y": -183.064140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2285",
@@ -3586,7 +4402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 150.64803125,
-    "y": -183.177625
+    "y": -183.177625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2284",
@@ -3594,7 +4412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 156.453703125,
-    "y": -186.46915625
+    "y": -186.46915625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2283",
@@ -3602,7 +4422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 146.6890625,
-    "y": -175.741109375
+    "y": -175.741109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2282",
@@ -3610,7 +4432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 157.022359375,
-    "y": -180.369875
+    "y": -180.369875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2281",
@@ -3618,7 +4442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 158.25845312500002,
-    "y": -168.070328125
+    "y": -168.070328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2280",
@@ -3626,7 +4452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 152.41500000000002,
-    "y": -173.286203125
+    "y": -173.286203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2279",
@@ -3634,7 +4462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 155.71631250000002,
-    "y": -173.794796875
+    "y": -173.794796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2278",
@@ -3642,7 +4472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 150.854328125,
-    "y": -165.044515625
+    "y": -165.044515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2277",
@@ -3650,7 +4482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 148.395140625,
-    "y": -166.03217187500002
+    "y": -166.03217187500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2276",
@@ -3658,7 +4492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 149.59225,
-    "y": -163.585125
+    "y": -163.585125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2275",
@@ -3666,7 +4502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 148.683171875,
-    "y": -166.33518750000002
+    "y": -166.33518750000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2274",
@@ -3674,7 +4512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 146.5725,
-    "y": -166.69859375
+    "y": -166.69859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2273",
@@ -3682,7 +4522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 149.453125,
-    "y": -170.95384375
+    "y": -170.95384375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2272",
@@ -3690,7 +4532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 146.334296875,
-    "y": -172.531078125
+    "y": -172.531078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2271",
@@ -3698,7 +4542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 154.291515625,
-    "y": -164.36904687499998
+    "y": -164.36904687499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2270",
@@ -3706,7 +4552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 158.25825,
-    "y": -171.41475
+    "y": -171.41475,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2269",
@@ -3714,7 +4562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 1 - Invisible: 0",
     "x": 157.47162500000002,
-    "y": -165.792734375
+    "y": -165.792734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2268",
@@ -3722,7 +4572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 158.72859375000002,
-    "y": -169.163734375
+    "y": -169.163734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2267",
@@ -3730,7 +4582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 157.334765625,
-    "y": -160.0519375
+    "y": -160.0519375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2266",
@@ -3738,7 +4592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 151.707375,
-    "y": -156.90754687499998
+    "y": -156.90754687499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2265",
@@ -3746,7 +4602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 156.09896874999998,
-    "y": -144.846484375
+    "y": -144.846484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2264",
@@ -3754,7 +4612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 158.582078125,
-    "y": -144.59459375
+    "y": -144.59459375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2263",
@@ -3762,7 +4622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 144.394359375,
-    "y": -155.863703125
+    "y": -155.863703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2262",
@@ -3770,7 +4632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 158.20712500000002,
-    "y": -147.0775625
+    "y": -147.0775625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2261",
@@ -3778,7 +4642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 155.35046875,
-    "y": -152.13578125
+    "y": -152.13578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2260",
@@ -3786,7 +4652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 154.18907812499998,
-    "y": -146.092796875
+    "y": -146.092796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2259",
@@ -3794,7 +4662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 149.50821875,
-    "y": -154.255359375
+    "y": -154.255359375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2258",
@@ -3802,7 +4672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 147.454859375,
-    "y": -158.34653125
+    "y": -158.34653125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2257",
@@ -3810,7 +4682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 153.60889062500002,
-    "y": -149.50453125
+    "y": -149.50453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2256",
@@ -3818,7 +4692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 155.3214375,
-    "y": -158.025828125
+    "y": -158.025828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2255",
@@ -3826,7 +4702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 147.66342187499998,
-    "y": -156.923859375
+    "y": -156.923859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2254",
@@ -3834,7 +4712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 145.213953125,
-    "y": -157.5240625
+    "y": -157.5240625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2253",
@@ -3842,7 +4722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 156.0296875,
-    "y": -144.450390625
+    "y": -144.450390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2252",
@@ -3850,7 +4732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 148.21003125,
-    "y": -148.802515625
+    "y": -148.802515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2251",
@@ -3858,7 +4742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 158.30490625,
-    "y": -145.358296875
+    "y": -145.358296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2250",
@@ -3866,7 +4752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 155.176671875,
-    "y": -146.541796875
+    "y": -146.541796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2249",
@@ -3874,7 +4762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 152.27407812500002,
-    "y": -148.268546875
+    "y": -148.268546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2248",
@@ -3882,7 +4772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 144.258671875,
-    "y": -148.596140625
+    "y": -148.596140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2247",
@@ -3890,7 +4782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 156.234875,
-    "y": -143.5031484375
+    "y": -143.5031484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2246",
@@ -3898,7 +4792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 155.74690625,
-    "y": -143.0563140625
+    "y": -143.0563140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2245",
@@ -3906,7 +4802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 155.13067187500002,
-    "y": -129.33872125
+    "y": -129.33872125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2244",
@@ -3914,7 +4812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 145.43971875,
-    "y": -136.6808640625
+    "y": -136.6808640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2243",
@@ -3922,7 +4822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 150.60153125,
-    "y": -136.72438125
+    "y": -136.72438125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2242",
@@ -3930,7 +4832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 152.93367187500002,
-    "y": -140.6199328125
+    "y": -140.6199328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2241",
@@ -3938,7 +4842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 150.41775,
-    "y": -130.11568281249998
+    "y": -130.11568281249998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2240",
@@ -3946,7 +4852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 152.893546875,
-    "y": -129.78376874999998
+    "y": -129.78376874999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2239",
@@ -3954,7 +4862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 158.952015625,
-    "y": -135.0612125
+    "y": -135.0612125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2238",
@@ -3962,7 +4872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 154.337546875,
-    "y": -138.330075
+    "y": -138.330075,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2237",
@@ -3970,7 +4882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 148.53084375,
-    "y": -135.86046249999998
+    "y": -135.86046249999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2236",
@@ -3978,7 +4892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 156.63628125,
-    "y": -119.629728125
+    "y": -119.629728125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2235",
@@ -3986,7 +4902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 149.84434375,
-    "y": -114.6195703125
+    "y": -114.6195703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2234",
@@ -3994,7 +4912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 147.76840625,
-    "y": -116.9492109375
+    "y": -116.9492109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2233",
@@ -4002,7 +4922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 145.00829687499998,
-    "y": -124.626646875
+    "y": -124.626646875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2232",
@@ -4010,7 +4932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 145.250234375,
-    "y": -121.0588953125
+    "y": -121.0588953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2231",
@@ -4018,7 +4942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 149.676234375,
-    "y": -126.2354859375
+    "y": -126.2354859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2230",
@@ -4026,7 +4952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 154.482375,
-    "y": -114.529915625
+    "y": -114.529915625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2229",
@@ -4034,7 +4962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 146.52346875,
-    "y": -126.9465765625
+    "y": -126.9465765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2228",
@@ -4042,7 +4972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 149.95239062500002,
-    "y": -114.9845453125
+    "y": -114.9845453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2227",
@@ -4050,7 +4982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 153.51446875,
-    "y": -119.4812953125
+    "y": -119.4812953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2226",
@@ -4058,7 +4992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 146.711265625,
-    "y": -109.99015625
+    "y": -109.99015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2225",
@@ -4066,7 +5002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 154.3680625,
-    "y": -101.17051562500001
+    "y": -101.17051562500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2224",
@@ -4074,7 +5012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 149.5188125,
-    "y": -108.29415625
+    "y": -108.29415625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2223",
@@ -4082,7 +5022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 150.06287500000002,
-    "y": -100.503046875
+    "y": -100.503046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2222",
@@ -4090,7 +5032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 152.130171875,
-    "y": -99.29353125
+    "y": -99.29353125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2221",
@@ -4098,7 +5042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 150.295234375,
-    "y": -103.87390625
+    "y": -103.87390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2220",
@@ -4106,7 +5052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 158.48209375,
-    "y": -99.364734375
+    "y": -99.364734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2219",
@@ -4114,7 +5062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 158.31484375,
-    "y": -108.9729375
+    "y": -108.9729375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2218",
@@ -4122,7 +5072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 148.04128125,
-    "y": -110.446171875
+    "y": -110.446171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2217",
@@ -4130,7 +5082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 143.75204687500002,
-    "y": -103.562203125
+    "y": -103.562203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2216",
@@ -4138,7 +5092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 157.18460937499998,
-    "y": -90.49003125
+    "y": -90.49003125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2215",
@@ -4146,7 +5102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 154.958578125,
-    "y": -88.094703125
+    "y": -88.094703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2214",
@@ -4154,7 +5112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 153.500265625,
-    "y": -82.0703125
+    "y": -82.0703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2213",
@@ -4162,7 +5122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 152.02890625,
-    "y": -95.32026562499999
+    "y": -95.32026562499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2212",
@@ -4170,7 +5132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 153.738,
-    "y": -92.93029687500001
+    "y": -92.93029687500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2211",
@@ -4178,7 +5142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 157.465375,
-    "y": -85.04521875
+    "y": -85.04521875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2210",
@@ -4186,7 +5152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 157.149296875,
-    "y": -89.4836875
+    "y": -89.4836875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2209",
@@ -4194,7 +5162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 153.90828125000002,
-    "y": -87.923828125
+    "y": -87.923828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2208",
@@ -4202,7 +5172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 152.904359375,
-    "y": -89.32421875
+    "y": -89.32421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2207",
@@ -4210,7 +5182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 152.20489062500002,
-    "y": -79.428921875
+    "y": -79.428921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2206",
@@ -4218,7 +5192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 145.865671875,
-    "y": -69.51909375
+    "y": -69.51909375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2205",
@@ -4226,7 +5202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 153.236015625,
-    "y": -70.79640624999999
+    "y": -70.79640624999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2204",
@@ -4234,7 +5212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 128.218088125,
-    "y": -187.22546875
+    "y": -187.22546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2203",
@@ -4242,7 +5222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 134.51182968749998,
-    "y": -188.13942187499998
+    "y": -188.13942187499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2202",
@@ -4250,7 +5232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 129.07866765625,
-    "y": -178.341765625
+    "y": -178.341765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2201",
@@ -4258,7 +5242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.93625,
-    "y": -179.200984375
+    "y": -179.200984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2200",
@@ -4266,7 +5252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.15785,
-    "y": -185.32735937500001
+    "y": -185.32735937500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2199",
@@ -4274,7 +5262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 143.051609375,
-    "y": -180.673484375
+    "y": -180.673484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2198",
@@ -4282,7 +5272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 131.380040625,
-    "y": -182.500234375
+    "y": -182.500234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2197",
@@ -4290,7 +5282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 142.21285781249998,
-    "y": -187.9576875
+    "y": -187.9576875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2196",
@@ -4298,7 +5292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 133.735890625,
-    "y": -184.908109375
+    "y": -184.908109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2195",
@@ -4306,7 +5302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 136.1635375,
-    "y": -185.51496875
+    "y": -185.51496875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2194",
@@ -4314,7 +5312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 139.60770156249998,
-    "y": -178.673125
+    "y": -178.673125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2193",
@@ -4322,7 +5322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.8675515625,
-    "y": -175.99078125
+    "y": -175.99078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2192",
@@ -4330,7 +5332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 136.08698125,
-    "y": -186.82848437500002
+    "y": -186.82848437500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2191",
@@ -4338,7 +5342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.2456171875,
-    "y": -179.399828125
+    "y": -179.399828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2190",
@@ -4346,7 +5352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 132.1503421875,
-    "y": -187.95325
+    "y": -187.95325,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2189",
@@ -4354,7 +5362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 137.9904859375,
-    "y": -185.981859375
+    "y": -185.981859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2188",
@@ -4362,7 +5372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 132.35976718749998,
-    "y": -182.74671875
+    "y": -182.74671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2187",
@@ -4370,7 +5382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 128.88585859375002,
-    "y": -177.21910937500002
+    "y": -177.21910937500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2186",
@@ -4378,7 +5392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 141.9244859375,
-    "y": -185.73167187500002
+    "y": -185.73167187500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2185",
@@ -4386,7 +5402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 129.52126359375,
-    "y": -187.71168749999998
+    "y": -187.71168749999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2184",
@@ -4394,7 +5412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 134.345525,
-    "y": -175.67396875
+    "y": -175.67396875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2183",
@@ -4402,7 +5422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.481809375,
-    "y": -188.92846875
+    "y": -188.92846875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2182",
@@ -4410,7 +5432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.08944843749998,
-    "y": -184.486296875
+    "y": -184.486296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2181",
@@ -4418,7 +5442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 140.5948890625,
-    "y": -176.638375
+    "y": -176.638375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2180",
@@ -4426,7 +5452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 140.889740625,
-    "y": -174.957828125
+    "y": -174.957828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2179",
@@ -4434,7 +5462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 137.0820234375,
-    "y": -174.993796875
+    "y": -174.993796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2178",
@@ -4442,7 +5472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 128.53554203125,
-    "y": -160.85509374999998
+    "y": -160.85509374999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2177",
@@ -4450,7 +5482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 129.03477328125,
-    "y": -164.10390625
+    "y": -164.10390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2176",
@@ -4458,7 +5492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 133.78777812500002,
-    "y": -168.110046875
+    "y": -168.110046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2175",
@@ -4466,7 +5502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 133.32231093750002,
-    "y": -172.228578125
+    "y": -172.228578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2174",
@@ -4474,7 +5512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 137.7682,
-    "y": -164.02978124999998
+    "y": -164.02978124999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2173",
@@ -4482,7 +5522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 141.027428125,
-    "y": -166.04025000000001
+    "y": -166.04025000000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2172",
@@ -4490,7 +5532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 141.90016718750002,
-    "y": -165.426609375
+    "y": -165.426609375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2171",
@@ -4498,7 +5542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 134.263590625,
-    "y": -161.6073125
+    "y": -161.6073125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2170",
@@ -4506,7 +5552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 140.353746875,
-    "y": -168.080234375
+    "y": -168.080234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2169",
@@ -4514,7 +5562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 142.1919765625,
-    "y": -162.27384375
+    "y": -162.27384375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2168",
@@ -4522,7 +5572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.38166875000002,
-    "y": -165.57828125
+    "y": -165.57828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2167",
@@ -4530,7 +5582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 131.35274687499998,
-    "y": -160.34467187500002
+    "y": -160.34467187500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2166",
@@ -4538,7 +5592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.4420640625,
-    "y": -163.209
+    "y": -163.209,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2165",
@@ -4546,7 +5602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 140.73783281250002,
-    "y": -160.64746875
+    "y": -160.64746875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2164",
@@ -4554,7 +5612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 134.534521875,
-    "y": -172.89696874999998
+    "y": -172.89696874999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2163",
@@ -4562,7 +5622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 131.50268281249998,
-    "y": -172.818796875
+    "y": -172.818796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2162",
@@ -4570,7 +5632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 130.4054671875,
-    "y": -174.58934375
+    "y": -174.58934375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2161",
@@ -4578,7 +5642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 130.652065625,
-    "y": -173.36587500000002
+    "y": -173.36587500000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2160",
@@ -4586,7 +5652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 137.131753125,
-    "y": -169.848984375
+    "y": -169.848984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2159",
@@ -4594,7 +5662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 139.8076859375,
-    "y": -164.681328125
+    "y": -164.681328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2158",
@@ -4602,7 +5672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 130.5511921875,
-    "y": -171.48904687499999
+    "y": -171.48904687499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2157",
@@ -4610,7 +5682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 136.0998375,
-    "y": -166.947265625
+    "y": -166.947265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2156",
@@ -4618,7 +5692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 135.4212140625,
-    "y": -161.58003125
+    "y": -161.58003125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2155",
@@ -4626,7 +5702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 137.45209375000002,
-    "y": -165.63720312499998
+    "y": -165.63720312499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2154",
@@ -4634,7 +5712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 137.52011249999998,
-    "y": -165.653578125
+    "y": -165.653578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2153",
@@ -4642,7 +5722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 138.61245937500001,
-    "y": -167.05346874999998
+    "y": -167.05346874999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2152",
@@ -4650,7 +5732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 137.5365890625,
-    "y": -172.84142187499998
+    "y": -172.84142187499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2151",
@@ -4658,7 +5742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 139.00058124999998,
-    "y": -174.216171875
+    "y": -174.216171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2150",
@@ -4666,7 +5752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 131.1386,
-    "y": -168.6853125
+    "y": -168.6853125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2149",
@@ -4674,7 +5762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.6184421875,
-    "y": -146.8249375
+    "y": -146.8249375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2148",
@@ -4682,7 +5772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 140.325596875,
-    "y": -150.98990625
+    "y": -150.98990625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2147",
@@ -4690,7 +5782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 132.971196875,
-    "y": -149.84221875
+    "y": -149.84221875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2146",
@@ -4698,7 +5792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 128.083150859375,
-    "y": -157.654625
+    "y": -157.654625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2145",
@@ -4706,7 +5802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.447609375,
-    "y": -150.94215624999998
+    "y": -150.94215624999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2144",
@@ -4714,7 +5812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 129.082848125,
-    "y": -150.46875
+    "y": -150.46875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2143",
@@ -4722,7 +5822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 133.0546015625,
-    "y": -158.116046875
+    "y": -158.116046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2142",
@@ -4730,7 +5832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 133.26796406250003,
-    "y": -147.86034375
+    "y": -147.86034375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2141",
@@ -4738,7 +5842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 141.5667640625,
-    "y": -157.719265625
+    "y": -157.719265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2140",
@@ -4746,7 +5852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 136.103546875,
-    "y": -151.055078125
+    "y": -151.055078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2139",
@@ -4754,7 +5862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 128.8591765625,
-    "y": -155.47746875
+    "y": -155.47746875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2138",
@@ -4762,7 +5872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 136.074484375,
-    "y": -155.940140625
+    "y": -155.940140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2137",
@@ -4770,7 +5882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 139.173609375,
-    "y": -148.73478125
+    "y": -148.73478125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2136",
@@ -4778,7 +5892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 130.79627031249998,
-    "y": -154.874734375
+    "y": -154.874734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2135",
@@ -4786,7 +5902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 139.015415625,
-    "y": -156.071359375
+    "y": -156.071359375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2134",
@@ -4794,7 +5912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.06544843749998,
-    "y": -155.551
+    "y": -155.551,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2133",
@@ -4802,7 +5922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 129.7548984375,
-    "y": -154.71534375
+    "y": -154.71534375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2132",
@@ -4810,7 +5932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 136.6183859375,
-    "y": -157.742296875
+    "y": -157.742296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2131",
@@ -4818,7 +5942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.88562812499998,
-    "y": -155.60620312499998
+    "y": -155.60620312499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2130",
@@ -4826,7 +5952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 130.5006921875,
-    "y": -158.34643749999998
+    "y": -158.34643749999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2129",
@@ -4834,7 +5962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 129.359571875,
-    "y": -152.767171875
+    "y": -152.767171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2128",
@@ -4842,7 +5972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.4858125,
-    "y": -153.599671875
+    "y": -153.599671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2127",
@@ -4850,7 +5982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 133.5372578125,
-    "y": -159.21165625
+    "y": -159.21165625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2126",
@@ -4858,7 +5992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 131.6282515625,
-    "y": -153.02215625
+    "y": -153.02215625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2125",
@@ -4866,7 +6002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 128.61350921874998,
-    "y": -144.1639375
+    "y": -144.1639375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2124",
@@ -4874,7 +6012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 131.5203234375,
-    "y": -154.650984375
+    "y": -154.650984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2123",
@@ -4882,7 +6022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 136.06412812499997,
-    "y": -146.235984375
+    "y": -146.235984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2122",
@@ -4890,7 +6032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 141.289184375,
-    "y": -153.374890625
+    "y": -153.374890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2121",
@@ -4898,7 +6042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 137.7974859375,
-    "y": -130.848546875
+    "y": -130.848546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2120",
@@ -4906,7 +6052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 142.912546875,
-    "y": -142.7260640625
+    "y": -142.7260640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2119",
@@ -4914,7 +6062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 130.29850312499997,
-    "y": -132.62138125
+    "y": -132.62138125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2118",
@@ -4922,7 +6072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 131.521590625,
-    "y": -141.6256296875
+    "y": -141.6256296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2117",
@@ -4930,7 +6082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 140.60268593749998,
-    "y": -128.37648343749999
+    "y": -128.37648343749999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2116",
@@ -4938,7 +6092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 133.0322765625,
-    "y": -136.20323906250002
+    "y": -136.20323906250002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2115",
@@ -4946,7 +6102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 134.00408906250001,
-    "y": -130.1150375
+    "y": -130.1150375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2114",
@@ -4954,7 +6112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 128.40099859375,
-    "y": -130.304390625
+    "y": -130.304390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2113",
@@ -4962,7 +6122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 141.79802812499997,
-    "y": -132.2937140625
+    "y": -132.2937140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2112",
@@ -4970,7 +6132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 129.33667140625,
-    "y": -118.0784890625
+    "y": -118.0784890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2111",
@@ -4978,7 +6142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 1 - Invisible: 0",
     "x": 141.131340625,
-    "y": -117.18001406249999
+    "y": -117.18001406249999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2110",
@@ -4986,7 +6152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.87984062499999,
-    "y": -115.118984375
+    "y": -115.118984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2109",
@@ -4994,7 +6162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 130.7898203125,
-    "y": -113.31217968749999
+    "y": -113.31217968749999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2108",
@@ -5002,7 +6172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.56538437499998,
-    "y": -116.6861203125
+    "y": -116.6861203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2107",
@@ -5010,7 +6182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 132.99459843750003,
-    "y": -112.9677328125
+    "y": -112.9677328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2106",
@@ -5018,7 +6192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 135.8820921875,
-    "y": -120.289546875
+    "y": -120.289546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2105",
@@ -5026,7 +6202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 129.52561671875,
-    "y": -121.284253125
+    "y": -121.284253125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2104",
@@ -5034,7 +6212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 135.9204125,
-    "y": -114.2090890625
+    "y": -114.2090890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2103",
@@ -5042,7 +6222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 129.34740156249998,
-    "y": -121.56115625
+    "y": -121.56115625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2102",
@@ -5050,7 +6232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 137.73813437500002,
-    "y": -124.956734375
+    "y": -124.956734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2101",
@@ -5058,7 +6242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.7193421875,
-    "y": -118.0765
+    "y": -118.0765,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2100",
@@ -5066,7 +6252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 134.18875624999998,
-    "y": -118.2256234375
+    "y": -118.2256234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2099",
@@ -5074,7 +6262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 137.58457499999997,
-    "y": -116.384715625
+    "y": -116.384715625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2098",
@@ -5082,7 +6272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 137.2151953125,
-    "y": -110.701109375
+    "y": -110.701109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2097",
@@ -5090,7 +6282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 141.56274843749998,
-    "y": -106.71615625
+    "y": -106.71615625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2096",
@@ -5098,7 +6292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 138.70509531249996,
-    "y": -84.89909374999999
+    "y": -84.89909374999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2095",
@@ -5106,7 +6302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 131.70994374999998,
-    "y": -82.00959375
+    "y": -82.00959375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2094",
@@ -5114,7 +6312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 131.2306421875,
-    "y": -72.390546875
+    "y": -72.390546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2093",
@@ -5122,7 +6322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 137.4280890625,
-    "y": -71.22234375
+    "y": -71.22234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2092",
@@ -5130,7 +6332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 141.49870312500002,
-    "y": -75.522984375
+    "y": -75.522984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2091",
@@ -5138,7 +6342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 127.57978156249999,
-    "y": -175.54203124999998
+    "y": -175.54203124999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2090",
@@ -5146,7 +6352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 125.641875,
-    "y": -175.9265625
+    "y": -175.9265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2089",
@@ -5154,7 +6362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 122.45567031249999,
-    "y": -188.918484375
+    "y": -188.918484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2088",
@@ -5162,7 +6372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 124.4486765625,
-    "y": -180.23021875
+    "y": -180.23021875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2087",
@@ -5170,7 +6382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 114.269871875,
-    "y": -183.745984375
+    "y": -183.745984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2086",
@@ -5178,7 +6392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 121.943846875,
-    "y": -177.243015625
+    "y": -177.243015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2085",
@@ -5186,7 +6402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 124.10953437499998,
-    "y": -187.81953125
+    "y": -187.81953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2084",
@@ -5194,7 +6412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 113.570296875,
-    "y": -181.69343750000002
+    "y": -181.69343750000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2083",
@@ -5202,7 +6422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 121.425715625,
-    "y": -180.6325625
+    "y": -180.6325625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2082",
@@ -5210,7 +6432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 117.72241406250001,
-    "y": -188.18496875
+    "y": -188.18496875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2081",
@@ -5218,7 +6442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 126.5117178125,
-    "y": -176.889953125
+    "y": -176.889953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2080",
@@ -5226,7 +6452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 125.87753281249998,
-    "y": -187.4063125
+    "y": -187.4063125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2079",
@@ -5234,7 +6462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 123.8382125,
-    "y": -188.752390625
+    "y": -188.752390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2078",
@@ -5242,7 +6472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 124.2482640625,
-    "y": -188.66409375
+    "y": -188.66409375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2077",
@@ -5250,7 +6482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 127.95265245312498,
-    "y": -168.85417187500002
+    "y": -168.85417187500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2076",
@@ -5258,7 +6492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 121.775,
-    "y": -167.988125
+    "y": -167.988125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2075",
@@ -5266,7 +6502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 113.5431234375,
-    "y": -173.88187499999998
+    "y": -173.88187499999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2074",
@@ -5274,7 +6512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 127.80512281250002,
-    "y": -168.411265625
+    "y": -168.411265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2073",
@@ -5282,7 +6522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 118.471759375,
-    "y": -165.353953125
+    "y": -165.353953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2072",
@@ -5290,7 +6532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 126.93718437499999,
-    "y": -164.447125
+    "y": -164.447125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2071",
@@ -5298,7 +6542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 127.39089578125,
-    "y": -167.275671875
+    "y": -167.275671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2070",
@@ -5306,7 +6552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 126.83776046875,
-    "y": -165.701125
+    "y": -165.701125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2069",
@@ -5314,7 +6562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 120.67746406250001,
-    "y": -173.441125
+    "y": -173.441125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2068",
@@ -5322,7 +6572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 126.96491343749999,
-    "y": -166.135265625
+    "y": -166.135265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2067",
@@ -5330,7 +6582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 118.5944734375,
-    "y": -169.50185937499998
+    "y": -169.50185937499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2066",
@@ -5338,7 +6592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 115.6244375,
-    "y": -163.269109375
+    "y": -163.269109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2065",
@@ -5346,7 +6602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 127.14413984374998,
-    "y": -166.94437499999998
+    "y": -166.94437499999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2064",
@@ -5354,7 +6612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 126.19554999999998,
-    "y": -163.9905
+    "y": -163.9905,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2063",
@@ -5362,7 +6622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 121.385084375,
-    "y": -159.600890625
+    "y": -159.600890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2062",
@@ -5370,7 +6632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 115.1462890625,
-    "y": -152.170640625
+    "y": -152.170640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2061",
@@ -5378,7 +6642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 125.0164046875,
-    "y": -156.6178125
+    "y": -156.6178125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2060",
@@ -5386,7 +6652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 117.7867953125,
-    "y": -149.72328125
+    "y": -149.72328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2059",
@@ -5394,7 +6662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 118.6258453125,
-    "y": -144.74712499999998
+    "y": -144.74712499999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2058",
@@ -5402,7 +6672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 115.968290625,
-    "y": -149.57776562499998
+    "y": -149.57776562499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2057",
@@ -5410,7 +6682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 120.712315625,
-    "y": -147.99034375
+    "y": -147.99034375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2056",
@@ -5418,7 +6692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 112.9143734375,
-    "y": -153.401515625
+    "y": -153.401515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2055",
@@ -5426,7 +6702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 114.6682421875,
-    "y": -154.11279687500002
+    "y": -154.11279687500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2054",
@@ -5434,7 +6712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 121.39026875,
-    "y": -159.146265625
+    "y": -159.146265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2053",
@@ -5442,7 +6722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 126.336565625,
-    "y": -144.37451562500002
+    "y": -144.37451562500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2052",
@@ -5450,7 +6732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 121.35508125,
-    "y": -146.58353125
+    "y": -146.58353125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2051",
@@ -5458,7 +6742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 114.1355875,
-    "y": -157.553234375
+    "y": -157.553234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2050",
@@ -5466,7 +6752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 115.9705765625,
-    "y": -152.597265625
+    "y": -152.597265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2049",
@@ -5474,7 +6762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 115.3558828125,
-    "y": -158.732953125
+    "y": -158.732953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2048",
@@ -5482,7 +6772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 113.108309375,
-    "y": -154.8981875
+    "y": -154.8981875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2047",
@@ -5490,7 +6782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 121.3236859375,
-    "y": -130.3582
+    "y": -130.3582,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2046",
@@ -5498,7 +6792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 126.0922703125,
-    "y": -137.281303125
+    "y": -137.281303125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2045",
@@ -5506,7 +6802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 119.9225265625,
-    "y": -129.52797453124998
+    "y": -129.52797453124998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2044",
@@ -5514,7 +6812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 122.3242328125,
-    "y": -134.2022125
+    "y": -134.2022125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2043",
@@ -5522,7 +6822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 117.928403125,
-    "y": -141.6892640625
+    "y": -141.6892640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2042",
@@ -5530,7 +6832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 116.62391875,
-    "y": -130.1059140625
+    "y": -130.1059140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2041",
@@ -5538,7 +6842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 125.9108484375,
-    "y": -142.76618906250002
+    "y": -142.76618906250002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2040",
@@ -5546,7 +6852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 116.2824578125,
-    "y": -141.94078906250002
+    "y": -141.94078906250002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "2039",
@@ -5554,7 +6862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 116.902334375,
-    "y": -129.56144859375001
+    "y": -129.56144859375001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2038",
@@ -5562,7 +6872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 119.98827031249999,
-    "y": -136.603490625
+    "y": -136.603490625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2037",
@@ -5570,7 +6882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 114.429653125,
-    "y": -131.42374375
+    "y": -131.42374375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2036",
@@ -5578,7 +6892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 116.478028125,
-    "y": -133.2149453125
+    "y": -133.2149453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2035",
@@ -5586,7 +6902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 122.2350859375,
-    "y": -112.47740781249999
+    "y": -112.47740781249999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2034",
@@ -5594,7 +6912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 123.77716718750001,
-    "y": -114.2625515625
+    "y": -114.2625515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2033",
@@ -5602,7 +6922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 125.4486859375,
-    "y": -115.7394140625
+    "y": -115.7394140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2032",
@@ -5610,7 +6932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 124.03125,
-    "y": -112.459159375
+    "y": -112.459159375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2031",
@@ -5618,7 +6942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 121.1785171875,
-    "y": -113.4246078125
+    "y": -113.4246078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2030",
@@ -5626,7 +6952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 126.4231140625,
-    "y": -112.6914421875
+    "y": -112.6914421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2029",
@@ -5634,7 +6962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 125.36923125,
-    "y": -114.5561578125
+    "y": -114.5561578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2028",
@@ -5642,7 +6972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 125.4726078125,
-    "y": -123.9055765625
+    "y": -123.9055765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2027",
@@ -5650,7 +6982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 116.06609375,
-    "y": -118.526875
+    "y": -118.526875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2026",
@@ -5658,7 +6992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 115.5590625,
-    "y": -119.267878125
+    "y": -119.267878125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2025",
@@ -5666,7 +7002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 122.9314828125,
-    "y": -115.5287703125
+    "y": -115.5287703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2024",
@@ -5674,7 +7012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 124.334484375,
-    "y": -116.3760515625
+    "y": -116.3760515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2023",
@@ -5682,7 +7022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 124.1380703125,
-    "y": -116.443546875
+    "y": -116.443546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2022",
@@ -5690,7 +7032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 124.0312265625,
-    "y": -116.4446734375
+    "y": -116.4446734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2021",
@@ -5698,7 +7042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 117.6359046875,
-    "y": -121.2406
+    "y": -121.2406,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2020",
@@ -5706,7 +7052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 124.02573125,
-    "y": -123.8685296875
+    "y": -123.8685296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2019",
@@ -5714,7 +7062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 123.8248390625,
-    "y": -118.4658140625
+    "y": -118.4658140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2018",
@@ -5722,7 +7072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 121.843325,
-    "y": -115.7280703125
+    "y": -115.7280703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2017",
@@ -5730,7 +7082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 124.033546875,
-    "y": -118.1214328125
+    "y": -118.1214328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2016",
@@ -5738,7 +7092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 126.93648906249999,
-    "y": -112.69337812500001
+    "y": -112.69337812500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2015",
@@ -5746,7 +7102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 119.4296875,
-    "y": -124.41375
+    "y": -124.41375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2014",
@@ -5754,7 +7112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 122.0124078125,
-    "y": -112.474615625
+    "y": -112.474615625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2013",
@@ -5762,7 +7122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 125.4679234375,
-    "y": -114.280421875
+    "y": -114.280421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2012",
@@ -5770,7 +7132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 122.4784375,
-    "y": -115.037365625
+    "y": -115.037365625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2011",
@@ -5778,7 +7142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 117.3543875,
-    "y": -114.55270625
+    "y": -114.55270625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2010",
@@ -5786,7 +7152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 118.4755359375,
-    "y": -117.3390328125
+    "y": -117.3390328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2009",
@@ -5794,7 +7162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 124.0339171875,
-    "y": -121.348034375
+    "y": -121.348034375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2008",
@@ -5802,7 +7172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 124.3955234375,
-    "y": -118.1034390625
+    "y": -118.1034390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2007",
@@ -5810,7 +7182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 113.2904640625,
-    "y": -115.22446875
+    "y": -115.22446875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2006",
@@ -5818,7 +7192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 117.5299078125,
-    "y": -113.42686093750001
+    "y": -113.42686093750001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2005",
@@ -5826,7 +7202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 124.25961875,
-    "y": -126.240709375
+    "y": -126.240709375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2004",
@@ -5834,7 +7212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 114.14609375,
-    "y": -123.718125
+    "y": -123.718125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2003",
@@ -5842,7 +7222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 117.5790859375,
-    "y": -119.5029015625
+    "y": -119.5029015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "2002",
@@ -5850,7 +7232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 113.3874109375,
-    "y": -117.980603125
+    "y": -117.980603125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2001",
@@ -5858,7 +7242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 115.438125,
-    "y": -121.701140625
+    "y": -121.701140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "2000",
@@ -5866,7 +7252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 123.84782343749998,
-    "y": -110.206921875
+    "y": -110.206921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1999",
@@ -5874,7 +7262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 124.064940625,
-    "y": -111.40982812499999
+    "y": -111.40982812499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1998",
@@ -5882,7 +7272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 122.08345624999998,
-    "y": -110.62346875
+    "y": -110.62346875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1997",
@@ -5890,7 +7282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 124.09154062499998,
-    "y": -111.411359375
+    "y": -111.411359375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1996",
@@ -5898,7 +7292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 115.2394359375,
-    "y": -97.903796875
+    "y": -97.903796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1995",
@@ -5906,7 +7302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 117.004903125,
-    "y": -105.440859375
+    "y": -105.440859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1994",
@@ -5914,7 +7312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 122.75933125,
-    "y": -112.32314062500001
+    "y": -112.32314062500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1993",
@@ -5922,7 +7322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 123.175434375,
-    "y": -109.781171875
+    "y": -109.781171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1992",
@@ -5930,7 +7332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 125.96028593750002,
-    "y": -106.448765625
+    "y": -106.448765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1991",
@@ -5938,7 +7342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 125.6951203125,
-    "y": -109.87821875
+    "y": -109.87821875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1990",
@@ -5946,7 +7352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 121.3218734375,
-    "y": -100.90551562499999
+    "y": -100.90551562499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1989",
@@ -5954,7 +7362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 122.80321875,
-    "y": -100.6970625
+    "y": -100.6970625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1988",
@@ -5962,7 +7372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 113.753125,
-    "y": -102.800015625
+    "y": -102.800015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1987",
@@ -5970,7 +7382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 116.22389375,
-    "y": -111.01884375
+    "y": -111.01884375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1986",
@@ -5978,7 +7392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 127.36274625,
-    "y": -81.347703125
+    "y": -81.347703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1985",
@@ -5986,7 +7402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 119.1283296875,
-    "y": -87.38745312500001
+    "y": -87.38745312500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1984",
@@ -5994,7 +7412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 114.3609796875,
-    "y": -76.18584374999999
+    "y": -76.18584374999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1983",
@@ -6002,7 +7422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 120.3950234375,
-    "y": -78.89192187500001
+    "y": -78.89192187500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1982",
@@ -6010,7 +7432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 103.957140625,
-    "y": -175.97004687499998
+    "y": -175.97004687499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1981",
@@ -6018,7 +7442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 106.45046875,
-    "y": -180.00125
+    "y": -180.00125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1980",
@@ -6026,7 +7452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 106.79634375,
-    "y": -185.3740625
+    "y": -185.3740625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1979",
@@ -6034,7 +7462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 97.901515625,
-    "y": -178.656234375
+    "y": -178.656234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1978",
@@ -6042,7 +7472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 109.61170312499999,
-    "y": -183.90709375
+    "y": -183.90709375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1977",
@@ -6050,7 +7482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 103.007859375,
-    "y": -176.436546875
+    "y": -176.436546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1976",
@@ -6058,7 +7492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 108.363390625,
-    "y": -176.971109375
+    "y": -176.971109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1975",
@@ -6066,7 +7502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 106.88346874999999,
-    "y": -186.918640625
+    "y": -186.918640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1974",
@@ -6074,7 +7512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 102.820078125,
-    "y": -185.47385937500002
+    "y": -185.47385937500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1973",
@@ -6082,7 +7522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 104.14099999999999,
-    "y": -181.217078125
+    "y": -181.217078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1972",
@@ -6090,7 +7532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 97.96521874999999,
-    "y": -179.245203125
+    "y": -179.245203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1971",
@@ -6098,7 +7542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 110.407015625,
-    "y": -184.6316875
+    "y": -184.6316875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1970",
@@ -6106,7 +7552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 96.803125,
-    "y": -184.557296875
+    "y": -184.557296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1969",
@@ -6114,7 +7562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 111.33134375,
-    "y": -173.468921875
+    "y": -173.468921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1968",
@@ -6122,7 +7572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 109.026359375,
-    "y": -170.21178125
+    "y": -170.21178125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1967",
@@ -6130,7 +7582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 106.44396875,
-    "y": -170.85521875
+    "y": -170.85521875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1966",
@@ -6138,7 +7592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 112.18890625,
-    "y": -169.22609375000002
+    "y": -169.22609375000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1965",
@@ -6146,7 +7602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 101.10584374999999,
-    "y": -162.96532812499998
+    "y": -162.96532812499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1964",
@@ -6154,7 +7612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 109.1819375,
-    "y": -164.293375
+    "y": -164.293375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1963",
@@ -6162,7 +7622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 101.97032812500001,
-    "y": -164.533796875
+    "y": -164.533796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1962",
@@ -6170,7 +7632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 102.7505625,
-    "y": -166.239515625
+    "y": -166.239515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1961",
@@ -6178,7 +7642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 99.721546875,
-    "y": -166.431640625
+    "y": -166.431640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1960",
@@ -6186,7 +7652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 106.134,
-    "y": -165.159453125
+    "y": -165.159453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1959",
@@ -6194,7 +7662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 102.08453125,
-    "y": -164.04328125
+    "y": -164.04328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1958",
@@ -6202,7 +7672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 105.451265625,
-    "y": -160.900625
+    "y": -160.900625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1957",
@@ -6210,7 +7682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 97.76023437500001,
-    "y": -169.77346875
+    "y": -169.77346875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1956",
@@ -6218,7 +7692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 109.69346875,
-    "y": -164.20665624999998
+    "y": -164.20665624999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1955",
@@ -6226,7 +7702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 105.09521875,
-    "y": -174.1336875
+    "y": -174.1336875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1954",
@@ -6234,7 +7712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 106.69584375,
-    "y": -162.612421875
+    "y": -162.612421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1953",
@@ -6242,7 +7722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 104.50903124999999,
-    "y": -158.00271874999999
+    "y": -158.00271874999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1952",
@@ -6250,7 +7732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 106.801609375,
-    "y": -143.6626875
+    "y": -143.6626875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1951",
@@ -6258,7 +7742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.234375,
-    "y": -157.828125
+    "y": -157.828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1950",
@@ -6266,7 +7752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 97.222671875,
-    "y": -144.997390625
+    "y": -144.997390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1949",
@@ -6274,7 +7762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 107.993859375,
-    "y": -149.639046875
+    "y": -149.639046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1948",
@@ -6282,7 +7772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 106.58840624999999,
-    "y": -146.215953125
+    "y": -146.215953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1947",
@@ -6290,7 +7782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 109.40587500000001,
-    "y": -145.44914062499998
+    "y": -145.44914062499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1946",
@@ -6298,7 +7792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 99.881140625,
-    "y": -153.404703125
+    "y": -153.404703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1945",
@@ -6306,7 +7802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 104.694828125,
-    "y": -156.62882812499998
+    "y": -156.62882812499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1944",
@@ -6314,7 +7812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 103.25107812499999,
-    "y": -152.68267187499998
+    "y": -152.68267187499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1943",
@@ -6322,7 +7822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 100.70442187500001,
-    "y": -156.610890625
+    "y": -156.610890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1942",
@@ -6330,7 +7832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 99.57665625,
-    "y": -151.94762500000002
+    "y": -151.94762500000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1941",
@@ -6338,7 +7842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 100.990859375,
-    "y": -151.10725
+    "y": -151.10725,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1940",
@@ -6346,7 +7852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 101.958421875,
-    "y": -149.780625
+    "y": -149.780625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1939",
@@ -6354,7 +7862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 110.03254687500001,
-    "y": -146.814125
+    "y": -146.814125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1938",
@@ -6362,7 +7872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 107.46410937499999,
-    "y": -147.645859375
+    "y": -147.645859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1937",
@@ -6370,7 +7882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 108.86421874999999,
-    "y": -149.22525000000002
+    "y": -149.22525000000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1936",
@@ -6378,7 +7892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 111.4795,
-    "y": -148.742578125
+    "y": -148.742578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1935",
@@ -6386,7 +7902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 107.143609375,
-    "y": -154.1859375
+    "y": -154.1859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1934",
@@ -6394,7 +7912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 106.402046875,
-    "y": -157.031828125
+    "y": -157.031828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1933",
@@ -6402,7 +7922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.274,
-    "y": -144.101125
+    "y": -144.101125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1932",
@@ -6410,7 +7932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 104.5318125,
-    "y": -130.4409046875
+    "y": -130.4409046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1931",
@@ -6418,7 +7942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 100.9519375,
-    "y": -133.861434375
+    "y": -133.861434375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1930",
@@ -6426,7 +7952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 99.57340625,
-    "y": -143.2124703125
+    "y": -143.2124703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1929",
@@ -6434,7 +7962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.386140625,
-    "y": -134.4736046875
+    "y": -134.4736046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1928",
@@ -6442,7 +7972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 104.36428125,
-    "y": -142.1978953125
+    "y": -142.1978953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1927",
@@ -6450,7 +7982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 105.50623437499999,
-    "y": -141.2291828125
+    "y": -141.2291828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1926",
@@ -6458,7 +7992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 112.227140625,
-    "y": -142.5631125
+    "y": -142.5631125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1925",
@@ -6466,7 +8002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 107.119421875,
-    "y": -133.7283796875
+    "y": -133.7283796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1924",
@@ -6474,7 +8012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 108.47575,
-    "y": -139.4168265625
+    "y": -139.4168265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1923",
@@ -6482,7 +8022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 110.70406249999999,
-    "y": -142.1447234375
+    "y": -142.1447234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1922",
@@ -6490,7 +8032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 112.056515625,
-    "y": -136.74705625
+    "y": -136.74705625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1921",
@@ -6498,7 +8042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 109.93796875,
-    "y": -131.8300546875
+    "y": -131.8300546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1920",
@@ -6506,7 +8052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 109.963140625,
-    "y": -143.0724296875
+    "y": -143.0724296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1919",
@@ -6514,7 +8062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 107.469640625,
-    "y": -137.73221093749999
+    "y": -137.73221093749999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1918",
@@ -6522,7 +8072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 106.03890625,
-    "y": -135.1829390625
+    "y": -135.1829390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1917",
@@ -6530,7 +8082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 103.75053125,
-    "y": -140.7420296875
+    "y": -140.7420296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1916",
@@ -6538,7 +8092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 97.284171875,
-    "y": -137.3898421875
+    "y": -137.3898421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1915",
@@ -6546,7 +8102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 98.94395312500001,
-    "y": -133.22349843749998
+    "y": -133.22349843749998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1914",
@@ -6554,7 +8112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 107.111125,
-    "y": -131.9009734375
+    "y": -131.9009734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1913",
@@ -6562,7 +8122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 1 - Invisible: 0",
     "x": 97.330609375,
-    "y": -134.40396875
+    "y": -134.40396875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1912",
@@ -6570,7 +8132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 104.374734375,
-    "y": -128.8821821875
+    "y": -128.8821821875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1911",
@@ -6578,7 +8142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 96.986484375,
-    "y": -133.6710390625
+    "y": -133.6710390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1910",
@@ -6586,7 +8152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 96.861078125,
-    "y": -130.52061874999998
+    "y": -130.52061874999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1909",
@@ -6594,7 +8162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.569390625,
-    "y": -119.7407921875
+    "y": -119.7407921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1908",
@@ -6602,7 +8172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 103.155640625,
-    "y": -124.419771875
+    "y": -124.419771875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1907",
@@ -6610,7 +8182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 102.507140625,
-    "y": -119.9500859375
+    "y": -119.9500859375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1906",
@@ -6618,7 +8192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 110.149703125,
-    "y": -116.0945828125
+    "y": -116.0945828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1905",
@@ -6626,7 +8202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.9361875,
-    "y": -120.226346875
+    "y": -120.226346875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1904",
@@ -6634,7 +8212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.417515625,
-    "y": -117.4464046875
+    "y": -117.4464046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1903",
@@ -6642,7 +8222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.05940625,
-    "y": -124.458040625
+    "y": -124.458040625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1902",
@@ -6650,7 +8232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 97.30193750000001,
-    "y": -118.8724265625
+    "y": -118.8724265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1901",
@@ -6658,7 +8242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 106.554125,
-    "y": -126.3127046875
+    "y": -126.3127046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1900",
@@ -6666,7 +8252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 98.657765625,
-    "y": -127.497129375
+    "y": -127.497129375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1899",
@@ -6674,7 +8262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 102.200625,
-    "y": -127.38955640625
+    "y": -127.38955640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1898",
@@ -6682,7 +8272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 108.337484375,
-    "y": -124.2419046875
+    "y": -124.2419046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1897",
@@ -6690,7 +8282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.145765625,
-    "y": -123.55723125
+    "y": -123.55723125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1896",
@@ -6698,7 +8292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 101.562734375,
-    "y": -125.2573671875
+    "y": -125.2573671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1895",
@@ -6706,7 +8302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 111.826796875,
-    "y": -121.027778125
+    "y": -121.027778125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1894",
@@ -6714,7 +8312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 108.773171875,
-    "y": -112.3778671875
+    "y": -112.3778671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1893",
@@ -6722,7 +8322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 107.534921875,
-    "y": -97.66312500000001
+    "y": -97.66312500000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1892",
@@ -6730,7 +8332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 110.904078125,
-    "y": -100.93915625
+    "y": -100.93915625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1891",
@@ -6738,7 +8342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 111.39071875,
-    "y": -97.779546875
+    "y": -97.779546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1890",
@@ -6746,7 +8352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 105.557984375,
-    "y": -101.92715625
+    "y": -101.92715625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1889",
@@ -6754,7 +8362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 111.1659375,
-    "y": -108.02018749999999
+    "y": -108.02018749999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1888",
@@ -6762,7 +8372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 99.00021875,
-    "y": -109.366546875
+    "y": -109.366546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1887",
@@ -6770,7 +8382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 112.0959375,
-    "y": -111.34253125000001
+    "y": -111.34253125000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1886",
@@ -6778,7 +8392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 108.824390625,
-    "y": -103.34100000000001
+    "y": -103.34100000000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1885",
@@ -6786,7 +8402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 99.791296875,
-    "y": -99.210515625
+    "y": -99.210515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1884",
@@ -6794,7 +8412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 98.554828125,
-    "y": -99.66904687499999
+    "y": -99.66904687499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1883",
@@ -6802,7 +8422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 112.0700625,
-    "y": -95.54223437499999
+    "y": -95.54223437499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1882",
@@ -6810,7 +8432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 111.6575,
-    "y": -85.69315625
+    "y": -85.69315625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1881",
@@ -6818,7 +8442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 105.960125,
-    "y": -93.237390625
+    "y": -93.237390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1880",
@@ -6826,7 +8452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 105.896125,
-    "y": -90.5219375
+    "y": -90.5219375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1879",
@@ -6834,7 +8462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 108.333859375,
-    "y": -91.1235
+    "y": -91.1235,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1878",
@@ -6842,7 +8472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 111.630859375,
-    "y": -87.053734375
+    "y": -87.053734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1877",
@@ -6850,7 +8482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 100.4375,
-    "y": -91.27025
+    "y": -91.27025,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1876",
@@ -6858,7 +8492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 101.71534375,
-    "y": -93.86190625
+    "y": -93.86190625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1875",
@@ -6866,7 +8502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 106.076296875,
-    "y": -91.87048437499999
+    "y": -91.87048437499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1874",
@@ -6874,7 +8512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 100.17184375,
-    "y": -85.109109375
+    "y": -85.109109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1873",
@@ -6882,7 +8522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 106.916,
-    "y": -85.273140625
+    "y": -85.273140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1872",
@@ -6890,7 +8532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 103.211125,
-    "y": -94.67184375
+    "y": -94.67184375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1871",
@@ -6898,7 +8542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 101.812625,
-    "y": -94.57340625
+    "y": -94.57340625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1870",
@@ -6906,7 +8552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 104.011015625,
-    "y": -73.69032812500001
+    "y": -73.69032812500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1869",
@@ -6914,7 +8562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 110.64378125,
-    "y": -80.43974999999999
+    "y": -80.43974999999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1868",
@@ -6922,7 +8572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 110.87521875,
-    "y": -74.876984375
+    "y": -74.876984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1867",
@@ -6930,7 +8582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 106.512921875,
-    "y": -71.110265625
+    "y": -71.110265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1866",
@@ -6938,7 +8592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 97.2041875,
-    "y": -68.74110937500001
+    "y": -68.74110937500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1865",
@@ -6946,7 +8602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 82.39601562499999,
-    "y": -175.82834375
+    "y": -175.82834375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1864",
@@ -6954,7 +8612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 86.809421875,
-    "y": -179.60271875
+    "y": -179.60271875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1863",
@@ -6962,7 +8622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 94.054546875,
-    "y": -178.0061875
+    "y": -178.0061875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1862",
@@ -6970,7 +8632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 89.7435625,
-    "y": -186.6240625
+    "y": -186.6240625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1861",
@@ -6978,7 +8642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 88.196453125,
-    "y": -189.74890625
+    "y": -189.74890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1860",
@@ -6986,7 +8652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 84.010765625,
-    "y": -163.123640625
+    "y": -163.123640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1859",
@@ -6994,7 +8662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 88.153453125,
-    "y": -159.84534374999998
+    "y": -159.84534374999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1858",
@@ -7002,7 +8672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 92.69465625000001,
-    "y": -162.76181250000002
+    "y": -162.76181250000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1857",
@@ -7010,7 +8682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 87.456953125,
-    "y": -167.68545312499998
+    "y": -167.68545312499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1856",
@@ -7018,7 +8692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 96.44221875,
-    "y": -173.066109375
+    "y": -173.066109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1855",
@@ -7026,7 +8702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 86.935703125,
-    "y": -170.98759375
+    "y": -170.98759375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1854",
@@ -7034,7 +8712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 92.61699999999999,
-    "y": -161.80281250000002
+    "y": -161.80281250000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1853",
@@ -7042,7 +8722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 93.5048125,
-    "y": -167.853453125
+    "y": -167.853453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1852",
@@ -7050,7 +8732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 91.98309375,
-    "y": -168.0213125
+    "y": -168.0213125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1851",
@@ -7058,7 +8742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 95.814296875,
-    "y": -165.814046875
+    "y": -165.814046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1850",
@@ -7066,7 +8752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 95.70853125,
-    "y": -165.453828125
+    "y": -165.453828125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1849",
@@ -7074,7 +8762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 85.855265625,
-    "y": -160.89159375
+    "y": -160.89159375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1848",
@@ -7082,7 +8772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 92.0828125,
-    "y": -172.5315625
+    "y": -172.5315625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1847",
@@ -7090,7 +8782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 96.458875,
-    "y": -162.166296875
+    "y": -162.166296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1846",
@@ -7098,7 +8792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 94.128375,
-    "y": -160.53190625000002
+    "y": -160.53190625000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1845",
@@ -7106,7 +8802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 91.14406249999999,
-    "y": -167.914578125
+    "y": -167.914578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1844",
@@ -7114,7 +8812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 83.41620312500001,
-    "y": -164.252390625
+    "y": -164.252390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1843",
@@ -7122,7 +8822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 86.035546875,
-    "y": -173.77587499999998
+    "y": -173.77587499999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1842",
@@ -7130,7 +8832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 95.708578125,
-    "y": -156.907765625
+    "y": -156.907765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1841",
@@ -7138,7 +8842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 91.42653125,
-    "y": -145.259046875
+    "y": -145.259046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1840",
@@ -7146,7 +8852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 90.60359375,
-    "y": -144.364703125
+    "y": -144.364703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1839",
@@ -7154,7 +8862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 95.19715625,
-    "y": -145.261375
+    "y": -145.261375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1838",
@@ -7162,7 +8872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 90.04473437499999,
-    "y": -158.020875
+    "y": -158.020875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1837",
@@ -7170,7 +8882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 88.59746874999999,
-    "y": -148.60296875
+    "y": -148.60296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1836",
@@ -7178,7 +8892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 95.48296875,
-    "y": -151.078578125
+    "y": -151.078578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1835",
@@ -7186,7 +8902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 89.651984375,
-    "y": -146.082890625
+    "y": -146.082890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1834",
@@ -7194,7 +8912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 89.488390625,
-    "y": -154.773046875
+    "y": -154.773046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1833",
@@ -7202,7 +8922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 83.977109375,
-    "y": -153.823765625
+    "y": -153.823765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1832",
@@ -7210,7 +8932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 83.46875,
-    "y": -147.203125
+    "y": -147.203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1831",
@@ -7218,7 +8942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 83.19034375,
-    "y": -145.576984375
+    "y": -145.576984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1830",
@@ -7226,7 +8952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 90.229515625,
-    "y": -158.058203125
+    "y": -158.058203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1829",
@@ -7234,7 +8962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 86.656171875,
-    "y": -151.986484375
+    "y": -151.986484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1828",
@@ -7242,7 +8972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 89.71618749999999,
-    "y": -133.8356234375
+    "y": -133.8356234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1827",
@@ -7250,7 +8982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 85.34496874999999,
-    "y": -139.896628125
+    "y": -139.896628125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1826",
@@ -7258,7 +8992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 96.10875,
-    "y": -132.6305125
+    "y": -132.6305125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1825",
@@ -7266,7 +9002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 91.865484375,
-    "y": -128.3752546875
+    "y": -128.3752546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1824",
@@ -7274,7 +9012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 92.08031249999999,
-    "y": -133.33065937499998
+    "y": -133.33065937499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1823",
@@ -7282,7 +9022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 89.19820312499999,
-    "y": -135.8865015625
+    "y": -135.8865015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1822",
@@ -7290,7 +9032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 93.61,
-    "y": -139.4194609375
+    "y": -139.4194609375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1821",
@@ -7298,7 +9042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 91.26329687500001,
-    "y": -141.2215625
+    "y": -141.2215625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1820",
@@ -7306,7 +9052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 89.302859375,
-    "y": -136.557309375
+    "y": -136.557309375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1819",
@@ -7314,7 +9062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 95.91429687499999,
-    "y": -137.943921875
+    "y": -137.943921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1818",
@@ -7322,7 +9072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 94.013609375,
-    "y": -135.2398515625
+    "y": -135.2398515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1817",
@@ -7330,7 +9082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 89.0515,
-    "y": -137.21360625
+    "y": -137.21360625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1816",
@@ -7338,7 +9092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 82.55096875000001,
-    "y": -140.44165625
+    "y": -140.44165625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1815",
@@ -7346,7 +9102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 82.396828125,
-    "y": -135.4958578125
+    "y": -135.4958578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1814",
@@ -7354,7 +9112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 86.6565625,
-    "y": -136.5613140625
+    "y": -136.5613140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1813",
@@ -7362,7 +9122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 92.21014062500001,
-    "y": -135.31622031249998
+    "y": -135.31622031249998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1812",
@@ -7370,7 +9132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 88.26817187500001,
-    "y": -137.997790625
+    "y": -137.997790625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1811",
@@ -7378,7 +9142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 92.87937500000001,
-    "y": -135.2605140625
+    "y": -135.2605140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1810",
@@ -7386,7 +9152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 96.6143125,
-    "y": -119.9663875
+    "y": -119.9663875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1809",
@@ -7394,7 +9162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 96.27934375000001,
-    "y": -119.443690625
+    "y": -119.443690625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1808",
@@ -7402,7 +9172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 85.56398437499999,
-    "y": -121.2833703125
+    "y": -121.2833703125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1807",
@@ -7410,7 +9182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 88.190125,
-    "y": -123.2140265625
+    "y": -123.2140265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1806",
@@ -7418,7 +9192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 90.967109375,
-    "y": -122.6045734375
+    "y": -122.6045734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1805",
@@ -7426,7 +9202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 89.966953125,
-    "y": -120.3275671875
+    "y": -120.3275671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1804",
@@ -7434,7 +9212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 95.8021875,
-    "y": -115.8783265625
+    "y": -115.8783265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1803",
@@ -7442,7 +9222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 85.837203125,
-    "y": -116.01956875
+    "y": -116.01956875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1802",
@@ -7450,7 +9232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 86.28812500000001,
-    "y": -114.4938875
+    "y": -114.4938875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1801",
@@ -7458,7 +9242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 91.8,
-    "y": -115.3991796875
+    "y": -115.3991796875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1800",
@@ -7466,7 +9252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 88.571921875,
-    "y": -100.860203125
+    "y": -100.860203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1799",
@@ -7474,7 +9262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 91.14695312500001,
-    "y": -98.737359375
+    "y": -98.737359375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1798",
@@ -7482,7 +9272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 84.38859375,
-    "y": -97.60003125
+    "y": -97.60003125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1797",
@@ -7490,7 +9282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 83.672578125,
-    "y": -103.08153125
+    "y": -103.08153125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1796",
@@ -7498,7 +9292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 95.43810937500001,
-    "y": -103.644921875
+    "y": -103.644921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1795",
@@ -7506,7 +9302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 93.459390625,
-    "y": -102.665625
+    "y": -102.665625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1794",
@@ -7514,7 +9312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 83.83978125,
-    "y": -103.31128125000001
+    "y": -103.31128125000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1793",
@@ -7522,7 +9322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 86.8080625,
-    "y": -108.515765625
+    "y": -108.515765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1792",
@@ -7530,7 +9332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 88.685546875,
-    "y": -105.557734375
+    "y": -105.557734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1791",
@@ -7538,7 +9342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 96.39603125,
-    "y": -107.677625
+    "y": -107.677625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1790",
@@ -7546,7 +9352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 82.5284375,
-    "y": -102.390046875
+    "y": -102.390046875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1789",
@@ -7554,7 +9362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 93.508015625,
-    "y": -100.38332812499999
+    "y": -100.38332812499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1788",
@@ -7562,7 +9372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 90.757375,
-    "y": -110.021375
+    "y": -110.021375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1787",
@@ -7570,7 +9382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 96.17271875,
-    "y": -102.64146875
+    "y": -102.64146875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1786",
@@ -7578,7 +9392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 93.346421875,
-    "y": -103.54650000000001
+    "y": -103.54650000000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1785",
@@ -7586,7 +9402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 96.553125,
-    "y": -97.9734375
+    "y": -97.9734375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1784",
@@ -7594,7 +9412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 91.465296875,
-    "y": -101.020296875
+    "y": -101.020296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1783",
@@ -7602,7 +9422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 81.5498125,
-    "y": -98.65465625
+    "y": -98.65465625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1782",
@@ -7610,7 +9432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 83.77256249999999,
-    "y": -83.80710937500001
+    "y": -83.80710937500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1781",
@@ -7618,7 +9442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 81.36099999999999,
-    "y": -85.91365625
+    "y": -85.91365625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1780",
@@ -7626,7 +9452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 96.507,
-    "y": -89.62496875
+    "y": -89.62496875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1779",
@@ -7634,7 +9462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 92.103625,
-    "y": -92.16954687500001
+    "y": -92.16954687500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1778",
@@ -7642,7 +9472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 86.7671875,
-    "y": -91.0609375
+    "y": -91.0609375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1777",
@@ -7650,7 +9482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 85.01035937500001,
-    "y": -92.706609375
+    "y": -92.706609375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1776",
@@ -7658,7 +9492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 82.94010937499999,
-    "y": -90.53101562500001
+    "y": -90.53101562500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1775",
@@ -7666,7 +9502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 89.44109375,
-    "y": -84.79340625
+    "y": -84.79340625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1774",
@@ -7674,7 +9512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 82.6861875,
-    "y": -88.800203125
+    "y": -88.800203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1773",
@@ -7682,7 +9522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 83.68293750000001,
-    "y": -90.127578125
+    "y": -90.127578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1772",
@@ -7690,7 +9532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 85.24828124999999,
-    "y": -87.64328125
+    "y": -87.64328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1771",
@@ -7698,7 +9542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 93.46781250000001,
-    "y": -82.554
+    "y": -82.554,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1770",
@@ -7706,7 +9552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 84.507,
-    "y": -82.757421875
+    "y": -82.757421875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1769",
@@ -7714,7 +9562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 90.77265625,
-    "y": -94.676875
+    "y": -94.676875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1768",
@@ -7722,7 +9572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 82.11665625,
-    "y": -90.3053125
+    "y": -90.3053125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1767",
@@ -7730,7 +9582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 86.802796875,
-    "y": -95.9945
+    "y": -95.9945,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1766",
@@ -7738,7 +9592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 81.28803125,
-    "y": -94.172078125
+    "y": -94.172078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1765",
@@ -7746,7 +9602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 81.96089062499999,
-    "y": -78.83282812499999
+    "y": -78.83282812499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1764",
@@ -7754,7 +9612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 87.341015625,
-    "y": -77.39170312499999
+    "y": -77.39170312499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1763",
@@ -7762,7 +9622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 92.840390625,
-    "y": -79.684640625
+    "y": -79.684640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1762",
@@ -7770,7 +9632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 83.582875,
-    "y": -73.41425000000001
+    "y": -73.41425000000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1761",
@@ -7778,7 +9642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 92.2170625,
-    "y": -74.756296875
+    "y": -74.756296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1760",
@@ -7786,7 +9652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 89.130375,
-    "y": -80.78748437499999
+    "y": -80.78748437499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1759",
@@ -7794,7 +9662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 68.63048437500001,
-    "y": -181.576359375
+    "y": -181.576359375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1758",
@@ -7802,7 +9672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 76.64946875,
-    "y": -187.174234375
+    "y": -187.174234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1757",
@@ -7810,7 +9682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 69.74153125000001,
-    "y": -184.407546875
+    "y": -184.407546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1756",
@@ -7818,7 +9692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 80.630859375,
-    "y": -186.665484375
+    "y": -186.665484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1755",
@@ -7826,7 +9702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 67.27903125,
-    "y": -174.3409375
+    "y": -174.3409375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1754",
@@ -7834,7 +9712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 75.60875,
-    "y": -163.5673125
+    "y": -163.5673125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1753",
@@ -7842,7 +9722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 80.0095625,
-    "y": -159.948953125
+    "y": -159.948953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1752",
@@ -7850,7 +9732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 69.3774375,
-    "y": -167.556625
+    "y": -167.556625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1751",
@@ -7858,7 +9742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 79.44878125,
-    "y": -173.019390625
+    "y": -173.019390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1750",
@@ -7866,7 +9752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 74.322046875,
-    "y": -174.565015625
+    "y": -174.565015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1749",
@@ -7874,7 +9762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 77.616890625,
-    "y": -143.97579687500001
+    "y": -143.97579687500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1748",
@@ -7882,7 +9772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 69.939703125,
-    "y": -152.344890625
+    "y": -152.344890625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1747",
@@ -7890,7 +9782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 67.91820312499999,
-    "y": -157.6414375
+    "y": -157.6414375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1746",
@@ -7898,7 +9792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 79.10915625,
-    "y": -150.92429687499998
+    "y": -150.92429687499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1745",
@@ -7906,7 +9802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 80.1,
-    "y": -148.113546875
+    "y": -148.113546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1744",
@@ -7914,7 +9812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 67.887578125,
-    "y": -150.922171875
+    "y": -150.922171875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1743",
@@ -7922,7 +9822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 73.91932812499999,
-    "y": -130.5984203125
+    "y": -130.5984203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1742",
@@ -7930,7 +9832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 70.59709375,
-    "y": -138.9110109375
+    "y": -138.9110109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1741",
@@ -7938,7 +9842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 80.03628125,
-    "y": -142.23045000000002
+    "y": -142.23045000000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1740",
@@ -7946,7 +9852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 80.90370312499999,
-    "y": -133.8193265625
+    "y": -133.8193265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1739",
@@ -7954,7 +9862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 70.36175,
-    "y": -140.480078125
+    "y": -140.480078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1738",
@@ -7962,7 +9872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 77.799078125,
-    "y": -119.0310875
+    "y": -119.0310875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1737",
@@ -7970,7 +9882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 66.026375,
-    "y": -118.24122187500001
+    "y": -118.24122187500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1736",
@@ -7978,7 +9892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 77.87829687499999,
-    "y": -120.2673
+    "y": -120.2673,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1735",
@@ -7986,7 +9902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 72.92889062500001,
-    "y": -120.9735296875
+    "y": -120.9735296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1734",
@@ -7994,7 +9912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 67.6604375,
-    "y": -125.7007015625
+    "y": -125.7007015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1733",
@@ -8002,7 +9922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 67.973234375,
-    "y": -115.437740625
+    "y": -115.437740625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1732",
@@ -8010,7 +9932,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 68.174390625,
-    "y": -126.149621875
+    "y": -126.149621875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1731",
@@ -8018,7 +9942,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 65.943234375,
-    "y": -113.616928125
+    "y": -113.616928125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1730",
@@ -8026,7 +9952,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 70.791171875,
-    "y": -115.04994375
+    "y": -115.04994375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1729",
@@ -8034,7 +9962,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 70.5775625,
-    "y": -121.8543390625
+    "y": -121.8543390625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1728",
@@ -8042,7 +9972,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 76.00859375,
-    "y": -122.7355484375
+    "y": -122.7355484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1727",
@@ -8050,7 +9982,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 74.38746875,
-    "y": -116.939984375
+    "y": -116.939984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1726",
@@ -8058,7 +9992,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 74.233234375,
-    "y": -117.6113203125
+    "y": -117.6113203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1725",
@@ -8066,7 +10002,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 79.417828125,
-    "y": -113.792728125
+    "y": -113.792728125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1724",
@@ -8074,7 +10012,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 77.88201562500001,
-    "y": -122.7814625
+    "y": -122.7814625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1723",
@@ -8082,7 +10022,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 73.68434375,
-    "y": -126.92096515625
+    "y": -126.92096515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1722",
@@ -8090,7 +10032,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 68.56351562500001,
-    "y": -115.930259375
+    "y": -115.930259375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1721",
@@ -8098,7 +10042,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 74.181796875,
-    "y": -107.23921874999999
+    "y": -107.23921874999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1720",
@@ -8106,7 +10052,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 70.23959375,
-    "y": -101.68578125
+    "y": -101.68578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1719",
@@ -8114,7 +10062,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 79.16884375000001,
-    "y": -106.64834375000001
+    "y": -106.64834375000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1718",
@@ -8122,7 +10072,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 68.92907812499999,
-    "y": -98.849625
+    "y": -98.849625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1717",
@@ -8130,7 +10082,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 71.322125,
-    "y": -99.799609375
+    "y": -99.799609375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1716",
@@ -8138,7 +10092,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 69.95721875000001,
-    "y": -111.734921875
+    "y": -111.734921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1715",
@@ -8146,7 +10102,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 79.900875,
-    "y": -110.4944375
+    "y": -110.4944375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1714",
@@ -8154,7 +10112,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 72.33990625,
-    "y": -100.47896875
+    "y": -100.47896875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1713",
@@ -8162,7 +10122,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 76.884515625,
-    "y": -98.80846875
+    "y": -98.80846875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1712",
@@ -8170,7 +10132,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 76.51321875,
-    "y": -106.704234375
+    "y": -106.704234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1711",
@@ -8178,7 +10142,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 78.756640625,
-    "y": -103.5736875
+    "y": -103.5736875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1710",
@@ -8186,7 +10152,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 79.31296875000001,
-    "y": -84.15259375
+    "y": -84.15259375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1709",
@@ -8194,7 +10162,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 75.64796874999999,
-    "y": -81.204765625
+    "y": -81.204765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1708",
@@ -8202,7 +10172,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 75.93828125,
-    "y": -92.10676562500001
+    "y": -92.10676562500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1707",
@@ -8210,7 +10182,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 70.53282812500001,
-    "y": -89.456953125
+    "y": -89.456953125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1706",
@@ -8218,7 +10192,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 76.79025,
-    "y": -87.080234375
+    "y": -87.080234375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1705",
@@ -8226,7 +10202,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 68.135296875,
-    "y": -95.082671875
+    "y": -95.082671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1704",
@@ -8234,7 +10212,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 80.48251562499999,
-    "y": -88.62217187499999
+    "y": -88.62217187499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1703",
@@ -8242,7 +10222,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 80.168421875,
-    "y": -84.03615625
+    "y": -84.03615625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1702",
@@ -8250,7 +10232,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 68.74042187500001,
-    "y": -91.747015625
+    "y": -91.747015625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1701",
@@ -8258,7 +10242,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 69.64403125,
-    "y": -81.68128125
+    "y": -81.68128125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1700",
@@ -8266,7 +10252,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 74.58578125,
-    "y": -95.70601562499999
+    "y": -95.70601562499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1699",
@@ -8274,7 +10262,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 71.58360937500001,
-    "y": -73.43765625
+    "y": -73.43765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1698",
@@ -8282,7 +10272,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 73.373046875,
-    "y": -72.05196875
+    "y": -72.05196875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1697",
@@ -8290,7 +10282,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 72.147265625,
-    "y": -76.86903125
+    "y": -76.86903125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1696",
@@ -8298,7 +10292,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 69.294890625,
-    "y": -67.87370312499999
+    "y": -67.87370312499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1695",
@@ -8306,7 +10302,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 67.95070312499999,
-    "y": -75.68465625
+    "y": -75.68465625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1694",
@@ -8314,7 +10312,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 74.64384375,
-    "y": -73.162328125
+    "y": -73.162328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1693",
@@ -8322,7 +10322,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 68.7228125,
-    "y": -80.60989062499999
+    "y": -80.60989062499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1692",
@@ -8330,7 +10332,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 65.4296875,
-    "y": -71.46875
+    "y": -71.46875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1691",
@@ -8338,7 +10342,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 66.119125,
-    "y": -69.82409375
+    "y": -69.82409375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1690",
@@ -8346,7 +10352,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 52.0281875,
-    "y": -178.952578125
+    "y": -178.952578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1689",
@@ -8354,7 +10362,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 60.064109375,
-    "y": -186.01850000000002
+    "y": -186.01850000000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1688",
@@ -8362,7 +10372,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 62.441421875,
-    "y": -176.30553125
+    "y": -176.30553125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1687",
@@ -8370,7 +10382,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 62.994890625,
-    "y": -187.78440625000002
+    "y": -187.78440625000002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1686",
@@ -8378,7 +10392,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 52.07534375,
-    "y": -187.8898125
+    "y": -187.8898125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1685",
@@ -8386,7 +10402,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 60.6935625,
-    "y": -182.05851562499998
+    "y": -182.05851562499998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1684",
@@ -8394,7 +10412,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 56.00146875,
-    "y": -164.54445312500002
+    "y": -164.54445312500002,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1683",
@@ -8402,7 +10422,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 61.986421875000005,
-    "y": -170.78240625
+    "y": -170.78240625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1682",
@@ -8410,7 +10432,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 51.798312499999994,
-    "y": -166.58865624999999
+    "y": -166.58865624999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1681",
@@ -8418,7 +10442,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 59.65784375,
-    "y": -168.422765625
+    "y": -168.422765625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1680",
@@ -8426,7 +10452,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 54.398671875000005,
-    "y": -161.934921875
+    "y": -161.934921875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1679",
@@ -8434,7 +10462,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 65.48315625000001,
-    "y": -152.477375
+    "y": -152.477375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1678",
@@ -8442,7 +10472,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 63.368812500000004,
-    "y": -154.843125
+    "y": -154.843125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1677",
@@ -8450,7 +10482,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 62.6755,
-    "y": -151.16240625
+    "y": -151.16240625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1676",
@@ -8458,7 +10492,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 64.319,
-    "y": -152.9239375
+    "y": -152.9239375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1675",
@@ -8466,7 +10502,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 61.334796874999995,
-    "y": -154.43025
+    "y": -154.43025,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1674",
@@ -8474,7 +10512,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 62.062171875000004,
-    "y": -153.934328125
+    "y": -153.934328125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1673",
@@ -8482,7 +10522,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 60.592093750000004,
-    "y": -153.459515625
+    "y": -153.459515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1672",
@@ -8490,7 +10532,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 62.218359375000006,
-    "y": -145.711078125
+    "y": -145.711078125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1671",
@@ -8498,7 +10542,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 54.79353125,
-    "y": -158.78731249999998
+    "y": -158.78731249999998,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1670",
@@ -8506,7 +10552,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 57.252562499999996,
-    "y": -150.239453125
+    "y": -150.239453125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1669",
@@ -8514,7 +10562,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 62.83309375,
-    "y": -159.084140625
+    "y": -159.084140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1668",
@@ -8522,7 +10572,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 59.9783125,
-    "y": -156.72696875
+    "y": -156.72696875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1667",
@@ -8530,7 +10582,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 63.73601562499999,
-    "y": -149.523984375
+    "y": -149.523984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1666",
@@ -8538,7 +10592,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 56.871281249999996,
-    "y": -149.143109375
+    "y": -149.143109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1665",
@@ -8546,7 +10602,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 59.94785937499999,
-    "y": -139.09178125
+    "y": -139.09178125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1664",
@@ -8554,7 +10612,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 60.172593750000004,
-    "y": -140.2208265625
+    "y": -140.2208265625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1663",
@@ -8562,7 +10622,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 60.415484375000005,
-    "y": -138.9108203125
+    "y": -138.9108203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1662",
@@ -8570,7 +10632,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 62.630078125,
-    "y": -132.5479203125
+    "y": -132.5479203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1661",
@@ -8578,7 +10642,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 59.107765625,
-    "y": -133.1772140625
+    "y": -133.1772140625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1660",
@@ -8586,7 +10652,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 64.45645312500001,
-    "y": -134.8413671875
+    "y": -134.8413671875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1659",
@@ -8594,7 +10662,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 54.711124999999996,
-    "y": -141.1619296875
+    "y": -141.1619296875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1658",
@@ -8602,7 +10672,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 64.58078125,
-    "y": -115.908575
+    "y": -115.908575,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1657",
@@ -8610,7 +10682,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 61.556171875000004,
-    "y": -126.687305
+    "y": -126.687305,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1656",
@@ -8618,7 +10692,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 64.880609375,
-    "y": -122.52751875
+    "y": -122.52751875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1655",
@@ -8626,7 +10702,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 65.08268749999999,
-    "y": -124.36865
+    "y": -124.36865,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1654",
@@ -8634,7 +10712,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 64.47707812499999,
-    "y": -101.77612500000001
+    "y": -101.77612500000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1653",
@@ -8642,7 +10722,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 65.32545312500001,
-    "y": -109.76428125000001
+    "y": -109.76428125000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1652",
@@ -8650,7 +10732,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 64.953390625,
-    "y": -100.68121875
+    "y": -100.68121875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1651",
@@ -8658,7 +10742,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 61.97321875,
-    "y": -100.697109375
+    "y": -100.697109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1650",
@@ -8666,7 +10752,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 57.954281249999994,
-    "y": -97.2050625
+    "y": -97.2050625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1649",
@@ -8674,7 +10762,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 63.568515625,
-    "y": -97.76035937500001
+    "y": -97.76035937500001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1648",
@@ -8682,7 +10772,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 59.299406250000004,
-    "y": -95.970546875
+    "y": -95.970546875,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1647",
@@ -8690,7 +10782,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 57.574453125000005,
-    "y": -94.4670625
+    "y": -94.4670625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1646",
@@ -8698,7 +10792,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 63.17565625,
-    "y": -87.117578125
+    "y": -87.117578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1645",
@@ -8706,7 +10802,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 60.335578125,
-    "y": -95.924109375
+    "y": -95.924109375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1644",
@@ -8714,7 +10812,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 64.37782812500001,
-    "y": -88.21954687499999
+    "y": -88.21954687499999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1643",
@@ -8722,7 +10822,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 62.487390625,
-    "y": -86.141515625
+    "y": -86.141515625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1642",
@@ -8730,7 +10832,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 1",
     "x": 59.210078124999995,
-    "y": -83.2079375
+    "y": -83.2079375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：是"
   },
   {
     "id": "1641",
@@ -8738,7 +10842,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 65.1893125,
-    "y": -91.275640625
+    "y": -91.275640625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1640",
@@ -8746,7 +10852,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 60.183921874999996,
-    "y": -91.21712500000001
+    "y": -91.21712500000001,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1639",
@@ -8754,7 +10862,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 60.33028125,
-    "y": -87.372484375
+    "y": -87.372484375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1638",
@@ -8762,7 +10872,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 65.041578125,
-    "y": -69.247203125
+    "y": -69.247203125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1637",
@@ -8770,7 +10882,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Air - KorokLift: 0 - Invisible: 0",
     "x": 62.888093749999996,
-    "y": -71.500984375
+    "y": -71.500984375,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：空中；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1636",
@@ -8778,7 +10892,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 59.234375,
-    "y": -69.03125
+    "y": -69.03125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1635",
@@ -8786,7 +10902,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 63.063484375,
-    "y": -74.81049999999999
+    "y": -74.81049999999999,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1634",
@@ -8794,7 +10912,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 0 - Invisible: 0",
     "x": 61.892296875,
-    "y": -79.018578125
+    "y": -79.018578125,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：否；隐藏：否"
   },
   {
     "id": "1633",
@@ -8802,7 +10922,9 @@ export const botwMapMarkers = [
     "name": "Korok Seed",
     "description": "PlacementType: Ground - KorokLift: 1 - Invisible: 0",
     "x": 58.872578125000004,
-    "y": -77.75090625
+    "y": -77.75090625,
+    "nameZh": "呀哈哈种子",
+    "descriptionZh": "放置类型：地面；呀哈哈升降：是；隐藏：否"
   },
   {
     "id": "1516",
@@ -8810,7 +10932,9 @@ export const botwMapMarkers = [
     "name": "Guardian",
     "description": "",
     "x": 129.6796875,
-    "y": -132.25
+    "y": -132.25,
+    "nameZh": "守护者",
+    "descriptionZh": ""
   },
   {
     "id": "1515",
@@ -8818,7 +10942,9 @@ export const botwMapMarkers = [
     "name": "Despair (#16)",
     "description": "",
     "x": 138.984375,
-    "y": -134.8515625
+    "y": -134.8515625,
+    "nameZh": "绝望（#16）",
+    "descriptionZh": ""
   },
   {
     "id": "1513",
@@ -8826,7 +10952,9 @@ export const botwMapMarkers = [
     "name": "Lynel",
     "description": "",
     "x": 179.7265625,
-    "y": -147.21484375
+    "y": -147.21484375,
+    "nameZh": "莱尼尔",
+    "descriptionZh": ""
   },
   {
     "id": "1510",
@@ -8834,7 +10962,9 @@ export const botwMapMarkers = [
     "name": "Cracked rocks",
     "description": "",
     "x": 67.6796875,
-    "y": -69.78125
+    "y": -69.78125,
+    "nameZh": "裂开的岩石",
+    "descriptionZh": ""
   },
   {
     "id": "1508",
@@ -8842,7 +10972,9 @@ export const botwMapMarkers = [
     "name": "Ice blocks",
     "description": "",
     "x": 63.1875,
-    "y": -68.60546875
+    "y": -68.60546875,
+    "nameZh": "冰块",
+    "descriptionZh": ""
   },
   {
     "id": "1507",
@@ -8850,7 +10982,9 @@ export const botwMapMarkers = [
     "name": "Stalnox",
     "description": "",
     "x": 61.28125,
-    "y": -68.94140625
+    "y": -68.94140625,
+    "nameZh": "骷髅西诺克斯",
+    "descriptionZh": ""
   },
   {
     "id": "1505",
@@ -8858,7 +10992,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 59.08203125,
-    "y": -70.52734375
+    "y": -70.52734375,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "1503",
@@ -8866,7 +11002,9 @@ export const botwMapMarkers = [
     "name": "Buried Chest",
     "description": "",
     "x": 66.82421875,
-    "y": -68.1875
+    "y": -68.1875,
+    "nameZh": "埋藏宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1500",
@@ -8874,7 +11012,9 @@ export const botwMapMarkers = [
     "name": "Cracked Rocks",
     "description": "",
     "x": 75.08203125,
-    "y": -70.4375
+    "y": -70.4375,
+    "nameZh": "裂开的岩石",
+    "descriptionZh": ""
   },
   {
     "id": "1495",
@@ -8882,7 +11022,9 @@ export const botwMapMarkers = [
     "name": "Recital at Warbler`s Nest",
     "description": "",
     "x": 65.73046875,
-    "y": -100.81640625
+    "y": -100.81640625,
+    "nameZh": "利特姐妹岩的歌声",
+    "descriptionZh": ""
   },
   {
     "id": "1492",
@@ -8890,7 +11032,9 @@ export const botwMapMarkers = [
     "name": "The Bird in the Mountains",
     "description": "",
     "x": 71.16796875,
-    "y": -99.46875
+    "y": -99.46875,
+    "nameZh": "山上的鸟",
+    "descriptionZh": ""
   },
   {
     "id": "1491",
@@ -8898,7 +11042,9 @@ export const botwMapMarkers = [
     "name": "The Spark of Romance",
     "description": "",
     "x": 71.64453125,
-    "y": -99.26171875
+    "y": -99.26171875,
+    "nameZh": "浪漫火花",
+    "descriptionZh": ""
   },
   {
     "id": "1490",
@@ -8906,7 +11052,9 @@ export const botwMapMarkers = [
     "name": "The Apple of My Eye",
     "description": "",
     "x": 71.51171875,
-    "y": -99.4296875
+    "y": -99.4296875,
+    "nameZh": "我眼中的苹果",
+    "descriptionZh": ""
   },
   {
     "id": "1487",
@@ -8914,7 +11062,9 @@ export const botwMapMarkers = [
     "name": "Find Kheel",
     "description": "",
     "x": 70.6953125,
-    "y": -100.3359375
+    "y": -100.3359375,
+    "nameZh": "寻找琪尔",
+    "descriptionZh": ""
   },
   {
     "id": "1475",
@@ -8922,7 +11072,9 @@ export const botwMapMarkers = [
     "name": "Guardian",
     "description": "",
     "x": 149.75,
-    "y": -144.1875
+    "y": -144.1875,
+    "nameZh": "守护者",
+    "descriptionZh": ""
   },
   {
     "id": "1398",
@@ -8930,7 +11082,9 @@ export const botwMapMarkers = [
     "name": "Blupee",
     "description": "",
     "x": 124.58203125,
-    "y": -149.34765625
+    "y": -149.34765625,
+    "nameZh": "卢咪",
+    "descriptionZh": ""
   },
   {
     "id": "1397",
@@ -8938,7 +11092,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Enemy Camp",
     "description": "",
     "x": 123.49609375,
-    "y": -147.6796875
+    "y": -147.6796875,
+    "nameZh": "波克布林敌营",
+    "descriptionZh": ""
   },
   {
     "id": "1396",
@@ -8946,7 +11102,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 123.57421875,
-    "y": -147.45703125
+    "y": -147.45703125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1392",
@@ -8954,7 +11112,9 @@ export const botwMapMarkers = [
     "name": "Stone Talus",
     "description": "",
     "x": 120.00390625,
-    "y": -146.453125
+    "y": -146.453125,
+    "nameZh": "岩石巨人",
+    "descriptionZh": ""
   },
   {
     "id": "1387",
@@ -8962,7 +11122,9 @@ export const botwMapMarkers = [
     "name": "Lynel",
     "description": "",
     "x": 110.078125,
-    "y": -147.671875
+    "y": -147.671875,
+    "nameZh": "莱尼尔",
+    "descriptionZh": ""
   },
   {
     "id": "1295",
@@ -8970,7 +11132,9 @@ export const botwMapMarkers = [
     "name": "Curry for What Ails You",
     "description": "",
     "x": 77,
-    "y": -100.265625
+    "y": -100.265625,
+    "nameZh": "治病咖喱",
+    "descriptionZh": ""
   },
   {
     "id": "1268",
@@ -8978,7 +11142,9 @@ export const botwMapMarkers = [
     "name": "Stone Talus",
     "description": "",
     "x": 149.73828125,
-    "y": -186.23828125
+    "y": -186.23828125,
+    "nameZh": "岩石巨人",
+    "descriptionZh": ""
   },
   {
     "id": "1250",
@@ -8986,7 +11152,9 @@ export const botwMapMarkers = [
     "name": "Temple of Time",
     "description": "",
     "x": 115.1953125,
-    "y": -159.26171875
+    "y": -159.26171875,
+    "nameZh": "时之神殿",
+    "descriptionZh": ""
   },
   {
     "id": "1214",
@@ -8994,7 +11162,9 @@ export const botwMapMarkers = [
     "name": "Emblazoned Shield",
     "description": "",
     "x": 119.0546875,
-    "y": -150.5546875
+    "y": -150.5546875,
+    "nameZh": "纹章盾",
+    "descriptionZh": ""
   },
   {
     "id": "1205",
@@ -9002,7 +11172,9 @@ export const botwMapMarkers = [
     "name": "Cracked rocks",
     "description": "",
     "x": 60.97265625,
-    "y": -94.96484375
+    "y": -94.96484375,
+    "nameZh": "裂开的岩石",
+    "descriptionZh": ""
   },
   {
     "id": "1203",
@@ -9010,7 +11182,9 @@ export const botwMapMarkers = [
     "name": "Lizafos' Enemy Camp",
     "description": "",
     "x": 59.375,
-    "y": -97.7109375
+    "y": -97.7109375,
+    "nameZh": "蜥蜴战士敌营",
+    "descriptionZh": ""
   },
   {
     "id": "1197",
@@ -9018,7 +11192,9 @@ export const botwMapMarkers = [
     "name": "Stone Talus",
     "description": "",
     "x": 66.48046875,
-    "y": -111.05859375
+    "y": -111.05859375,
+    "nameZh": "岩石巨人",
+    "descriptionZh": ""
   },
   {
     "id": "1191",
@@ -9026,7 +11202,9 @@ export const botwMapMarkers = [
     "name": "Balloon Flight",
     "description": "",
     "x": 144.95703125,
-    "y": -110.4921875
+    "y": -110.4921875,
+    "nameZh": "气球飞行",
+    "descriptionZh": ""
   },
   {
     "id": "1180",
@@ -9034,7 +11212,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 105.90625,
-    "y": -147.5703125
+    "y": -147.5703125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1178",
@@ -9042,7 +11222,9 @@ export const botwMapMarkers = [
     "name": "Treasure Chest",
     "description": "1 of 2 chests in pond",
     "x": 117.49609375,
-    "y": -152.01171875
+    "y": -152.01171875,
+    "nameZh": "宝箱",
+    "descriptionZh": "池塘中 2 个宝箱之一。"
   },
   {
     "id": "1160",
@@ -9050,7 +11232,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "",
     "x": 192.34375,
-    "y": -165.28125
+    "y": -165.28125,
+    "nameZh": "波克布林营地",
+    "descriptionZh": ""
   },
   {
     "id": "1115",
@@ -9058,7 +11242,9 @@ export const botwMapMarkers = [
     "name": "Find the Fairy Fountain",
     "description": "",
     "x": 156.53515625,
-    "y": -143.4609375
+    "y": -143.4609375,
+    "nameZh": "寻找妖精之泉",
+    "descriptionZh": ""
   },
   {
     "id": "1111",
@@ -9066,7 +11252,9 @@ export const botwMapMarkers = [
     "name": "Memory #14 - To Mount Lanayru",
     "description": "",
     "x": 102.81640625,
-    "y": -138.75
+    "y": -138.75,
+    "nameZh": "回忆 #14 - 前往拉聂尔山",
+    "descriptionZh": ""
   },
   {
     "id": "1109",
@@ -9074,7 +11262,9 @@ export const botwMapMarkers = [
     "name": "Cracled Rocks",
     "description": "",
     "x": 94.51953125,
-    "y": -135.9921875
+    "y": -135.9921875,
+    "nameZh": "裂开的岩石",
+    "descriptionZh": ""
   },
   {
     "id": "1107",
@@ -9082,7 +11272,9 @@ export const botwMapMarkers = [
     "name": "Cracked rocks",
     "description": "",
     "x": 93.73046875,
-    "y": -135.9921875
+    "y": -135.9921875,
+    "nameZh": "裂开的岩石",
+    "descriptionZh": ""
   },
   {
     "id": "1105",
@@ -9090,7 +11282,9 @@ export const botwMapMarkers = [
     "name": "Stalhorse: Pictured!",
     "description": "",
     "x": 102.16015625,
-    "y": -87.76171875
+    "y": -87.76171875,
+    "nameZh": "骷髅马照片！",
+    "descriptionZh": ""
   },
   {
     "id": "1101",
@@ -9098,7 +11292,9 @@ export const botwMapMarkers = [
     "name": "Trial on the Cliff",
     "description": "",
     "x": 113.3359375,
-    "y": -72.78125
+    "y": -72.78125,
+    "nameZh": "断崖试炼",
+    "descriptionZh": ""
   },
   {
     "id": "1100",
@@ -9106,7 +11302,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 115.84765625,
-    "y": -72.76953125
+    "y": -72.76953125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1099",
@@ -9114,7 +11312,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 115.109375,
-    "y": -74.55078125
+    "y": -74.55078125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1097",
@@ -9122,7 +11322,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 115.609375,
-    "y": -72.3828125
+    "y": -72.3828125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1096",
@@ -9130,7 +11332,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 115.10546875,
-    "y": -70.953125
+    "y": -70.953125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1095",
@@ -9138,7 +11342,9 @@ export const botwMapMarkers = [
     "name": "Meteor Rod",
     "description": "",
     "x": 116.17578125,
-    "y": -72.72265625
+    "y": -72.72265625,
+    "nameZh": "陨石杖",
+    "descriptionZh": ""
   },
   {
     "id": "1094",
@@ -9146,7 +11352,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 116.9140625,
-    "y": -72.76953125
+    "y": -72.76953125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1089",
@@ -9154,7 +11362,9 @@ export const botwMapMarkers = [
     "name": "Season Pass Chest",
     "description": "",
     "x": 117.40625,
-    "y": -151.83984375
+    "y": -151.83984375,
+    "nameZh": "扩展票宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "1084",
@@ -9162,7 +11372,9 @@ export const botwMapMarkers = [
     "name": "Zelda's Resentment (#5)",
     "description": "",
     "x": 73.29296875,
-    "y": -121.421875
+    "y": -121.421875,
+    "nameZh": "塞尔达的怨念（#5）",
+    "descriptionZh": ""
   },
   {
     "id": "1063",
@@ -9170,7 +11382,9 @@ export const botwMapMarkers = [
     "name": "Blue Hinox",
     "description": "",
     "x": 101.2265625,
-    "y": -155.69921875
+    "y": -155.69921875,
+    "nameZh": "蓝色西诺克斯",
+    "descriptionZh": ""
   },
   {
     "id": "1055",
@@ -9178,7 +11392,9 @@ export const botwMapMarkers = [
     "name": "Stone Talus (Junior)",
     "description": "",
     "x": 147.7265625,
-    "y": -162.03125
+    "y": -162.03125,
+    "nameZh": "岩石巨人（小型）",
+    "descriptionZh": ""
   },
   {
     "id": "1045",
@@ -9186,7 +11402,9 @@ export const botwMapMarkers = [
     "name": "Blupee",
     "description": "",
     "x": 137.15625,
-    "y": -149.296875
+    "y": -149.296875,
+    "nameZh": "卢咪",
+    "descriptionZh": ""
   },
   {
     "id": "954",
@@ -9194,7 +11412,9 @@ export const botwMapMarkers = [
     "name": "Treasure Chests",
     "description": "",
     "x": 109.2578125,
-    "y": -154.109375
+    "y": -154.109375,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "941",
@@ -9202,7 +11422,9 @@ export const botwMapMarkers = [
     "name": "elemental weapons",
     "description": "",
     "x": 109.98046875,
-    "y": -147.80078125
+    "y": -147.80078125,
+    "nameZh": "属性武器",
+    "descriptionZh": ""
   },
   {
     "id": "927",
@@ -9210,7 +11432,9 @@ export const botwMapMarkers = [
     "name": "Reddit Shield Surf Challenge Start Point",
     "description": "",
     "x": 200.64453125,
-    "y": -111.296875
+    "y": -111.296875,
+    "nameZh": "盾牌滑行挑战起点",
+    "descriptionZh": ""
   },
   {
     "id": "886",
@@ -9218,7 +11442,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "Treasure Chests Inside",
     "x": 141.3671875,
-    "y": -158.296875
+    "y": -158.296875,
+    "nameZh": "可炸墙",
+    "descriptionZh": "内部有宝箱。"
   },
   {
     "id": "876",
@@ -9226,7 +11452,9 @@ export const botwMapMarkers = [
     "name": "Royal Receipes",
     "description": "Gottah's quest",
     "x": 133.4765625,
-    "y": -145.09375
+    "y": -145.09375,
+    "nameZh": "王族食谱",
+    "descriptionZh": "戈塔的任务。"
   },
   {
     "id": "875",
@@ -9234,7 +11462,9 @@ export const botwMapMarkers = [
     "name": "Castle weapons - Parisse",
     "description": "Parisse side quest",
     "x": 133.140625,
-    "y": -145.296875
+    "y": -145.296875,
+    "nameZh": "城堡武器 - 帕莉塞",
+    "descriptionZh": "帕莉塞支线任务。"
   },
   {
     "id": "854",
@@ -9242,7 +11472,9 @@ export const botwMapMarkers = [
     "name": "A Gift for the Great Fairy",
     "description": "",
     "x": 82.22265625,
-    "y": -119.296875
+    "y": -119.296875,
+    "nameZh": "献给大妖精的礼物",
+    "descriptionZh": ""
   },
   {
     "id": "851",
@@ -9250,7 +11482,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 72.33984375,
-    "y": -118.78515625
+    "y": -118.78515625,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "850",
@@ -9258,7 +11492,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 72.5234375,
-    "y": -118.6953125
+    "y": -118.6953125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "817",
@@ -9266,7 +11502,9 @@ export const botwMapMarkers = [
     "name": "Luminous Stone Talus",
     "description": "",
     "x": 199.11328125,
-    "y": -166.4921875
+    "y": -166.4921875,
+    "nameZh": "夜光岩巨人",
+    "descriptionZh": ""
   },
   {
     "id": "798",
@@ -9274,7 +11512,9 @@ export const botwMapMarkers = [
     "name": "Link's House",
     "description": "This is not the actual side quest name. We need to confirm in-game. -Josh",
     "x": 179.703125,
-    "y": -163.765625
+    "y": -163.765625,
+    "nameZh": "林克的家",
+    "descriptionZh": "这不是实际支线任务名，需要在游戏内确认。-Josh"
   },
   {
     "id": "786",
@@ -9282,7 +11522,9 @@ export const botwMapMarkers = [
     "name": "Malanya Spring",
     "description": "",
     "x": 140.3671875,
-    "y": -186.15625
+    "y": -186.15625,
+    "nameZh": "马神泉",
+    "descriptionZh": ""
   },
   {
     "id": "785",
@@ -9290,7 +11532,9 @@ export const botwMapMarkers = [
     "name": "Great Fairy Fountain",
     "description": "",
     "x": 72.6875,
-    "y": -116.28125
+    "y": -116.28125,
+    "nameZh": "大妖精之泉",
+    "descriptionZh": ""
   },
   {
     "id": "772",
@@ -9298,7 +11542,9 @@ export const botwMapMarkers = [
     "name": "Spring of Courage",
     "description": "",
     "x": 142.03125,
-    "y": -165.875
+    "y": -165.875,
+    "nameZh": "勇气之泉",
+    "descriptionZh": ""
   },
   {
     "id": "746",
@@ -9306,7 +11552,9 @@ export const botwMapMarkers = [
     "name": "Northern Icehouse",
     "description": "",
     "x": 69.5,
-    "y": -163.8125
+    "y": -163.8125,
+    "nameZh": "北部冰屋",
+    "descriptionZh": ""
   },
   {
     "id": "741",
@@ -9314,7 +11562,9 @@ export const botwMapMarkers = [
     "name": "Great Fairy Fountain",
     "description": "",
     "x": 51.765625,
-    "y": -187.859375
+    "y": -187.859375,
+    "nameZh": "大妖精之泉",
+    "descriptionZh": ""
   },
   {
     "id": "740",
@@ -9322,7 +11572,9 @@ export const botwMapMarkers = [
     "name": "Gerudo Great Skeleton",
     "description": "",
     "x": 52.671875,
-    "y": -186.046875
+    "y": -186.046875,
+    "nameZh": "格鲁德大化石",
+    "descriptionZh": ""
   },
   {
     "id": "718",
@@ -9330,7 +11582,9 @@ export const botwMapMarkers = [
     "name": "Spring of Power",
     "description": "",
     "x": 186.40625,
-    "y": -86.6875
+    "y": -86.6875,
+    "nameZh": "力量之泉",
+    "descriptionZh": ""
   },
   {
     "id": "713",
@@ -9338,7 +11592,9 @@ export const botwMapMarkers = [
     "name": "Forgotten Temple",
     "description": "",
     "x": 106.21875,
-    "y": -92.03125
+    "y": -92.03125,
+    "nameZh": "忘却神殿",
+    "descriptionZh": ""
   },
   {
     "id": "683",
@@ -9346,7 +11602,9 @@ export const botwMapMarkers = [
     "name": "Flight Range",
     "description": "",
     "x": 67.7421875,
-    "y": -92.3125
+    "y": -92.3125,
+    "nameZh": "飞行训练场",
+    "descriptionZh": ""
   },
   {
     "id": "675",
@@ -9354,7 +11612,9 @@ export const botwMapMarkers = [
     "name": "Hebra Great Skeleton",
     "description": "",
     "x": 65.02734375,
-    "y": -70.08203125
+    "y": -70.08203125,
+    "nameZh": "海布拉大化石",
+    "descriptionZh": ""
   },
   {
     "id": "476",
@@ -9362,7 +11622,9 @@ export const botwMapMarkers = [
     "name": "Silent Princess (#9)",
     "description": "",
     "x": 110.96875,
-    "y": -107.61328125
+    "y": -107.61328125,
+    "nameZh": "静谧公主（#9）",
+    "descriptionZh": ""
   },
   {
     "id": "474",
@@ -9370,7 +11632,9 @@ export const botwMapMarkers = [
     "name": "Lynel",
     "description": "",
     "x": 116.0078125,
-    "y": -99.5
+    "y": -99.5,
+    "nameZh": "莱尼尔",
+    "descriptionZh": ""
   },
   {
     "id": "472",
@@ -9378,7 +11642,9 @@ export const botwMapMarkers = [
     "name": "Blue Hinox",
     "description": "",
     "x": 120.48046875,
-    "y": -96.00390625
+    "y": -96.00390625,
+    "nameZh": "蓝色西诺克斯",
+    "descriptionZh": ""
   },
   {
     "id": "470",
@@ -9386,7 +11652,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 157.1484375,
-    "y": -166.60546875
+    "y": -166.60546875,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "469",
@@ -9394,7 +11662,9 @@ export const botwMapMarkers = [
     "name": "",
     "description": "",
     "x": 135.65625,
-    "y": -94.640625
+    "y": -94.640625,
+    "nameZh": "",
+    "descriptionZh": ""
   },
   {
     "id": "468",
@@ -9402,7 +11672,9 @@ export const botwMapMarkers = [
     "name": "Trial of Second Sight",
     "description": "",
     "x": 131.8671875,
-    "y": -97.109375
+    "y": -97.109375,
+    "nameZh": "第二视觉试炼",
+    "descriptionZh": ""
   },
   {
     "id": "467",
@@ -9410,7 +11682,9 @@ export const botwMapMarkers = [
     "name": "The Lost Pilgrimage",
     "description": "",
     "x": 132.06640625,
-    "y": -93.2734375
+    "y": -93.2734375,
+    "nameZh": "迷路的朝圣者",
+    "descriptionZh": ""
   },
   {
     "id": "466",
@@ -9418,7 +11692,9 @@ export const botwMapMarkers = [
     "name": "The Test of Wood",
     "description": "",
     "x": 136.7890625,
-    "y": -94.22265625
+    "y": -94.22265625,
+    "nameZh": "木之试炼",
+    "descriptionZh": ""
   },
   {
     "id": "462",
@@ -9426,7 +11702,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 158.43359375,
-    "y": -168.58984375
+    "y": -168.58984375,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "460",
@@ -9434,7 +11712,9 @@ export const botwMapMarkers = [
     "name": "A Gift for my Beloved",
     "description": "",
     "x": 181.828125,
-    "y": -161.1328125
+    "y": -161.1328125,
+    "nameZh": "给心爱之人的礼物",
+    "descriptionZh": ""
   },
   {
     "id": "459",
@@ -9442,7 +11722,9 @@ export const botwMapMarkers = [
     "name": "The Jewel Trade",
     "description": "",
     "x": 154.6953125,
-    "y": -89.89453125
+    "y": -89.89453125,
+    "nameZh": "宝石交易",
+    "descriptionZh": ""
   },
   {
     "id": "458",
@@ -9450,7 +11732,9 @@ export const botwMapMarkers = [
     "name": "Igneo Talus",
     "description": "",
     "x": 148.70703125,
-    "y": -80.56640625
+    "y": -80.56640625,
+    "nameZh": "熔岩巨人",
+    "descriptionZh": ""
   },
   {
     "id": "457",
@@ -9458,7 +11742,9 @@ export const botwMapMarkers = [
     "name": "Memory",
     "description": "",
     "x": 78,
-    "y": -167.828125
+    "y": -167.828125,
+    "nameZh": "回忆",
+    "descriptionZh": ""
   },
   {
     "id": "456",
@@ -9466,7 +11752,9 @@ export const botwMapMarkers = [
     "name": "Enemy Camp",
     "description": "",
     "x": 148.875,
-    "y": -152.15625
+    "y": -152.15625,
+    "nameZh": "敌营",
+    "descriptionZh": ""
   },
   {
     "id": "455",
@@ -9474,7 +11762,9 @@ export const botwMapMarkers = [
     "name": "Stone Talus",
     "description": "",
     "x": 146.140625,
-    "y": -153.3359375
+    "y": -153.3359375,
+    "nameZh": "岩石巨人",
+    "descriptionZh": ""
   },
   {
     "id": "453",
@@ -9482,7 +11772,9 @@ export const botwMapMarkers = [
     "name": "Return of Calamity Ganon (#15)",
     "description": "",
     "x": 176.5390625,
-    "y": -145.84375
+    "y": -145.84375,
+    "nameZh": "灾厄盖侬复活（#15）",
+    "descriptionZh": ""
   },
   {
     "id": "451",
@@ -9490,7 +11782,9 @@ export const botwMapMarkers = [
     "name": "The Statue's Bargain",
     "description": "",
     "x": 179.5703125,
-    "y": -161.5546875
+    "y": -161.5546875,
+    "nameZh": "石像的交易",
+    "descriptionZh": ""
   },
   {
     "id": "450",
@@ -9498,7 +11792,9 @@ export const botwMapMarkers = [
     "name": "Horned Statue",
     "description": "",
     "x": 179.3671875,
-    "y": -162.35546875
+    "y": -162.35546875,
+    "nameZh": "恶魔神像",
+    "descriptionZh": ""
   },
   {
     "id": "449",
@@ -9506,7 +11802,9 @@ export const botwMapMarkers = [
     "name": "Enemy Camp",
     "description": "",
     "x": 160.3671875,
-    "y": -156.3671875
+    "y": -156.3671875,
+    "nameZh": "敌营",
+    "descriptionZh": ""
   },
   {
     "id": "443",
@@ -9514,7 +11812,9 @@ export const botwMapMarkers = [
     "name": "Enemy Base",
     "description": "",
     "x": 105.5546875,
-    "y": -153.2734375
+    "y": -153.2734375,
+    "nameZh": "敌方据点",
+    "descriptionZh": ""
   },
   {
     "id": "441",
@@ -9522,7 +11822,9 @@ export const botwMapMarkers = [
     "name": "A Premonition (#8)",
     "description": "",
     "x": 150.1484375,
-    "y": -104.015625
+    "y": -104.015625,
+    "nameZh": "预兆（#8）",
+    "descriptionZh": ""
   },
   {
     "id": "438",
@@ -9530,7 +11832,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 175.2734375,
-    "y": -159.57421875
+    "y": -159.57421875,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "435",
@@ -9538,7 +11842,9 @@ export const botwMapMarkers = [
     "name": "Korok Leaf",
     "description": "",
     "x": 190.90234375,
-    "y": -174.703125
+    "y": -174.703125,
+    "nameZh": "克洛格的团扇",
+    "descriptionZh": ""
   },
   {
     "id": "431",
@@ -9546,7 +11852,9 @@ export const botwMapMarkers = [
     "name": "Leviathan Bones",
     "description": "",
     "x": 103.8671875,
-    "y": -99.89453125
+    "y": -99.89453125,
+    "nameZh": "利维坦骨骸",
+    "descriptionZh": ""
   },
   {
     "id": "428",
@@ -9554,7 +11862,9 @@ export const botwMapMarkers = [
     "name": "Hebra Leviathan",
     "description": "",
     "x": 69.1796875,
-    "y": -72.25
+    "y": -72.25,
+    "nameZh": "海布拉利维坦",
+    "descriptionZh": ""
   },
   {
     "id": "426",
@@ -9562,7 +11872,9 @@ export const botwMapMarkers = [
     "name": "Enemy Camp",
     "description": "",
     "x": 180.65234375,
-    "y": -178.640625
+    "y": -178.640625,
+    "nameZh": "敌营",
+    "descriptionZh": ""
   },
   {
     "id": "423",
@@ -9570,7 +11882,9 @@ export const botwMapMarkers = [
     "name": "The Weapon Connoisseur",
     "description": "",
     "x": 180.015625,
-    "y": -160.94921875
+    "y": -160.94921875,
+    "nameZh": "武器鉴赏家",
+    "descriptionZh": ""
   },
   {
     "id": "422",
@@ -9578,7 +11892,9 @@ export const botwMapMarkers = [
     "name": "Blue Hinox",
     "description": "",
     "x": 178.7421875,
-    "y": -148.796875
+    "y": -148.796875,
+    "nameZh": "蓝色西诺克斯",
+    "descriptionZh": ""
   },
   {
     "id": "420",
@@ -9586,7 +11902,9 @@ export const botwMapMarkers = [
     "name": "Rocks",
     "description": "",
     "x": 179.8046875,
-    "y": -158.37890625
+    "y": -158.37890625,
+    "nameZh": "岩石",
+    "descriptionZh": ""
   },
   {
     "id": "417",
@@ -9594,7 +11912,9 @@ export const botwMapMarkers = [
     "name": "The Cursed Statue",
     "description": "",
     "x": 198.4453125,
-    "y": -78.671875
+    "y": -78.671875,
+    "nameZh": "被诅咒的石像",
+    "descriptionZh": ""
   },
   {
     "id": "416",
@@ -9602,7 +11922,9 @@ export const botwMapMarkers = [
     "name": "A Shady Customer",
     "description": "",
     "x": 194.23046875,
-    "y": -85.15234375
+    "y": -85.15234375,
+    "nameZh": "可疑的客人",
+    "descriptionZh": ""
   },
   {
     "id": "412",
@@ -9610,7 +11932,9 @@ export const botwMapMarkers = [
     "name": "The Gut Check Challenge",
     "description": "",
     "x": 169.7421875,
-    "y": -73.83203125
+    "y": -73.83203125,
+    "nameZh": "毅力考验",
+    "descriptionZh": ""
   },
   {
     "id": "410",
@@ -9618,7 +11942,9 @@ export const botwMapMarkers = [
     "name": "Trial of the Labyrinth",
     "description": "",
     "x": 200.78125,
-    "y": -72.390625
+    "y": -72.390625,
+    "nameZh": "迷宫试炼",
+    "descriptionZh": ""
   },
   {
     "id": "404",
@@ -9626,7 +11952,9 @@ export const botwMapMarkers = [
     "name": "Fireproof Lizard Roundup",
     "description": "",
     "x": 153.84765625,
-    "y": -97.52734375
+    "y": -97.52734375,
+    "nameZh": "耐火蜥蜴捕捉",
+    "descriptionZh": ""
   },
   {
     "id": "403",
@@ -9634,7 +11962,9 @@ export const botwMapMarkers = [
     "name": "A Brother's Roast",
     "description": "",
     "x": 153.80859375,
-    "y": -89.45703125
+    "y": -89.45703125,
+    "nameZh": "兄弟岩烤",
+    "descriptionZh": ""
   },
   {
     "id": "402",
@@ -9642,7 +11972,9 @@ export const botwMapMarkers = [
     "name": "The Road to Respect",
     "description": "",
     "x": 154.68359375,
-    "y": -88.69140625
+    "y": -88.69140625,
+    "nameZh": "通往尊敬之路",
+    "descriptionZh": ""
   },
   {
     "id": "401",
@@ -9650,7 +11982,9 @@ export const botwMapMarkers = [
     "name": "Rock Formation",
     "description": "",
     "x": 169.296875,
-    "y": -98.39453125
+    "y": -98.39453125,
+    "nameZh": "岩石阵",
+    "descriptionZh": ""
   },
   {
     "id": "400",
@@ -9658,7 +11992,9 @@ export const botwMapMarkers = [
     "name": "Rock Formation",
     "description": "",
     "x": 170.01953125,
-    "y": -98.3671875
+    "y": -98.3671875,
+    "nameZh": "岩石阵",
+    "descriptionZh": ""
   },
   {
     "id": "399",
@@ -9666,7 +12002,9 @@ export const botwMapMarkers = [
     "name": "Master of the Wind",
     "description": "",
     "x": 192.9453125,
-    "y": -133.41015625
+    "y": -133.41015625,
+    "nameZh": "御风者",
+    "descriptionZh": ""
   },
   {
     "id": "390",
@@ -9674,7 +12012,9 @@ export const botwMapMarkers = [
     "name": "Stone Talus",
     "description": "",
     "x": 167.515625,
-    "y": -157.796875
+    "y": -157.796875,
+    "nameZh": "岩石巨人",
+    "descriptionZh": ""
   },
   {
     "id": "389",
@@ -9682,7 +12022,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 178.32421875,
-    "y": -123.59765625
+    "y": -123.59765625,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "388",
@@ -9690,7 +12032,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 178.94921875,
-    "y": -122.38671875
+    "y": -122.38671875,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "387",
@@ -9698,7 +12042,9 @@ export const botwMapMarkers = [
     "name": "Legendary Rabbit Trial",
     "description": "",
     "x": 134.609375,
-    "y": -94.171875
+    "y": -94.171875,
+    "nameZh": "传说兔子试炼",
+    "descriptionZh": ""
   },
   {
     "id": "386",
@@ -9706,7 +12052,9 @@ export const botwMapMarkers = [
     "name": "A Freezing Rod",
     "description": "",
     "x": 134.5234375,
-    "y": -94.8515625
+    "y": -94.8515625,
+    "nameZh": "冰冷的杖",
+    "descriptionZh": ""
   },
   {
     "id": "385",
@@ -9714,7 +12062,9 @@ export const botwMapMarkers = [
     "name": "Treasure Chest",
     "description": "",
     "x": 117.12890625,
-    "y": -151.8125
+    "y": -151.8125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "384",
@@ -9722,7 +12072,9 @@ export const botwMapMarkers = [
     "name": "Treasure Chest: Opal",
     "description": "",
     "x": 105.58984375,
-    "y": -158.52734375
+    "y": -158.52734375,
+    "nameZh": "宝箱：蛋白石",
+    "descriptionZh": ""
   },
   {
     "id": "380",
@@ -9730,7 +12082,9 @@ export const botwMapMarkers = [
     "name": "Great Fairy Fountain",
     "description": "",
     "x": 192.21875,
-    "y": -106.5
+    "y": -106.5,
+    "nameZh": "大妖精之泉",
+    "descriptionZh": ""
   },
   {
     "id": "377",
@@ -9738,7 +12092,9 @@ export const botwMapMarkers = [
     "name": "Hetsu (3rd Encounter)",
     "description": "",
     "x": 135.234375,
-    "y": -94.9921875
+    "y": -94.9921875,
+    "nameZh": "伯库林（第 3 次遇见）",
+    "descriptionZh": ""
   },
   {
     "id": "376",
@@ -9746,7 +12102,9 @@ export const botwMapMarkers = [
     "name": "Goal 3",
     "description": "",
     "x": 198.296875,
-    "y": -181.05078125
+    "y": -181.05078125,
+    "nameZh": "目标 3",
+    "descriptionZh": ""
   },
   {
     "id": "375",
@@ -9754,7 +12112,9 @@ export const botwMapMarkers = [
     "name": "Goal 2",
     "description": "",
     "x": 197.69140625,
-    "y": -186.859375
+    "y": -186.859375,
+    "nameZh": "目标 2",
+    "descriptionZh": ""
   },
   {
     "id": "374",
@@ -9762,7 +12122,9 @@ export const botwMapMarkers = [
     "name": "Ball 2",
     "description": "",
     "x": 197.078125,
-    "y": -186.08203125
+    "y": -186.08203125,
+    "nameZh": "球 2",
+    "descriptionZh": ""
   },
   {
     "id": "373",
@@ -9770,7 +12132,9 @@ export const botwMapMarkers = [
     "name": "Ball 3",
     "description": "",
     "x": 201.390625,
-    "y": -185.34375
+    "y": -185.34375,
+    "nameZh": "球 3",
+    "descriptionZh": ""
   },
   {
     "id": "372",
@@ -9778,7 +12142,9 @@ export const botwMapMarkers = [
     "name": "Hole 1",
     "description": "",
     "x": 201.0078125,
-    "y": -186.8359375
+    "y": -186.8359375,
+    "nameZh": "洞 1",
+    "descriptionZh": ""
   },
   {
     "id": "371",
@@ -9786,7 +12152,9 @@ export const botwMapMarkers = [
     "name": "Ball 1",
     "description": "",
     "x": 200.9296875,
-    "y": -186.609375
+    "y": -186.609375,
+    "nameZh": "球 1",
+    "descriptionZh": ""
   },
   {
     "id": "370",
@@ -9794,7 +12162,9 @@ export const botwMapMarkers = [
     "name": "Enemies",
     "description": "",
     "x": 200.546875,
-    "y": -186.328125
+    "y": -186.328125,
+    "nameZh": "敌人",
+    "descriptionZh": ""
   },
   {
     "id": "369",
@@ -9802,7 +12172,9 @@ export const botwMapMarkers = [
     "name": "Enemies",
     "description": "",
     "x": 197.640625,
-    "y": -186.4375
+    "y": -186.4375,
+    "nameZh": "敌人",
+    "descriptionZh": ""
   },
   {
     "id": "368",
@@ -9810,7 +12182,9 @@ export const botwMapMarkers = [
     "name": "Enemies",
     "description": "",
     "x": 198.421875,
-    "y": -183.734375
+    "y": -183.734375,
+    "nameZh": "敌人",
+    "descriptionZh": ""
   },
   {
     "id": "367",
@@ -9818,7 +12192,9 @@ export const botwMapMarkers = [
     "name": "Enemy Camp",
     "description": "",
     "x": 201.328125,
-    "y": -185.28125
+    "y": -185.28125,
+    "nameZh": "敌营",
+    "descriptionZh": ""
   },
   {
     "id": "366",
@@ -9826,7 +12202,9 @@ export const botwMapMarkers = [
     "name": "Blue Hinox",
     "description": "",
     "x": 198.984375,
-    "y": -185.984375
+    "y": -185.984375,
+    "nameZh": "蓝色西诺克斯",
+    "descriptionZh": ""
   },
   {
     "id": "365",
@@ -9834,7 +12212,9 @@ export const botwMapMarkers = [
     "name": "Eventide Island",
     "description": "",
     "x": 199.390625,
-    "y": -184.84375
+    "y": -184.84375,
+    "nameZh": "沃托里岛",
+    "descriptionZh": ""
   },
   {
     "id": "363",
@@ -9842,7 +12222,9 @@ export const botwMapMarkers = [
     "name": "Bone Hinox",
     "description": "",
     "x": 158.640625,
-    "y": -165.625
+    "y": -165.625,
+    "nameZh": "骷髅西诺克斯",
+    "descriptionZh": ""
   },
   {
     "id": "358",
@@ -9850,7 +12232,9 @@ export const botwMapMarkers = [
     "name": "Enemy Camp",
     "description": "",
     "x": 156.7265625,
-    "y": -182.71484375
+    "y": -182.71484375,
+    "nameZh": "敌营",
+    "descriptionZh": ""
   },
   {
     "id": "356",
@@ -9858,7 +12242,9 @@ export const botwMapMarkers = [
     "name": "Lynel",
     "description": "",
     "x": 153.7421875,
-    "y": -173.421875
+    "y": -173.421875,
+    "nameZh": "莱尼尔",
+    "descriptionZh": ""
   },
   {
     "id": "355",
@@ -9866,7 +12252,9 @@ export const botwMapMarkers = [
     "name": "Hinox",
     "description": "",
     "x": 151.125,
-    "y": -175.4765625
+    "y": -175.4765625,
+    "nameZh": "西诺克斯",
+    "descriptionZh": ""
   },
   {
     "id": "353",
@@ -9874,7 +12262,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 193.74609375,
-    "y": -154.31640625
+    "y": -154.31640625,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "349",
@@ -9882,7 +12272,9 @@ export const botwMapMarkers = [
     "name": "A Song of Storms",
     "description": "",
     "x": 160.54296875,
-    "y": -178.40234375
+    "y": -178.40234375,
+    "nameZh": "暴风雨之歌",
+    "descriptionZh": ""
   },
   {
     "id": "347",
@@ -9890,7 +12282,9 @@ export const botwMapMarkers = [
     "name": "Thunder Magnet",
     "description": "",
     "x": 152.1484375,
-    "y": -183.171875
+    "y": -183.171875,
+    "nameZh": "雷电磁石",
+    "descriptionZh": ""
   },
   {
     "id": "344",
@@ -9898,7 +12292,9 @@ export const botwMapMarkers = [
     "name": "The Horseback Hoodlumns",
     "description": "",
     "x": 136.171875,
-    "y": -182.2109375
+    "y": -182.2109375,
+    "nameZh": "骑马的恶徒",
+    "descriptionZh": ""
   },
   {
     "id": "343",
@@ -9906,7 +12302,9 @@ export const botwMapMarkers = [
     "name": "Horse Mini-Game",
     "description": "",
     "x": 136.046875,
-    "y": -181.77734375
+    "y": -181.77734375,
+    "nameZh": "马术小游戏",
+    "descriptionZh": ""
   },
   {
     "id": "342",
@@ -9914,7 +12312,9 @@ export const botwMapMarkers = [
     "name": "Subdued Ceremony (#1)",
     "description": "",
     "x": 124.0390625,
-    "y": -126.4765625
+    "y": -126.4765625,
+    "nameZh": "收敛的仪式（#1）",
+    "descriptionZh": ""
   },
   {
     "id": "338",
@@ -9922,7 +12322,9 @@ export const botwMapMarkers = [
     "name": "Shelter from the Storm (#11)",
     "description": "",
     "x": 130.7109375,
-    "y": -158.2421875
+    "y": -158.2421875,
+    "nameZh": "避雨（#11）",
+    "descriptionZh": ""
   },
   {
     "id": "331",
@@ -9930,7 +12332,9 @@ export const botwMapMarkers = [
     "name": "Hetsu (2nd Encounter)",
     "description": "",
     "x": 144.59765625,
-    "y": -110.75390625
+    "y": -110.75390625,
+    "nameZh": "伯库林（第 2 次遇见）",
+    "descriptionZh": ""
   },
   {
     "id": "326",
@@ -9938,7 +12342,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 151.6796875,
-    "y": -123.42578125
+    "y": -123.42578125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "325",
@@ -9946,7 +12352,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Enemy Camp",
     "description": "",
     "x": 155.2109375,
-    "y": -126.65234375
+    "y": -126.65234375,
+    "nameZh": "波克布林敌营",
+    "descriptionZh": ""
   },
   {
     "id": "324",
@@ -9954,7 +12362,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 156.94140625,
-    "y": -126.44921875
+    "y": -126.44921875,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "323",
@@ -9962,7 +12372,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 157.86328125,
-    "y": -126.34765625
+    "y": -126.34765625,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "322",
@@ -9970,7 +12382,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 163.42578125,
-    "y": -124.1953125
+    "y": -124.1953125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "321",
@@ -9978,7 +12392,9 @@ export const botwMapMarkers = [
     "name": "Special Delivery",
     "description": "",
     "x": 171.05859375,
-    "y": -126.68359375
+    "y": -126.68359375,
+    "nameZh": "特殊投递",
+    "descriptionZh": ""
   },
   {
     "id": "320",
@@ -9986,7 +12402,9 @@ export const botwMapMarkers = [
     "name": "Cracked Rocks",
     "description": "",
     "x": 168.37109375,
-    "y": -122.52734375
+    "y": -122.52734375,
+    "nameZh": "裂开的岩石",
+    "descriptionZh": ""
   },
   {
     "id": "319",
@@ -9994,7 +12412,9 @@ export const botwMapMarkers = [
     "name": "Luminous Stone Gathering",
     "description": "",
     "x": 179.36328125,
-    "y": -120.9453125
+    "y": -120.9453125,
+    "nameZh": "收集夜光石",
+    "descriptionZh": ""
   },
   {
     "id": "318",
@@ -10002,7 +12422,9 @@ export const botwMapMarkers = [
     "name": "Frog Catching",
     "description": "",
     "x": 179.8046875,
-    "y": -120.58203125
+    "y": -120.58203125,
+    "nameZh": "抓青蛙",
+    "descriptionZh": ""
   },
   {
     "id": "317",
@@ -10010,7 +12432,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 179.64453125,
-    "y": -120.51953125
+    "y": -120.51953125,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "316",
@@ -10018,7 +12442,9 @@ export const botwMapMarkers = [
     "name": "A Wife Washed Away",
     "description": "",
     "x": 180.3828125,
-    "y": -119.53515625
+    "y": -119.53515625,
+    "nameZh": "被冲走的妻子",
+    "descriptionZh": ""
   },
   {
     "id": "315",
@@ -10026,7 +12452,9 @@ export const botwMapMarkers = [
     "name": "The Ceremonial Song",
     "description": "",
     "x": 179.5859375,
-    "y": -120.0390625
+    "y": -120.0390625,
+    "nameZh": "英杰祭祀诗",
+    "descriptionZh": ""
   },
   {
     "id": "314",
@@ -10034,7 +12462,9 @@ export const botwMapMarkers = [
     "name": "Diving is Beauty!",
     "description": "",
     "x": 179.44140625,
-    "y": -119.8984375
+    "y": -119.8984375,
+    "nameZh": "跳水即是美！",
+    "descriptionZh": ""
   },
   {
     "id": "312",
@@ -10042,7 +12472,9 @@ export const botwMapMarkers = [
     "name": "Lynel Safari",
     "description": "",
     "x": 180.296875,
-    "y": -120.02734375
+    "y": -120.02734375,
+    "nameZh": "莱尼尔调查",
+    "descriptionZh": ""
   },
   {
     "id": "307",
@@ -10050,7 +12482,9 @@ export const botwMapMarkers = [
     "name": "Lizalfos' Camp",
     "description": "",
     "x": 173.3203125,
-    "y": -126.09375
+    "y": -126.09375,
+    "nameZh": "蜥蜴战士营地",
+    "descriptionZh": ""
   },
   {
     "id": "301",
@@ -10058,7 +12492,9 @@ export const botwMapMarkers = [
     "name": "The Crowned Beast",
     "description": "",
     "x": 168.47265625,
-    "y": -134.953125
+    "y": -134.953125,
+    "nameZh": "戴冠之兽",
+    "descriptionZh": ""
   },
   {
     "id": "298",
@@ -10066,7 +12502,9 @@ export const botwMapMarkers = [
     "name": "Resolve and Grief (#3)",
     "description": "",
     "x": 117.3203125,
-    "y": -147.140625
+    "y": -147.140625,
+    "nameZh": "决意与苦恼（#3）",
+    "descriptionZh": ""
   },
   {
     "id": "296",
@@ -10074,7 +12512,9 @@ export const botwMapMarkers = [
     "name": "Misko, the Great Bandit",
     "description": "",
     "x": 155.71484375,
-    "y": -158.16796875
+    "y": -158.16796875,
+    "nameZh": "大盗米斯科",
+    "descriptionZh": ""
   },
   {
     "id": "294",
@@ -10082,7 +12522,9 @@ export const botwMapMarkers = [
     "name": "Great Fairy Cotera",
     "description": "",
     "x": 158.9375,
-    "y": -141.203125
+    "y": -141.203125,
+    "nameZh": "可秋拉大妖精",
+    "descriptionZh": ""
   },
   {
     "id": "293",
@@ -10090,7 +12532,9 @@ export const botwMapMarkers = [
     "name": "Watch Out for the Flowers",
     "description": "",
     "x": 140.8671875,
-    "y": -141.16015625
+    "y": -141.16015625,
+    "nameZh": "请勿践踏花朵",
+    "descriptionZh": ""
   },
   {
     "id": "292",
@@ -10098,7 +12542,9 @@ export const botwMapMarkers = [
     "name": "Wild Horses",
     "description": "",
     "x": 155.3671875,
-    "y": -158.16015625
+    "y": -158.16015625,
+    "nameZh": "野马",
+    "descriptionZh": ""
   },
   {
     "id": "291",
@@ -10106,7 +12552,9 @@ export const botwMapMarkers = [
     "name": "The Royal White Stallion",
     "description": "",
     "x": 105.5859375,
-    "y": -147.95703125
+    "y": -147.95703125,
+    "nameZh": "王族白马",
+    "descriptionZh": ""
   },
   {
     "id": "290",
@@ -10114,7 +12562,9 @@ export const botwMapMarkers = [
     "name": "A Rare Find",
     "description": "",
     "x": 105.515625,
-    "y": -147.75390625
+    "y": -147.75390625,
+    "nameZh": "稀有发现",
+    "descriptionZh": ""
   },
   {
     "id": "289",
@@ -10122,7 +12572,9 @@ export const botwMapMarkers = [
     "name": "My Hero",
     "description": "",
     "x": 106.21875,
-    "y": -147.91015625
+    "y": -147.91015625,
+    "nameZh": "我的勇者",
+    "descriptionZh": ""
   },
   {
     "id": "285",
@@ -10130,7 +12582,9 @@ export const botwMapMarkers = [
     "name": "Playtime with Cottla",
     "description": "",
     "x": 157.5546875,
-    "y": -143.02734375
+    "y": -143.02734375,
+    "nameZh": "和科柯娜玩耍",
+    "descriptionZh": ""
   },
   {
     "id": "284",
@@ -10138,7 +12592,9 @@ export const botwMapMarkers = [
     "name": "Flown the Coop",
     "description": "",
     "x": 156.65234375,
-    "y": -143.01953125
+    "y": -143.01953125,
+    "nameZh": "飞出鸡舍",
+    "descriptionZh": ""
   },
   {
     "id": "283",
@@ -10146,7 +12602,9 @@ export const botwMapMarkers = [
     "name": "Koko",
     "description": "",
     "x": 156.1796875,
-    "y": -143.85546875
+    "y": -143.85546875,
+    "nameZh": "可可娜",
+    "descriptionZh": ""
   },
   {
     "id": "282",
@@ -10154,7 +12612,9 @@ export const botwMapMarkers = [
     "name": "",
     "description": "",
     "x": 161.9296875,
-    "y": -149.48828125
+    "y": -149.48828125,
+    "nameZh": "",
+    "descriptionZh": ""
   },
   {
     "id": "281",
@@ -10162,7 +12622,9 @@ export const botwMapMarkers = [
     "name": "Chest",
     "description": "",
     "x": 155.02734375,
-    "y": -155.31640625
+    "y": -155.31640625,
+    "nameZh": "宝箱",
+    "descriptionZh": ""
   },
   {
     "id": "280",
@@ -10170,7 +12632,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Enemy Camp",
     "description": "",
     "x": 151.6875,
-    "y": -158.5703125
+    "y": -158.5703125,
+    "nameZh": "波克布林敌营",
+    "descriptionZh": ""
   },
   {
     "id": "279",
@@ -10178,7 +12642,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 148.78515625,
-    "y": -157.19140625
+    "y": -157.19140625,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "278",
@@ -10186,7 +12652,9 @@ export const botwMapMarkers = [
     "name": "Enemy Camp",
     "description": "",
     "x": 141.546875,
-    "y": -154.14453125
+    "y": -154.14453125,
+    "nameZh": "敌营",
+    "descriptionZh": ""
   },
   {
     "id": "277",
@@ -10194,7 +12662,9 @@ export const botwMapMarkers = [
     "name": "Korok Leaf",
     "description": "",
     "x": 140.7734375,
-    "y": -154.45703125
+    "y": -154.45703125,
+    "nameZh": "克洛格的团扇",
+    "descriptionZh": ""
   },
   {
     "id": "276",
@@ -10202,7 +12672,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 137.171875,
-    "y": -150.87890625
+    "y": -150.87890625,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "275",
@@ -10210,7 +12682,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Enemy Camp",
     "description": "",
     "x": 131.6640625,
-    "y": -148.25
+    "y": -148.25,
+    "nameZh": "波克布林敌营",
+    "descriptionZh": ""
   },
   {
     "id": "255",
@@ -10218,7 +12692,9 @@ export const botwMapMarkers = [
     "name": "Divine Beast Vah Ruta",
     "description": "",
     "x": 185,
-    "y": -125.28125
+    "y": -125.28125,
+    "nameZh": "神兽瓦·露塔",
+    "descriptionZh": ""
   },
   {
     "id": "254",
@@ -10226,7 +12702,9 @@ export const botwMapMarkers = [
     "name": "Lynel",
     "description": "",
     "x": 188.21484375,
-    "y": -119.38671875
+    "y": -119.38671875,
+    "nameZh": "莱尼尔",
+    "descriptionZh": ""
   },
   {
     "id": "241",
@@ -10234,7 +12712,9 @@ export const botwMapMarkers = [
     "name": "Hateno Ancient Tech Lab",
     "description": "",
     "x": 187.0703125,
-    "y": -161.2265625
+    "y": -161.2265625,
+    "nameZh": "哈特诺古代研究所",
+    "descriptionZh": ""
   },
   {
     "id": "235",
@@ -10242,7 +12722,9 @@ export const botwMapMarkers = [
     "name": "White Chuchu x 2",
     "description": "",
     "x": 107.2265625,
-    "y": -159.41015625
+    "y": -159.41015625,
+    "nameZh": "白色丘丘 ×2",
+    "descriptionZh": ""
   },
   {
     "id": "234",
@@ -10250,7 +12732,9 @@ export const botwMapMarkers = [
     "name": "White Chuchu x 2",
     "description": "",
     "x": 108.46875,
-    "y": -160.15234375
+    "y": -160.15234375,
+    "nameZh": "白色丘丘 ×2",
+    "descriptionZh": ""
   },
   {
     "id": "233",
@@ -10258,7 +12742,9 @@ export const botwMapMarkers = [
     "name": "Amber",
     "description": "",
     "x": 107.875,
-    "y": -162.69921875
+    "y": -162.69921875,
+    "nameZh": "琥珀",
+    "descriptionZh": ""
   },
   {
     "id": "231",
@@ -10266,7 +12752,9 @@ export const botwMapMarkers = [
     "name": "Guardian",
     "description": "A broken (but active) Guardian will awaken when Link gets near it.",
     "x": 120.76171875,
-    "y": -158.44921875
+    "y": -158.44921875,
+    "nameZh": "守护者",
+    "descriptionZh": "损坏但仍可活动的守护者会在林克靠近时苏醒。"
   },
   {
     "id": "229",
@@ -10274,7 +12762,9 @@ export const botwMapMarkers = [
     "name": "Hestu",
     "description": "Hestu Location",
     "x": 159.875,
-    "y": -150.4296875
+    "y": -150.4296875,
+    "nameZh": "伯库林",
+    "descriptionZh": "伯库林位置。"
   },
   {
     "id": "228",
@@ -10282,7 +12772,9 @@ export const botwMapMarkers = [
     "name": "Hyrule Castle",
     "description": "",
     "x": 124.078125,
-    "y": -111.453125
+    "y": -111.453125,
+    "nameZh": "海拉鲁城堡",
+    "descriptionZh": ""
   },
   {
     "id": "225",
@@ -10290,7 +12782,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "Four red Bokoblins, one is atop a platform.",
     "x": 119.1484375,
-    "y": -152.8203125
+    "y": -152.8203125,
+    "nameZh": "波克布林营地",
+    "descriptionZh": "4 只红色波克布林，其中 1 只在平台上。"
   },
   {
     "id": "221",
@@ -10298,7 +12792,9 @@ export const botwMapMarkers = [
     "name": "Pigeon",
     "description": "Two pigeons.",
     "x": 110.8125,
-    "y": -167.7578125
+    "y": -167.7578125,
+    "nameZh": "鸽子",
+    "descriptionZh": "2 只鸽子。"
   },
   {
     "id": "220",
@@ -10306,7 +12802,9 @@ export const botwMapMarkers = [
     "name": "Stal Bokoblin",
     "description": "Two Stal Bokoblins appear here at night.",
     "x": 120.78125,
-    "y": -164.203125
+    "y": -164.203125,
+    "nameZh": "骷髅波克布林",
+    "descriptionZh": "夜间这里会出现 2 只骷髅波克布林。"
   },
   {
     "id": "216",
@@ -10314,7 +12812,9 @@ export const botwMapMarkers = [
     "name": "Serenne Stable",
     "description": "",
     "x": 107.25,
-    "y": -98.125
+    "y": -98.125,
+    "nameZh": "玛丽塔驿站",
+    "descriptionZh": ""
   },
   {
     "id": "215",
@@ -10322,7 +12822,9 @@ export const botwMapMarkers = [
     "name": "Fire Arrow x5",
     "description": "Locked inside a Treasure Chest that is unlocked after all the Bokoblins have been cleared.",
     "x": 117.2734375,
-    "y": -164.140625
+    "y": -164.140625,
+    "nameZh": "火箭 ×5",
+    "descriptionZh": "锁在宝箱中，清掉所有波克布林后解锁。"
   },
   {
     "id": "214",
@@ -10330,7 +12832,9 @@ export const botwMapMarkers = [
     "name": "Hylian Trousers",
     "description": "Inside a Treasure Chest.",
     "x": 115.453125,
-    "y": -162.78125
+    "y": -162.78125,
+    "nameZh": "海利亚裤子",
+    "descriptionZh": "在宝箱中。"
   },
   {
     "id": "213",
@@ -10338,7 +12842,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin",
     "description": "Red Bokoblin.",
     "x": 115.375,
-    "y": -163.046875
+    "y": -163.046875,
+    "nameZh": "波克布林",
+    "descriptionZh": "红色波克布林。"
   },
   {
     "id": "212",
@@ -10346,7 +12852,9 @@ export const botwMapMarkers = [
     "name": "Rushroom",
     "description": "Four dotting the cliff side.",
     "x": 112.703125,
-    "y": -171.015625
+    "y": -171.015625,
+    "nameZh": "速速蘑菇",
+    "descriptionZh": "4 个分布在崖壁上。"
   },
   {
     "id": "211",
@@ -10354,7 +12862,9 @@ export const botwMapMarkers = [
     "name": "Hearty Truffle",
     "description": "Description: This rare mushroom has a rich scent. Cook it before eating to temporarily increase your maximum hearts. Additional Effect: Restores 2 hearts.",
     "x": 112.375,
-    "y": -170.765625
+    "y": -170.765625,
+    "nameZh": "生命松露",
+    "descriptionZh": "说明：这种稀有蘑菇香气浓郁。烹饪后食用可暂时增加心心上限。附加效果：恢复 2 颗心。"
   },
   {
     "id": "210",
@@ -10362,7 +12872,9 @@ export const botwMapMarkers = [
     "name": "Sunset Firefly",
     "description": "Six Sunset Fireflies appear here at night.",
     "x": 112.546875,
-    "y": -171
+    "y": -171,
+    "nameZh": "静静萤火虫",
+    "descriptionZh": "夜间这里会出现 6 只静静萤火虫。"
   },
   {
     "id": "209",
@@ -10370,7 +12882,9 @@ export const botwMapMarkers = [
     "name": "Guardian",
     "description": "A broken (but active) Guardian will awaken when Link gets near it.",
     "x": 120.2578125,
-    "y": -159.25390625
+    "y": -159.25390625,
+    "nameZh": "守护者",
+    "descriptionZh": "损坏但仍可活动的守护者会在林克靠近时苏醒。"
   },
   {
     "id": "208",
@@ -10378,7 +12892,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 120.6796875,
-    "y": -159.11328125
+    "y": -159.11328125,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "207",
@@ -10386,7 +12902,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin",
     "description": "Red Bokoblin.",
     "x": 114.3125,
-    "y": -164.640625
+    "y": -164.640625,
+    "nameZh": "波克布林",
+    "descriptionZh": "红色波克布林。"
   },
   {
     "id": "206",
@@ -10394,7 +12912,9 @@ export const botwMapMarkers = [
     "name": "Pigeon",
     "description": "",
     "x": 113.4375,
-    "y": -166.4375
+    "y": -166.4375,
+    "nameZh": "鸽子",
+    "descriptionZh": ""
   },
   {
     "id": "203",
@@ -10402,7 +12922,9 @@ export const botwMapMarkers = [
     "name": "Hylian Shroom",
     "description": "",
     "x": 113.78125,
-    "y": -161.34375
+    "y": -161.34375,
+    "nameZh": "海拉鲁蘑菇",
+    "descriptionZh": ""
   },
   {
     "id": "202",
@@ -10410,7 +12932,9 @@ export const botwMapMarkers = [
     "name": "Boar",
     "description": "Three Boars.",
     "x": 112.84375,
-    "y": -161.625
+    "y": -161.625,
+    "nameZh": "野猪",
+    "descriptionZh": "3 头野猪。"
   },
   {
     "id": "201",
@@ -10418,7 +12942,9 @@ export const botwMapMarkers = [
     "name": "Sizzlewing Butterfly",
     "description": "",
     "x": 109.9375,
-    "y": -162.046875
+    "y": -162.046875,
+    "nameZh": "暖暖凤蝶",
+    "descriptionZh": ""
   },
   {
     "id": "199",
@@ -10426,7 +12952,9 @@ export const botwMapMarkers = [
     "name": "Stal Bokoblin",
     "description": "Three Stal Bokoblins appear here at night.",
     "x": 104.28125,
-    "y": -165.921875
+    "y": -165.921875,
+    "nameZh": "骷髅波克布林",
+    "descriptionZh": "夜间这里会出现 3 只骷髅波克布林。"
   },
   {
     "id": "198",
@@ -10434,7 +12962,9 @@ export const botwMapMarkers = [
     "name": "Stal Bokoblin",
     "description": "Appears here at night.",
     "x": 104.15625,
-    "y": -165.109375
+    "y": -165.109375,
+    "nameZh": "骷髅波克布林",
+    "descriptionZh": "夜间会在这里出现。"
   },
   {
     "id": "197",
@@ -10442,7 +12972,9 @@ export const botwMapMarkers = [
     "name": "Explosive Barrel",
     "description": "Two Explosive Barrels.",
     "x": 106.3984375,
-    "y": -159
+    "y": -159,
+    "nameZh": "爆炸桶",
+    "descriptionZh": "2 个爆炸桶。"
   },
   {
     "id": "196",
@@ -10450,7 +12982,9 @@ export const botwMapMarkers = [
     "name": "Seared Steak",
     "description": "On spit above Campfire.",
     "x": 106.3828125,
-    "y": -159.30078125
+    "y": -159.30078125,
+    "nameZh": "烤肉",
+    "descriptionZh": "在篝火上方的烤架上。"
   },
   {
     "id": "195",
@@ -10458,7 +12992,9 @@ export const botwMapMarkers = [
     "name": "Boko Club",
     "description": "",
     "x": 106.2421875,
-    "y": -159.40234375
+    "y": -159.40234375,
+    "nameZh": "波克棍",
+    "descriptionZh": ""
   },
   {
     "id": "194",
@@ -10466,7 +13002,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "Three red Bokoblins. Campfire is lit.",
     "x": 106.21875,
-    "y": -159.21484375
+    "y": -159.21484375,
+    "nameZh": "波克布林营地",
+    "descriptionZh": "3 只红色波克布林。篝火已点燃。"
   },
   {
     "id": "193",
@@ -10474,7 +13012,9 @@ export const botwMapMarkers = [
     "name": "Tower",
     "description": "Just a tower for Link to climb.",
     "x": 103.21875,
-    "y": -160.734375
+    "y": -160.734375,
+    "nameZh": "塔",
+    "descriptionZh": "一座可供林克攀爬的塔。"
   },
   {
     "id": "192",
@@ -10482,7 +13022,9 @@ export const botwMapMarkers = [
     "name": "Boulder",
     "description": "Two Boulders atop the cliff.",
     "x": 103.640625,
-    "y": -158.421875
+    "y": -158.421875,
+    "nameZh": "巨石",
+    "descriptionZh": "悬崖顶部有 2 块巨石。"
   },
   {
     "id": "191",
@@ -10490,7 +13032,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "Lit",
     "x": 103.546875,
-    "y": -158.359375
+    "y": -158.359375,
+    "nameZh": "篝火",
+    "descriptionZh": "已点燃。"
   },
   {
     "id": "187",
@@ -10498,7 +13042,9 @@ export const botwMapMarkers = [
     "name": "Apple",
     "description": "Three Apples on a tree.",
     "x": 103.609375,
-    "y": -158.1875
+    "y": -158.1875,
+    "nameZh": "苹果",
+    "descriptionZh": "树上有 3 个苹果。"
   },
   {
     "id": "186",
@@ -10506,7 +13052,9 @@ export const botwMapMarkers = [
     "name": "Hyrule Herb",
     "description": "Three Hyrule Herbs.",
     "x": 104.03125,
-    "y": -157.96875
+    "y": -157.96875,
+    "nameZh": "海拉鲁草",
+    "descriptionZh": "3 株海拉鲁草。"
   },
   {
     "id": "185",
@@ -10514,7 +13062,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "Lit",
     "x": 106.4296875,
-    "y": -153.3203125
+    "y": -153.3203125,
+    "nameZh": "篝火",
+    "descriptionZh": "已点燃。"
   },
   {
     "id": "183",
@@ -10522,7 +13072,9 @@ export const botwMapMarkers = [
     "name": "Tower",
     "description": "Just a tower that Link can climb.",
     "x": 106.125,
-    "y": -158.203125
+    "y": -158.203125,
+    "nameZh": "塔",
+    "descriptionZh": "一座可供林克攀爬的塔。"
   },
   {
     "id": "182",
@@ -10530,7 +13082,9 @@ export const botwMapMarkers = [
     "name": "Boko Shield",
     "description": "",
     "x": 107.578125,
-    "y": -159.421875
+    "y": -159.421875,
+    "nameZh": "波克盾",
+    "descriptionZh": ""
   },
   {
     "id": "181",
@@ -10538,7 +13092,9 @@ export const botwMapMarkers = [
     "name": "Boko Club",
     "description": "",
     "x": 107.59375,
-    "y": -159.4375
+    "y": -159.4375,
+    "nameZh": "波克棍",
+    "descriptionZh": ""
   },
   {
     "id": "180",
@@ -10546,7 +13102,9 @@ export const botwMapMarkers = [
     "name": "Seared Steak",
     "description": "On the spit in the camp.",
     "x": 107.609375,
-    "y": -159.421875
+    "y": -159.421875,
+    "nameZh": "烤肉",
+    "descriptionZh": "在营地的烤架上。"
   },
   {
     "id": "179",
@@ -10554,7 +13112,9 @@ export const botwMapMarkers = [
     "name": "Blue Nightshade",
     "description": "",
     "x": 108.140625,
-    "y": -158.953125
+    "y": -158.953125,
+    "nameZh": "潜行草",
+    "descriptionZh": ""
   },
   {
     "id": "178",
@@ -10562,7 +13122,9 @@ export const botwMapMarkers = [
     "name": "Apple",
     "description": "Three Apples on a tree.",
     "x": 108.1875,
-    "y": -158.875
+    "y": -158.875,
+    "nameZh": "苹果",
+    "descriptionZh": "树上有 3 个苹果。"
   },
   {
     "id": "177",
@@ -10570,7 +13132,9 @@ export const botwMapMarkers = [
     "name": "Hearty Truffle",
     "description": "Two Hearty Truffles inside a hollow stump.",
     "x": 108.890625,
-    "y": -159.03125
+    "y": -159.03125,
+    "nameZh": "生命松露",
+    "descriptionZh": "空心树桩里有 2 个生命松露。"
   },
   {
     "id": "176",
@@ -10578,7 +13142,9 @@ export const botwMapMarkers = [
     "name": "Unknown Material",
     "description": "Pink flower, unidentified",
     "x": 109.390625,
-    "y": -158.890625
+    "y": -158.890625,
+    "nameZh": "未知材料",
+    "descriptionZh": "粉色花朵，未识别。"
   },
   {
     "id": "175",
@@ -10586,7 +13152,9 @@ export const botwMapMarkers = [
     "name": "Apple",
     "description": "Two Apples on a tree.",
     "x": 110.078125,
-    "y": -159.1875
+    "y": -159.1875,
+    "nameZh": "苹果",
+    "descriptionZh": "树上有 2 个苹果。"
   },
   {
     "id": "174",
@@ -10594,7 +13162,9 @@ export const botwMapMarkers = [
     "name": "Courser Bee Honey",
     "description": "",
     "x": 110,
-    "y": -159.203125
+    "y": -159.203125,
+    "nameZh": "精力蜂的蜂蜜",
+    "descriptionZh": ""
   },
   {
     "id": "173",
@@ -10602,7 +13172,9 @@ export const botwMapMarkers = [
     "name": "Hylian Shroom",
     "description": "At the base of a tree.",
     "x": 109.125,
-    "y": -160.203125
+    "y": -160.203125,
+    "nameZh": "海拉鲁蘑菇",
+    "descriptionZh": "在树根处。"
   },
   {
     "id": "172",
@@ -10610,7 +13182,9 @@ export const botwMapMarkers = [
     "name": "Acorn",
     "description": "Two Acorns.",
     "x": 110.09375,
-    "y": -160.9375
+    "y": -160.9375,
+    "nameZh": "橡子",
+    "descriptionZh": "2 个橡子。"
   },
   {
     "id": "171",
@@ -10618,7 +13192,9 @@ export const botwMapMarkers = [
     "name": "Tree Branch",
     "description": "",
     "x": 110.578125,
-    "y": -161.234375
+    "y": -161.234375,
+    "nameZh": "树枝",
+    "descriptionZh": ""
   },
   {
     "id": "170",
@@ -10626,7 +13202,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 110.0625,
-    "y": -161.96875
+    "y": -161.96875,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "169",
@@ -10634,7 +13212,9 @@ export const botwMapMarkers = [
     "name": "Boar",
     "description": "",
     "x": 111.609375,
-    "y": -160.625
+    "y": -160.625,
+    "nameZh": "野猪",
+    "descriptionZh": ""
   },
   {
     "id": "168",
@@ -10642,7 +13222,9 @@ export const botwMapMarkers = [
     "name": "THIS CLEARING IS THE REAL SPOT",
     "description": "",
     "x": 112.8125,
-    "y": -161.09375
+    "y": -161.09375,
+    "nameZh": "这片空地才是真正地点",
+    "descriptionZh": ""
   },
   {
     "id": "167",
@@ -10650,7 +13232,9 @@ export const botwMapMarkers = [
     "name": "Hearty Truffle",
     "description": "",
     "x": 112.828125,
-    "y": -159.875
+    "y": -159.875,
+    "nameZh": "生命松露",
+    "descriptionZh": ""
   },
   {
     "id": "166",
@@ -10658,7 +13242,9 @@ export const botwMapMarkers = [
     "name": "Pigeon",
     "description": "",
     "x": 112.65625,
-    "y": -159.828125
+    "y": -159.828125,
+    "nameZh": "鸽子",
+    "descriptionZh": ""
   },
   {
     "id": "165",
@@ -10666,7 +13252,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "Lit",
     "x": 103.140625,
-    "y": -161.625
+    "y": -161.625,
+    "nameZh": "篝火",
+    "descriptionZh": "已点燃。"
   },
   {
     "id": "164",
@@ -10674,7 +13262,9 @@ export const botwMapMarkers = [
     "name": "Torch",
     "description": "Underneath the tree fort.",
     "x": 103.15625,
-    "y": -161.90625
+    "y": -161.90625,
+    "nameZh": "火把",
+    "descriptionZh": "在树屋下方。"
   },
   {
     "id": "163",
@@ -10682,7 +13272,9 @@ export const botwMapMarkers = [
     "name": "Hylian Shroom",
     "description": "Two Hylian Shrooms underneath the tree fort.",
     "x": 103.140625,
-    "y": -161.890625
+    "y": -161.890625,
+    "nameZh": "海拉鲁蘑菇",
+    "descriptionZh": "树屋下方有 2 个海拉鲁蘑菇。"
   },
   {
     "id": "162",
@@ -10690,7 +13282,9 @@ export const botwMapMarkers = [
     "name": "Stamella Shroom",
     "description": "Underneath the tree fort.",
     "x": 103.203125,
-    "y": -161.78125
+    "y": -161.78125,
+    "nameZh": "精力蘑菇",
+    "descriptionZh": "在树屋下方。"
   },
   {
     "id": "161",
@@ -10698,7 +13292,9 @@ export const botwMapMarkers = [
     "name": "Spicy Pepper",
     "description": "Nine Spicy Peppers among three plants underneath the tree fort.",
     "x": 103.015625,
-    "y": -162.28125
+    "y": -162.28125,
+    "nameZh": "暖暖草果",
+    "descriptionZh": "树屋下方 3 株植物上共有 9 个暖暖草果。"
   },
   {
     "id": "160",
@@ -10706,7 +13302,9 @@ export const botwMapMarkers = [
     "name": "Keese",
     "description": "Three Keese appear here at night.",
     "x": 108.1875,
-    "y": -164.875
+    "y": -164.875,
+    "nameZh": "蝙蝠",
+    "descriptionZh": "夜间这里会出现 3 只蝙蝠。"
   },
   {
     "id": "159",
@@ -10714,7 +13312,9 @@ export const botwMapMarkers = [
     "name": "Cooking Pot",
     "description": "Unlit",
     "x": 110.125,
-    "y": -165.578125
+    "y": -165.578125,
+    "nameZh": "料理锅",
+    "descriptionZh": "未点燃。"
   },
   {
     "id": "158",
@@ -10722,7 +13322,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "Unlit",
     "x": 109.890625,
-    "y": -165.640625
+    "y": -165.640625,
+    "nameZh": "篝火",
+    "descriptionZh": "未点燃。"
   },
   {
     "id": "157",
@@ -10730,7 +13332,9 @@ export const botwMapMarkers = [
     "name": "Boar",
     "description": "",
     "x": 109.828125,
-    "y": -162.6875
+    "y": -162.6875,
+    "nameZh": "野猪",
+    "descriptionZh": ""
   },
   {
     "id": "155",
@@ -10738,7 +13342,9 @@ export const botwMapMarkers = [
     "name": "Hylian Shroom",
     "description": "Three Hylian Shrooms.",
     "x": 110.25,
-    "y": -162.09375
+    "y": -162.09375,
+    "nameZh": "海拉鲁蘑菇",
+    "descriptionZh": "3 个海拉鲁蘑菇。"
   },
   {
     "id": "153",
@@ -10746,7 +13352,9 @@ export const botwMapMarkers = [
     "name": "Tree Branch",
     "description": "There are two Tree Branches near the cliff here.",
     "x": 110.609375,
-    "y": -162.359375
+    "y": -162.359375,
+    "nameZh": "树枝",
+    "descriptionZh": "这里靠近悬崖处有 2 根树枝。"
   },
   {
     "id": "149",
@@ -10754,7 +13362,9 @@ export const botwMapMarkers = [
     "name": "Mineral Deposit",
     "description": "Two mineral deposits are located here. One contains a Sapphire and Flint, the other contains an Amber.",
     "x": 108.265625,
-    "y": -171.1875
+    "y": -171.1875,
+    "nameZh": "矿床",
+    "descriptionZh": "这里有 2 处矿床。一处包含蓝宝石和打火石，另一处包含琥珀。"
   },
   {
     "id": "148",
@@ -10762,7 +13372,9 @@ export const botwMapMarkers = [
     "name": "Traveler's Bow",
     "description": "Inside a Treasure Chest beneath a Boulder. This one has increased Durability.",
     "x": 113.32421875,
-    "y": -164.359375
+    "y": -164.359375,
+    "nameZh": "旅人之弓",
+    "descriptionZh": "在巨石下方的宝箱中。这件物品耐久度更高。"
   },
   {
     "id": "147",
@@ -10770,7 +13382,9 @@ export const botwMapMarkers = [
     "name": "Mineral Deposit",
     "description": "Two mineral deposits, one contains Flint, the other contains a Topaz and an Amber.",
     "x": 110.921875,
-    "y": -171.171875
+    "y": -171.171875,
+    "nameZh": "矿床",
+    "descriptionZh": "这里有 2 处矿床。一处包含打火石，另一处包含黄玉和琥珀。"
   },
   {
     "id": "146",
@@ -10778,7 +13392,9 @@ export const botwMapMarkers = [
     "name": "Rusty Broadsword",
     "description": "Reference to the fake Master Swords in ALttP",
     "x": 114.1171875,
-    "y": -157.84375
+    "y": -157.84375,
+    "nameZh": "生锈的剑",
+    "descriptionZh": "致敬《众神的三角力量》中的假大师之剑。"
   },
   {
     "id": "145",
@@ -10786,7 +13402,9 @@ export const botwMapMarkers = [
     "name": "Ice Arrow",
     "description": "Unknown quantity",
     "x": 114.75,
-    "y": -158.0625
+    "y": -158.0625,
+    "nameZh": "冰箭",
+    "descriptionZh": "数量未知。"
   },
   {
     "id": "144",
@@ -10794,7 +13412,9 @@ export const botwMapMarkers = [
     "name": "Fire Arrow",
     "description": "Unknown quanitity",
     "x": 114.75,
-    "y": -158.125
+    "y": -158.125,
+    "nameZh": "火箭",
+    "descriptionZh": "数量未知。"
   },
   {
     "id": "143",
@@ -10802,7 +13422,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "",
     "x": 112.7890625,
-    "y": -152.52734375
+    "y": -152.52734375,
+    "nameZh": "波克布林营地",
+    "descriptionZh": ""
   },
   {
     "id": "142",
@@ -10810,7 +13432,9 @@ export const botwMapMarkers = [
     "name": "Hylian Shroom",
     "description": "Four Hylian Shrooms",
     "x": 109.265625,
-    "y": -159.65625
+    "y": -159.65625,
+    "nameZh": "海拉鲁蘑菇",
+    "descriptionZh": "4 个海拉鲁蘑菇。"
   },
   {
     "id": "141",
@@ -10818,7 +13442,9 @@ export const botwMapMarkers = [
     "name": "Stone Talus",
     "description": "",
     "x": 110.97265625,
-    "y": -154.0234375
+    "y": -154.0234375,
+    "nameZh": "岩石巨人",
+    "descriptionZh": ""
   },
   {
     "id": "139",
@@ -10826,7 +13452,9 @@ export const botwMapMarkers = [
     "name": "Treasure Chest",
     "description": "Unknown contents.",
     "x": 111.296875,
-    "y": -167.546875
+    "y": -167.546875,
+    "nameZh": "宝箱",
+    "descriptionZh": "内容未知。"
   },
   {
     "id": "138",
@@ -10834,7 +13462,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "Three red Bokoblins",
     "x": 111.34375,
-    "y": -167.65625
+    "y": -167.65625,
+    "nameZh": "波克布林营地",
+    "descriptionZh": "3 只红色波克布林。"
   },
   {
     "id": "137",
@@ -10842,7 +13472,9 @@ export const botwMapMarkers = [
     "name": "Sizzlewing Butterfly",
     "description": "Two Sizzlewing Butterflies",
     "x": 112.21875,
-    "y": -167.890625
+    "y": -167.890625,
+    "nameZh": "暖暖凤蝶",
+    "descriptionZh": "2 只暖暖凤蝶。"
   },
   {
     "id": "136",
@@ -10850,7 +13482,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "Five red Bokoblins, two are atop platforms.",
     "x": 108.875,
-    "y": -153.73046875
+    "y": -153.73046875,
+    "nameZh": "波克布林营地",
+    "descriptionZh": "5 只红色波克布林，其中 2 只在平台上。"
   },
   {
     "id": "135",
@@ -10858,7 +13492,9 @@ export const botwMapMarkers = [
     "name": "Explosive Barrel",
     "description": "Unknown number",
     "x": 103.8125,
-    "y": -158.65625
+    "y": -158.65625,
+    "nameZh": "爆炸桶",
+    "descriptionZh": "数量未知。"
   },
   {
     "id": "134",
@@ -10866,7 +13502,9 @@ export const botwMapMarkers = [
     "name": "Fire Rod",
     "description": "Inside a Treasure Chest (which can be opened at any time).",
     "x": 103.96875,
-    "y": -158.921875
+    "y": -158.921875,
+    "nameZh": "火焰杖",
+    "descriptionZh": "在宝箱中（可随时打开）。"
   },
   {
     "id": "133",
@@ -10874,7 +13512,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "Four red Bokoblins, one is atop a platform.",
     "x": 103.640625,
-    "y": -158.640625
+    "y": -158.640625,
+    "nameZh": "波克布林营地",
+    "descriptionZh": "4 只红色波克布林，其中 1 只在平台上。"
   },
   {
     "id": "132",
@@ -10882,7 +13522,9 @@ export const botwMapMarkers = [
     "name": "Quilted Shirt",
     "description": "Obtained from the Old Man.",
     "x": 106.1875,
-    "y": -169.171875
+    "y": -169.171875,
+    "nameZh": "防寒服",
+    "descriptionZh": "从老人处获得。"
   },
   {
     "id": "131",
@@ -10890,7 +13532,9 @@ export const botwMapMarkers = [
     "name": "Mineral Deposit",
     "description": "A mineral deposit resembling a cairn rests at Mount Hylia's peak.",
     "x": 106.1875,
-    "y": -169.203125
+    "y": -169.203125,
+    "nameZh": "矿床",
+    "descriptionZh": "海利亚山顶有一处类似石堆的矿床。"
   },
   {
     "id": "130",
@@ -10898,7 +13542,9 @@ export const botwMapMarkers = [
     "name": "Hightail Lizard",
     "description": "",
     "x": 114,
-    "y": -167.09375
+    "y": -167.09375,
+    "nameZh": "速速蜥",
+    "descriptionZh": ""
   },
   {
     "id": "129",
@@ -10906,7 +13552,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "",
     "x": 113.8671875,
-    "y": -162.64453125
+    "y": -162.64453125,
+    "nameZh": "波克布林营地",
+    "descriptionZh": ""
   },
   {
     "id": "127",
@@ -10914,7 +13562,9 @@ export const botwMapMarkers = [
     "name": "Cracked Wall",
     "description": "",
     "x": 111.40625,
-    "y": -171.34375
+    "y": -171.34375,
+    "nameZh": "可炸墙",
+    "descriptionZh": ""
   },
   {
     "id": "126",
@@ -10922,7 +13572,9 @@ export const botwMapMarkers = [
     "name": "Apple",
     "description": "Eight Apples",
     "x": 112.609375,
-    "y": -171.09375
+    "y": -171.09375,
+    "nameZh": "苹果",
+    "descriptionZh": "8 个苹果。"
   },
   {
     "id": "125",
@@ -10930,7 +13582,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin",
     "description": "Two red Bokoblins",
     "x": 112.609375,
-    "y": -171.203125
+    "y": -171.203125,
+    "nameZh": "波克布林",
+    "descriptionZh": "2 只红色波克布林。"
   },
   {
     "id": "124",
@@ -10938,7 +13592,9 @@ export const botwMapMarkers = [
     "name": "Stamella Shroom",
     "description": "",
     "x": 112.59375,
-    "y": -170.609375
+    "y": -170.609375,
+    "nameZh": "精力蘑菇",
+    "descriptionZh": ""
   },
   {
     "id": "122",
@@ -10946,7 +13602,9 @@ export const botwMapMarkers = [
     "name": "Pot Lid",
     "description": "",
     "x": 114.375,
-    "y": -170
+    "y": -170,
+    "nameZh": "锅盖",
+    "descriptionZh": ""
   },
   {
     "id": "121",
@@ -10954,7 +13612,9 @@ export const botwMapMarkers = [
     "name": "Endura Shroom",
     "description": "",
     "x": 114.359375,
-    "y": -170.140625
+    "y": -170.140625,
+    "nameZh": "毅力蘑菇",
+    "descriptionZh": ""
   },
   {
     "id": "120",
@@ -10962,7 +13622,9 @@ export const botwMapMarkers = [
     "name": "Baked Apple",
     "description": "",
     "x": 114.421875,
-    "y": -169.671875
+    "y": -169.671875,
+    "nameZh": "烤苹果",
+    "descriptionZh": ""
   },
   {
     "id": "119",
@@ -10970,7 +13632,9 @@ export const botwMapMarkers = [
     "name": "Stamella Shroom",
     "description": "",
     "x": 114.4375,
-    "y": -169.671875
+    "y": -169.671875,
+    "nameZh": "精力蘑菇",
+    "descriptionZh": ""
   },
   {
     "id": "118",
@@ -10978,7 +13642,9 @@ export const botwMapMarkers = [
     "name": "Spicy Pepper",
     "description": "Inside Pot.",
     "x": 114.4375,
-    "y": -169.640625
+    "y": -169.640625,
+    "nameZh": "暖暖草果",
+    "descriptionZh": "在锅里。"
   },
   {
     "id": "117",
@@ -10986,7 +13652,9 @@ export const botwMapMarkers = [
     "name": "Woodcutter's Axe",
     "description": "",
     "x": 114.421875,
-    "y": -169.640625
+    "y": -169.640625,
+    "nameZh": "伐木斧",
+    "descriptionZh": ""
   },
   {
     "id": "116",
@@ -10994,7 +13662,9 @@ export const botwMapMarkers = [
     "name": "Farmer's Pitchfork",
     "description": "",
     "x": 114.296875,
-    "y": -169.796875
+    "y": -169.796875,
+    "nameZh": "农用草叉",
+    "descriptionZh": ""
   },
   {
     "id": "115",
@@ -11002,7 +13672,9 @@ export const botwMapMarkers = [
     "name": "Torch",
     "description": "",
     "x": 114.359375,
-    "y": -169.984375
+    "y": -169.984375,
+    "nameZh": "火把",
+    "descriptionZh": ""
   },
   {
     "id": "114",
@@ -11010,7 +13682,9 @@ export const botwMapMarkers = [
     "name": "Cooking Pot",
     "description": "Lit",
     "x": 114.25,
-    "y": -169.859375
+    "y": -169.859375,
+    "nameZh": "料理锅",
+    "descriptionZh": "已点燃。"
   },
   {
     "id": "113",
@@ -11018,7 +13692,9 @@ export const botwMapMarkers = [
     "name": "Hightail Lizard",
     "description": "",
     "x": 114.125,
-    "y": -170.0625
+    "y": -170.0625,
+    "nameZh": "速速蜥",
+    "descriptionZh": ""
   },
   {
     "id": "111",
@@ -11026,7 +13702,9 @@ export const botwMapMarkers = [
     "name": "Pigeon",
     "description": "Two pigeons",
     "x": 113.984375,
-    "y": -170.3125
+    "y": -170.3125,
+    "nameZh": "鸽子",
+    "descriptionZh": "2 只鸽子。"
   },
   {
     "id": "110",
@@ -11034,7 +13712,9 @@ export const botwMapMarkers = [
     "name": "Apple",
     "description": "",
     "x": 113.84375,
-    "y": -170.609375
+    "y": -170.609375,
+    "nameZh": "苹果",
+    "descriptionZh": ""
   },
   {
     "id": "108",
@@ -11042,7 +13722,9 @@ export const botwMapMarkers = [
     "name": "Endura Shroom",
     "description": "Three (total) Endura Shrooms along multiple trees.",
     "x": 115.046875,
-    "y": -170.40625
+    "y": -170.40625,
+    "nameZh": "毅力蘑菇",
+    "descriptionZh": "多棵树旁共有 3 个毅力蘑菇。"
   },
   {
     "id": "107",
@@ -11050,7 +13732,9 @@ export const botwMapMarkers = [
     "name": "Sizzlewing Butterfly",
     "description": "",
     "x": 118.03125,
-    "y": -166.65625
+    "y": -166.65625,
+    "nameZh": "暖暖凤蝶",
+    "descriptionZh": ""
   },
   {
     "id": "106",
@@ -11058,7 +13742,9 @@ export const botwMapMarkers = [
     "name": "Guardian",
     "description": "A broken (but active) Guardian will awaken when Link gets near it.",
     "x": 121.04296875,
-    "y": -159.71875
+    "y": -159.71875,
+    "nameZh": "守护者",
+    "descriptionZh": "损坏但仍可活动的守护者会在林克靠近时苏醒。"
   },
   {
     "id": "105",
@@ -11066,7 +13752,9 @@ export const botwMapMarkers = [
     "name": "Pigeon",
     "description": "Two pigeons appear here",
     "x": 120.234375,
-    "y": -163.65625
+    "y": -163.65625,
+    "nameZh": "鸽子",
+    "descriptionZh": "这里会出现 2 只鸽子。"
   },
   {
     "id": "104",
@@ -11074,7 +13762,9 @@ export const botwMapMarkers = [
     "name": "Sizzlewing Butterfly",
     "description": "",
     "x": 118,
-    "y": -164.125
+    "y": -164.125,
+    "nameZh": "暖暖凤蝶",
+    "descriptionZh": ""
   },
   {
     "id": "103",
@@ -11082,7 +13772,9 @@ export const botwMapMarkers = [
     "name": "Explosive Barrel",
     "description": "Five Explosive Barrels are located here.",
     "x": 117.375,
-    "y": -164.046875
+    "y": -164.046875,
+    "nameZh": "爆炸桶",
+    "descriptionZh": "这里有 5 个爆炸桶。"
   },
   {
     "id": "102",
@@ -11090,7 +13782,9 @@ export const botwMapMarkers = [
     "name": "Keese",
     "description": "Two Keese appear here at night.",
     "x": 117.40625,
-    "y": -163.25
+    "y": -163.25,
+    "nameZh": "蝙蝠",
+    "descriptionZh": "夜间这里会出现 2 只蝙蝠。"
   },
   {
     "id": "101",
@@ -11098,7 +13792,9 @@ export const botwMapMarkers = [
     "name": "Seared Steak",
     "description": "Over the Campfire.",
     "x": 116.921875,
-    "y": -162.46875
+    "y": -162.46875,
+    "nameZh": "烤肉",
+    "descriptionZh": "在篝火上方。"
   },
   {
     "id": "100",
@@ -11106,7 +13802,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "Two red Bokoblins appear here. The Campfire is lit.",
     "x": 116.625,
-    "y": -162.265625
+    "y": -162.265625,
+    "nameZh": "波克布林营地",
+    "descriptionZh": "这里会出现 2 只红色波克布林。篝火已点燃。"
   },
   {
     "id": "99",
@@ -11114,7 +13812,9 @@ export const botwMapMarkers = [
     "name": "Explosive Barrel",
     "description": "Four Explosive Barrels are located here.",
     "x": 116.703125,
-    "y": -161.890625
+    "y": -161.890625,
+    "nameZh": "爆炸桶",
+    "descriptionZh": "这里有 4 个爆炸桶。"
   },
   {
     "id": "98",
@@ -11122,7 +13822,9 @@ export const botwMapMarkers = [
     "name": "Boulder",
     "description": "",
     "x": 116.390625,
-    "y": -161.734375
+    "y": -161.734375,
+    "nameZh": "巨石",
+    "descriptionZh": ""
   },
   {
     "id": "97",
@@ -11130,7 +13832,9 @@ export const botwMapMarkers = [
     "name": "Torch",
     "description": "",
     "x": 112.8125,
-    "y": -159.90625
+    "y": -159.90625,
+    "nameZh": "火把",
+    "descriptionZh": ""
   },
   {
     "id": "96",
@@ -11138,7 +13842,9 @@ export const botwMapMarkers = [
     "name": "Endura Shroom",
     "description": "Two Endura Shrooms",
     "x": 115.71875,
-    "y": -170.375
+    "y": -170.375,
+    "nameZh": "毅力蘑菇",
+    "descriptionZh": "2 个毅力蘑菇。"
   },
   {
     "id": "95",
@@ -11146,7 +13852,9 @@ export const botwMapMarkers = [
     "name": "Stamella Shroom",
     "description": "",
     "x": 115.359375,
-    "y": -170.046875
+    "y": -170.046875,
+    "nameZh": "精力蘑菇",
+    "descriptionZh": ""
   },
   {
     "id": "94",
@@ -11154,7 +13862,9 @@ export const botwMapMarkers = [
     "name": "Keese",
     "description": "Three Keese appear here at night.",
     "x": 115.65625,
-    "y": -169.921875
+    "y": -169.921875,
+    "nameZh": "蝙蝠",
+    "descriptionZh": "夜间这里会出现 3 只蝙蝠。"
   },
   {
     "id": "93",
@@ -11162,7 +13872,9 @@ export const botwMapMarkers = [
     "name": "Stal Bokoblin",
     "description": "Three Stal Bokoblins appear here at night.",
     "x": 116.21875,
-    "y": -170.203125
+    "y": -170.203125,
+    "nameZh": "骷髅波克布林",
+    "descriptionZh": "夜间这里会出现 3 只骷髅波克布林。"
   },
   {
     "id": "92",
@@ -11170,7 +13882,9 @@ export const botwMapMarkers = [
     "name": "Boko Bow",
     "description": "",
     "x": 117.46875,
-    "y": -166.890625
+    "y": -166.890625,
+    "nameZh": "波克弓",
+    "descriptionZh": ""
   },
   {
     "id": "91",
@@ -11178,7 +13892,9 @@ export const botwMapMarkers = [
     "name": "Boko Club",
     "description": "",
     "x": 117.375,
-    "y": -167.453125
+    "y": -167.453125,
+    "nameZh": "波克棍",
+    "descriptionZh": ""
   },
   {
     "id": "90",
@@ -11186,7 +13902,9 @@ export const botwMapMarkers = [
     "name": "Boko Shield",
     "description": "",
     "x": 117.46875,
-    "y": -166.875
+    "y": -166.875,
+    "nameZh": "波克盾",
+    "descriptionZh": ""
   },
   {
     "id": "89",
@@ -11194,7 +13912,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "Lit",
     "x": 117.46875,
-    "y": -166.875
+    "y": -166.875,
+    "nameZh": "篝火",
+    "descriptionZh": "已点燃。"
   },
   {
     "id": "88",
@@ -11202,7 +13922,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "",
     "x": 117.484375,
-    "y": -166.890625
+    "y": -166.890625,
+    "nameZh": "波克布林营地",
+    "descriptionZh": ""
   },
   {
     "id": "87",
@@ -11210,7 +13932,9 @@ export const botwMapMarkers = [
     "name": "Courser Bee Honey",
     "description": "",
     "x": 117.140625,
-    "y": -166.859375
+    "y": -166.859375,
+    "nameZh": "精力蜂的蜂蜜",
+    "descriptionZh": ""
   },
   {
     "id": "86",
@@ -11218,7 +13942,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin",
     "description": "Two red Bokoblins appear here.",
     "x": 118.140625,
-    "y": -160.859375
+    "y": -160.859375,
+    "nameZh": "波克布林",
+    "descriptionZh": "这里会出现 2 只红色波克布林。"
   },
   {
     "id": "85",
@@ -11226,7 +13952,9 @@ export const botwMapMarkers = [
     "name": "Raft",
     "description": "",
     "x": 109.6875,
-    "y": -166.328125
+    "y": -166.328125,
+    "nameZh": "木筏",
+    "descriptionZh": ""
   },
   {
     "id": "84",
@@ -11234,7 +13962,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "Three red Bokoblins One blue Bokoblin One Keese",
     "x": 117.171875,
-    "y": -164.09375
+    "y": -164.09375,
+    "nameZh": "波克布林营地",
+    "descriptionZh": "3 只红色波克布林、1 只蓝色波克布林、1 只蝙蝠。"
   },
   {
     "id": "82",
@@ -11242,7 +13972,9 @@ export const botwMapMarkers = [
     "name": "Keese",
     "description": "Three Keese appear here at night.",
     "x": 117.3125,
-    "y": -160.078125
+    "y": -160.078125,
+    "nameZh": "蝙蝠",
+    "descriptionZh": "夜间这里会出现 3 只蝙蝠。"
   },
   {
     "id": "81",
@@ -11250,7 +13982,9 @@ export const botwMapMarkers = [
     "name": "Hyrule Herb",
     "description": "Two Hyrule Herbs grow here.",
     "x": 115.453125,
-    "y": -161.21875
+    "y": -161.21875,
+    "nameZh": "海拉鲁草",
+    "descriptionZh": "这里长着 2 株海拉鲁草。"
   },
   {
     "id": "80",
@@ -11258,7 +13992,9 @@ export const botwMapMarkers = [
     "name": "Chuchu",
     "description": "Two Chuchus appear here.",
     "x": 116.0625,
-    "y": -161.0625
+    "y": -161.0625,
+    "nameZh": "丘丘",
+    "descriptionZh": "这里会出现 2 只丘丘。"
   },
   {
     "id": "79",
@@ -11266,7 +14002,9 @@ export const botwMapMarkers = [
     "name": "Boulder",
     "description": "Two pushable boulders are situated on a ledge here.",
     "x": 115.171875,
-    "y": -160.90625
+    "y": -160.90625,
+    "nameZh": "巨石",
+    "descriptionZh": "这里的岩架上有 2 块可推动的巨石。"
   },
   {
     "id": "78",
@@ -11274,7 +14012,9 @@ export const botwMapMarkers = [
     "name": "Keese",
     "description": "Two Keese appear here at night.",
     "x": 115.109375,
-    "y": -161.375
+    "y": -161.375,
+    "nameZh": "蝙蝠",
+    "descriptionZh": "夜间这里会出现 2 只蝙蝠。"
   },
   {
     "id": "76",
@@ -11282,7 +14022,9 @@ export const botwMapMarkers = [
     "name": "Stal Bokoblin",
     "description": "Three Stal Bokoblins spawn here at night.",
     "x": 114.796875,
-    "y": -161.828125
+    "y": -161.828125,
+    "nameZh": "骷髅波克布林",
+    "descriptionZh": "夜间这里会生成 3 只骷髅波克布林。"
   },
   {
     "id": "75",
@@ -11290,7 +14032,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin",
     "description": "Two red Bokoblins (NOT a campsite)",
     "x": 114.328125,
-    "y": -160.5
+    "y": -160.5,
+    "nameZh": "波克布林",
+    "descriptionZh": "2 只红色波克布林（不是营地）。"
   },
   {
     "id": "74",
@@ -11298,7 +14042,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "Lit",
     "x": 112.9375,
-    "y": -160
+    "y": -160,
+    "nameZh": "篝火",
+    "descriptionZh": "已点燃。"
   },
   {
     "id": "73",
@@ -11306,7 +14052,9 @@ export const botwMapMarkers = [
     "name": "Cooking Pot",
     "description": "Unlit",
     "x": 112.734375,
-    "y": -160.015625
+    "y": -160.015625,
+    "nameZh": "料理锅",
+    "descriptionZh": "未点燃。"
   },
   {
     "id": "72",
@@ -11314,7 +14062,9 @@ export const botwMapMarkers = [
     "name": "Cooking Pot",
     "description": "Unlit",
     "x": 103.15625,
-    "y": -161.5625
+    "y": -161.5625,
+    "nameZh": "料理锅",
+    "descriptionZh": "未点燃。"
   },
   {
     "id": "71",
@@ -11322,7 +14072,9 @@ export const botwMapMarkers = [
     "name": "Bokoblin Camp",
     "description": "",
     "x": 105.26171875,
-    "y": -156.01171875
+    "y": -156.01171875,
+    "nameZh": "波克布林营地",
+    "descriptionZh": ""
   },
   {
     "id": "70",
@@ -11330,7 +14082,9 @@ export const botwMapMarkers = [
     "name": "White Chuchu",
     "description": "Two White Chuchus",
     "x": 106.40625,
-    "y": -162.859375
+    "y": -162.859375,
+    "nameZh": "白色丘丘",
+    "descriptionZh": "2 只白色丘丘。"
   },
   {
     "id": "69",
@@ -11338,7 +14092,9 @@ export const botwMapMarkers = [
     "name": "White Chuchu",
     "description": "Two White Chuchus are found here.",
     "x": 107.65625,
-    "y": -163.203125
+    "y": -163.203125,
+    "nameZh": "白色丘丘",
+    "descriptionZh": "这里有 2 只白色丘丘。"
   },
   {
     "id": "68",
@@ -11346,7 +14102,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "Unlit.",
     "x": 107.78125,
-    "y": -163.34375
+    "y": -163.34375,
+    "nameZh": "篝火",
+    "descriptionZh": "未点燃。"
   },
   {
     "id": "67",
@@ -11354,7 +14112,9 @@ export const botwMapMarkers = [
     "name": "White Chuchu",
     "description": "",
     "x": 107.875,
-    "y": -163.640625
+    "y": -163.640625,
+    "nameZh": "白色丘丘",
+    "descriptionZh": ""
   },
   {
     "id": "66",
@@ -11362,7 +14122,9 @@ export const botwMapMarkers = [
     "name": "Campfire",
     "description": "(Unlit.)",
     "x": 107.921875,
-    "y": -164.734375
+    "y": -164.734375,
+    "nameZh": "篝火",
+    "descriptionZh": "（未点燃。）"
   },
   {
     "id": "65",
@@ -11370,7 +14132,9 @@ export const botwMapMarkers = [
     "name": "Mineral Deposit",
     "description": "Outside of the dilapidated house, containing 2 Rock Salts.",
     "x": 110.75,
-    "y": -166.015625
+    "y": -166.015625,
+    "nameZh": "矿床",
+    "descriptionZh": "在破旧房屋外，包含 2 个岩盐。"
   },
   {
     "id": "64",
@@ -11378,7 +14142,9 @@ export const botwMapMarkers = [
     "name": "Traveler's Bow",
     "description": "(Needs confirmation.)",
     "x": 115.046875,
-    "y": -158.6953125
+    "y": -158.6953125,
+    "nameZh": "旅人之弓",
+    "descriptionZh": "（需要确认。）"
   },
   {
     "id": "63",
@@ -11386,7 +14152,9 @@ export const botwMapMarkers = [
     "name": "Stal Bokoblin",
     "description": "Three Stal Bokoblins spawn here at night.",
     "x": 109.3125,
-    "y": -165.375
+    "y": -165.375,
+    "nameZh": "骷髅波克布林",
+    "descriptionZh": "夜间这里会生成 3 只骷髅波克布林。"
   },
   {
     "id": "58",
@@ -11394,7 +14162,9 @@ export const botwMapMarkers = [
     "name": "Treasure Chest",
     "description": "Hidden under the water, contents unknown.",
     "x": 110.28125,
-    "y": -166.015625
+    "y": -166.015625,
+    "nameZh": "宝箱",
+    "descriptionZh": "藏在水下，内容未知。"
   },
   {
     "id": "56",
@@ -11402,7 +14172,9 @@ export const botwMapMarkers = [
     "name": "Soldier's Bow",
     "description": "Found in a Treasure Chest the tower.",
     "x": 114.265625,
-    "y": -164.9375
+    "y": -164.9375,
+    "nameZh": "士兵之弓",
+    "descriptionZh": "在塔上的宝箱中找到。"
   },
   {
     "id": "55",
@@ -11410,7 +14182,9 @@ export const botwMapMarkers = [
     "name": "Goddess Statue",
     "description": "",
     "x": 115.12109375,
-    "y": -159.78125
+    "y": -159.78125,
+    "nameZh": "女神像",
+    "descriptionZh": ""
   },
   {
     "id": "52",
@@ -11418,7 +14192,9 @@ export const botwMapMarkers = [
     "name": "Arrow x10",
     "description": "",
     "x": 112.5625,
-    "y": -159.875
+    "y": -159.875,
+    "nameZh": "木箭 ×10",
+    "descriptionZh": ""
   },
   {
     "id": "51",
@@ -11426,7 +14202,9 @@ export const botwMapMarkers = [
     "name": "Traveler's Bow",
     "description": "",
     "x": 112.9375,
-    "y": -159.8125
+    "y": -159.8125,
+    "nameZh": "旅人之弓",
+    "descriptionZh": ""
   },
   {
     "id": "50",
@@ -11434,7 +14212,9 @@ export const botwMapMarkers = [
     "name": "Keese",
     "description": "Two Keese spawn here at night.",
     "x": 108.484375,
-    "y": -164.328125
+    "y": -164.328125,
+    "nameZh": "蝙蝠",
+    "descriptionZh": "夜间这里会生成 2 只蝙蝠。"
   },
   {
     "id": "49",
@@ -11442,7 +14222,9 @@ export const botwMapMarkers = [
     "name": "White Chuchu",
     "description": "Two White Chuchus are found here.",
     "x": 109.2890625,
-    "y": -160.49609375
+    "y": -160.49609375,
+    "nameZh": "白色丘丘",
+    "descriptionZh": "这里有 2 只白色丘丘。"
   },
   {
     "id": "45",
@@ -11450,7 +14232,9 @@ export const botwMapMarkers = [
     "name": "Fire Arrow x5",
     "description": "Found inside a Treasure Chest in the cave behind the waterfall.",
     "x": 109.359375,
-    "y": -168.375
+    "y": -168.375,
+    "nameZh": "火箭 ×5",
+    "descriptionZh": "在瀑布后方洞穴的宝箱中找到。"
   },
   {
     "id": "44",
@@ -11458,7 +14242,9 @@ export const botwMapMarkers = [
     "name": "Arrow x10",
     "description": "Found inside a Treasure Chest in the cave behind the waterfall.",
     "x": 109.359375,
-    "y": -168.375
+    "y": -168.375,
+    "nameZh": "木箭 ×10",
+    "descriptionZh": "在瀑布后方洞穴的宝箱中找到。"
   },
   {
     "id": "43",
@@ -11466,7 +14252,9 @@ export const botwMapMarkers = [
     "name": "Spiked Boko Bow",
     "description": "Found inside a Treasure Chest in the cave behind the waterfall.",
     "x": 109.375,
-    "y": -168.390625
+    "y": -168.390625,
+    "nameZh": "尖刺波克弓",
+    "descriptionZh": "在瀑布后方洞穴的宝箱中找到。"
   },
   {
     "id": "40",
@@ -11474,7 +14262,9 @@ export const botwMapMarkers = [
     "name": "White Chuchu",
     "description": "",
     "x": 110.07421875,
-    "y": -161.03515625
+    "y": -161.03515625,
+    "nameZh": "白色丘丘",
+    "descriptionZh": ""
   },
   {
     "id": "39",
@@ -11482,7 +14272,9 @@ export const botwMapMarkers = [
     "name": "Temple of Time",
     "description": "Temple of Time",
     "x": 114.140625,
-    "y": -165.4375
+    "y": -165.4375,
+    "nameZh": "时之神殿",
+    "descriptionZh": "时之神殿。"
   },
   {
     "id": "38",
@@ -11490,7 +14282,9 @@ export const botwMapMarkers = [
     "name": "Wood",
     "description": "There are three bundles of Wood in this dilapidated house, and two bundles outside of it.",
     "x": 110.265625,
-    "y": -165.90625
+    "y": -165.90625,
+    "nameZh": "木柴",
+    "descriptionZh": "破旧房屋内有 3 捆木柴，屋外还有 2 捆。"
   },
   {
     "id": "37",
@@ -11498,7 +14292,9 @@ export const botwMapMarkers = [
     "name": "Korok Leaf",
     "description": "",
     "x": 110.015625,
-    "y": -165.578125
+    "y": -165.578125,
+    "nameZh": "克洛格的团扇",
+    "descriptionZh": ""
   },
   {
     "id": "36",
@@ -11506,7 +14302,9 @@ export const botwMapMarkers = [
     "name": "Hylian Shroom",
     "description": "",
     "x": 110.671875,
-    "y": -166.296875
+    "y": -166.296875,
+    "nameZh": "海拉鲁蘑菇",
+    "descriptionZh": ""
   },
   {
     "id": "35",
@@ -11514,7 +14312,9 @@ export const botwMapMarkers = [
     "name": "Woodcutter's Axe",
     "description": "",
     "x": 110.703125,
-    "y": -166.296875
+    "y": -166.296875,
+    "nameZh": "伐木斧",
+    "descriptionZh": ""
   },
   {
     "id": "34",
@@ -11522,6 +14322,8 @@ export const botwMapMarkers = [
     "name": "Spicy Pepper",
     "description": "There are six Spicy Peppers growing on two plants here. (Three to each plant.)",
     "x": 111.46875,
-    "y": -166
+    "y": -166,
+    "nameZh": "暖暖草果",
+    "descriptionZh": "这里有 2 株暖暖草果，共 6 个。（每株 3 个。）"
   }
 ] satisfies BotwMapMarker[];
