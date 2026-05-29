@@ -145,6 +145,10 @@
   --botw-map-control-bg: color-mix(in oklch, var(--card) 92%, transparent);
 }
 
+.botw-map.leaflet-container {
+  background: oklch(0.18 0.01 85);
+}
+
 .botw-map .leaflet-control-zoom {
   border: 1px solid var(--border);
   box-shadow: 0 10px 30px oklch(0 0 0 / 16%);

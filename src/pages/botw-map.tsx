@@ -1,157 +1,118 @@
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import { Layers, LocateFixed, MapPinned, Search } from "lucide-react";
+import { Home, Layers, LocateFixed, Search, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ToolPage } from "@/components/layout/tool-page";
+import { Link } from "react-router";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { botwMapMarkers, botwMarkerCategories, defaultBotwCategoryIds, type BotwMapMarker } from "@/data/botw-map-data";
 
-type MarkerType = "tower" | "shrine" | "stable" | "village" | "memory" | "korok" | "landmark";
-
-type MapMarker = {
-  id: string;
-  name: string;
-  type: MarkerType;
-  x: number;
-  y: number;
-  region: string;
-  description: string;
+const mapBounds = {
+  northEast: [-206, 221] as L.LatLngTuple,
+  southWest: [-49.875, 34.25] as L.LatLngTuple,
 };
 
-const mapSize = {
-  height: 5200,
-  width: 6500,
+const tileMap = {
+  attribution: "Map tiles: dragonir/zelda-map assets/maps",
+  maxZoom: 7,
+  minZoom: 0,
+  nativeMinZoom: 0,
+  nativeMaxZoom: 7,
+  url: `${import.meta.env.BASE_URL}maps/zelda-tiles/{z}/{x}/{y}.png`,
 };
 
-const mapImage = {
-  attribution: "Map image: Zelda Dungeon Wiki Korok Map, fair-use game map",
-  url: `${import.meta.env.BASE_URL}maps/botw-korok-map.jpg`,
+const displayMarkerCategories = botwMarkerCategories.map((category) =>
+  category.id === "1925" ? { ...category, label: "神庙" } : category,
+);
+
+const categoryMap = Object.fromEntries(displayMarkerCategories.map((category) => [category.id, category]));
+
+const categoriesByParent = displayMarkerCategories
+  .filter((category) => category.parentId === null)
+  .map((parent) => ({
+    ...parent,
+    children: displayMarkerCategories.filter((category) => category.parentId === parent.id),
+  }))
+  .map((parent) => ({
+    ...parent,
+    groupCount: parent.count + parent.children.reduce((total, child) => total + child.count, 0),
+  }));
+
+const botwGameIconUrl = `${import.meta.env.BASE_URL}icons/botw-logo.jpg`;
+
+const escapeHtml = (value: string) =>
+  value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+
+const getMarkerPopupHtml = (marker: BotwMapMarker) => {
+  const category = categoryMap[marker.categoryId];
+
+  return [
+    `<strong>${escapeHtml(marker.name)}</strong>`,
+    `<br/><span>${escapeHtml(category?.label ?? "未分类")} / ${escapeHtml(category?.parentName ?? category?.name ?? "标注")}</span>`,
+    marker.description ? `<br/><small>${escapeHtml(marker.description)}</small>` : "",
+    `<br/><small>x: ${marker.x.toFixed(3)}, y: ${marker.y.toFixed(3)}</small>`,
+  ].join("");
 };
-
-const markerTypes: Array<{ id: MarkerType; label: string; color: string }> = [
-  { id: "tower", label: "塔", color: "#f59e0b" },
-  { id: "shrine", label: "神庙", color: "#22d3ee" },
-  { id: "stable", label: "驿站", color: "#a16207" },
-  { id: "village", label: "村镇", color: "#22c55e" },
-  { id: "memory", label: "回忆点", color: "#a78bfa" },
-  { id: "korok", label: "呀哈哈", color: "#84cc16" },
-  { id: "landmark", label: "地点", color: "#f43f5e" },
-];
-
-const markers: MapMarker[] = [];
-
-const markerTypeMap = Object.fromEntries(markerTypes.map((type) => [type.id, type])) as Record<
-  MarkerType,
-  (typeof markerTypes)[number]
->;
-
-const fallbackMapSvg = `
-<svg xmlns="http://www.w3.org/2000/svg" width="${mapSize.width}" height="${mapSize.height}" viewBox="0 0 ${mapSize.width} ${mapSize.height}">
-  <defs>
-    <linearGradient id="land" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#c5d99a"/>
-      <stop offset="0.45" stop-color="#8fb878"/>
-      <stop offset="1" stop-color="#d7bd7b"/>
-    </linearGradient>
-    <radialGradient id="snow" cx="0.25" cy="0.18" r="0.45">
-      <stop offset="0" stop-color="#f5f7f3"/>
-      <stop offset="1" stop-color="#93a58d"/>
-    </radialGradient>
-    <filter id="paper">
-      <feTurbulence baseFrequency="0.012" numOctaves="4" seed="8"/>
-      <feColorMatrix type="saturate" values="0.28"/>
-      <feBlend mode="multiply" in2="SourceGraphic"/>
-    </filter>
-  </defs>
-  <rect width="${mapSize.width}" height="${mapSize.height}" fill="#91b5a4"/>
-  <path d="M250 225 C530 80 835 150 1110 120 C1515 75 1945 160 2180 455 C2365 685 2295 1035 2100 1270 C1835 1590 1360 1525 1065 1475 C720 1415 260 1535 115 1160 C-5 850 20 390 250 225Z" fill="url(#land)" stroke="#60724b" stroke-width="12"/>
-  <path d="M0 1140 C315 990 520 1085 790 995 C1115 885 1270 655 1590 690 C1910 725 2080 930 2400 845 L2400 1600 L0 1600Z" fill="#cda05f" opacity="0.72"/>
-  <path d="M0 0 H820 C725 170 595 245 410 270 C220 296 95 250 0 195Z" fill="url(#snow)" opacity="0.95"/>
-  <path d="M1805 110 C1975 95 2165 198 2265 360 C2155 430 2015 450 1870 420 C1765 355 1748 220 1805 110Z" fill="#b75d45" opacity="0.62"/>
-  <path d="M1260 0 C1370 210 1312 395 1180 520 C1060 632 1065 795 1195 942 C1285 1044 1288 1188 1180 1320" fill="none" stroke="#4ba3b7" stroke-width="34" opacity="0.68"/>
-  <path d="M642 410 C820 472 910 585 1018 708 C1140 848 1245 900 1448 888" fill="none" stroke="#4ba3b7" stroke-width="23" opacity="0.55"/>
-  <g fill="#617957" opacity="0.65">
-    <path d="M955 610 l70 -135 l82 135Z"/>
-    <path d="M1060 635 l62 -118 l76 118Z"/>
-    <path d="M1510 1015 l68 -130 l76 130Z"/>
-    <path d="M1588 1038 l54 -106 l64 106Z"/>
-    <path d="M450 780 l72 -134 l88 134Z"/>
-    <path d="M540 802 l58 -112 l71 112Z"/>
-  </g>
-  <g fill="#5f8d57" opacity="0.35">
-    <circle cx="1030" cy="440" r="150"/>
-    <circle cx="1115" cy="390" r="112"/>
-    <circle cx="925" cy="470" r="95"/>
-    <circle cx="1840" cy="1035" r="160"/>
-    <circle cx="1965" cy="965" r="105"/>
-  </g>
-  <g fill="#38533f" font-family="serif" font-size="42" opacity="0.72">
-    <text x="132" y="165">Hebra</text>
-    <text x="980" y="455">Great Forest</text>
-    <text x="1810" y="360">Akkala</text>
-    <text x="1380" y="760">Lanayru</text>
-    <text x="1110" y="1115">Necluda</text>
-    <text x="440" y="1345">Gerudo</text>
-    <text x="650" y="1180">Great Plateau</text>
-  </g>
-  <rect width="${mapSize.width}" height="${mapSize.height}" fill="transparent" filter="url(#paper)" opacity="0.18"/>
-</svg>`;
-
-const fallbackMapUrl = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(fallbackMapSvg)}`;
 
 export function BotwMapPage() {
   const mapElementRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const markerLayerRef = useRef<L.LayerGroup | null>(null);
-  const [activeTypes, setActiveTypes] = useState<Set<MarkerType>>(() => new Set(markerTypes.map((type) => type.id)));
+  const [activeCategoryIds, setActiveCategoryIds] = useState<Set<string>>(() => new Set(defaultBotwCategoryIds));
   const [query, setQuery] = useState("");
-  const [cursor, setCursor] = useState<{ x: number; y: number } | null>(null);
+  const [searchPanelOpen, setSearchPanelOpen] = useState(false);
+  const [layerPanelOpen, setLayerPanelOpen] = useState(false);
 
   const filteredMarkers = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
-    return markers.filter((marker) => {
-      const matchesType = activeTypes.has(marker.type);
+    return botwMapMarkers.filter((marker) => {
+      const category = categoryMap[marker.categoryId];
+      const matchesCategory = normalizedQuery ? true : activeCategoryIds.has(marker.categoryId);
       const matchesQuery = normalizedQuery
-        ? `${marker.name} ${marker.region} ${marker.description}`.toLowerCase().includes(normalizedQuery)
+        ? `${marker.name} ${marker.description} ${category?.label ?? ""} ${category?.name ?? ""} ${category?.parentName ?? ""}`
+            .toLowerCase()
+            .includes(normalizedQuery)
         : true;
-      return matchesType && matchesQuery;
+      return matchesCategory && matchesQuery;
     });
-  }, [activeTypes, query]);
+  }, [activeCategoryIds, query]);
 
   useEffect(() => {
     if (!mapElementRef.current || mapRef.current) {
       return;
     }
 
-    const bounds = L.latLngBounds([0, 0], [mapSize.height, mapSize.width]);
+    const bounds = L.latLngBounds(mapBounds.southWest, mapBounds.northEast);
     const map = L.map(mapElementRef.current, {
       attributionControl: false,
       crs: L.CRS.Simple,
-      maxBounds: bounds.pad(0.18),
-      maxBoundsViscosity: 0.6,
-      maxZoom: 2,
-      minZoom: -4,
-      zoomSnap: 0.25,
+      maxBounds: bounds,
+      maxBoundsViscosity: 1,
+      maxZoom: tileMap.maxZoom,
+      minZoom: tileMap.minZoom,
+      zoomDelta: 0.5,
+      zoomControl: false,
+      zoomSnap: 0.5,
     });
 
-    const imageLayer = L.imageOverlay(mapImage.url, bounds, {
-      errorOverlayUrl: fallbackMapUrl,
-      crossOrigin: "anonymous",
+    L.tileLayer(tileMap.url, {
+      attribution: tileMap.attribution,
+      bounds,
+      maxNativeZoom: tileMap.nativeMaxZoom,
+      maxZoom: tileMap.maxZoom,
+      minNativeZoom: tileMap.nativeMinZoom,
+      minZoom: tileMap.minZoom,
+      noWrap: true,
     }).addTo(map);
-    imageLayer.once("error", () => {
-      setCursor(null);
-    });
-    map.fitBounds(bounds);
-    map.on("click", (event) => {
-      setCursor({
-        x: Math.round(event.latlng.lng),
-        y: Math.round(event.latlng.lat),
-      });
-    });
-
+    map.setView([0, 0], 2);
+    window.setTimeout(() => map.invalidateSize(), 0);
     mapRef.current = map;
     markerLayerRef.current = L.layerGroup().addTo(map);
 
@@ -170,155 +131,219 @@ export function BotwMapPage() {
 
     markerLayer.clearLayers();
     filteredMarkers.forEach((marker) => {
-      const type = markerTypeMap[marker.type];
+      const category = categoryMap[marker.categoryId];
+
       L.circleMarker([marker.y, marker.x], {
         color: "#111827",
-        fillColor: type.color,
+        fillColor: category?.color ?? "#38bdf8",
         fillOpacity: 0.95,
-        radius: 8,
+        radius: marker.categoryId === "1916" ? 5 : 7,
         weight: 2,
       })
-        .bindPopup(
-          `<strong>${marker.name}</strong><br/><span>${type.label} / ${marker.region}</span><br/><small>${marker.description}</small><br/><small>x: ${marker.x}, y: ${marker.y}</small>`,
-        )
+        .bindPopup(getMarkerPopupHtml(marker), { className: "botw-marker-popup" })
         .addTo(markerLayer);
     });
   }, [filteredMarkers]);
 
-  const toggleType = (type: MarkerType) => {
-    setActiveTypes((current) => {
+  useEffect(() => {
+    if (!searchPanelOpen) {
+      return;
+    }
+
+    window.setTimeout(() => searchInputRef.current?.focus(), 0);
+  }, [searchPanelOpen]);
+
+  const toggleCategory = (categoryId: string) => {
+    setActiveCategoryIds((current) => {
       const next = new Set(current);
-      if (next.has(type)) {
-        next.delete(type);
+      if (next.has(categoryId)) {
+        next.delete(categoryId);
       } else {
-        next.add(type);
+        next.add(categoryId);
       }
       return next;
     });
   };
 
-  const focusMarker = (marker: MapMarker) => {
+  const focusMarker = (marker: BotwMapMarker) => {
     const map = mapRef.current;
     if (!map) {
       return;
     }
 
-    map.setView([marker.y, marker.x], Math.max(map.getZoom(), 0.8), { animate: true });
-    setCursor({ x: marker.x, y: marker.y });
+    map.setView([marker.y, marker.x], Math.max(map.getZoom(), 5), { animate: true });
+    window.setTimeout(() => {
+      L.popup({ className: "botw-marker-popup" }).setLatLng([marker.y, marker.x]).setContent(getMarkerPopupHtml(marker)).openOn(map);
+    }, 260);
   };
 
   const resetView = () => {
-    mapRef.current?.fitBounds(L.latLngBounds([0, 0], [mapSize.height, mapSize.width]), { animate: true });
+    mapRef.current?.setView([0, 0], 2, { animate: true });
   };
 
   return (
-    <ToolPage icon={<MapPinned size={28} />} kicker="BOTW Map" title="旷野之息地图">
-      <section className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
-        <Card className="overflow-hidden">
-          <CardHeader className="border-b">
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <div>
-                <CardTitle>地图漫游</CardTitle>
-                <CardDescription>Leaflet 图片底图模式，当前底图自带全部呀哈哈位置标注。</CardDescription>
+    <main className="relative h-svh overflow-hidden bg-stone-950">
+      <div ref={mapElementRef} className="botw-map absolute inset-0 bg-stone-900" />
+
+      <div className="pointer-events-none absolute inset-0 z-[500] p-3 sm:p-4">
+        <div className="pointer-events-auto flex items-center gap-2">
+          <Button
+            variant="ghost"
+            size="icon"
+            asChild
+            className="size-10 rounded-full border border-white/20 bg-black/45 text-white shadow-xl backdrop-blur hover:bg-black/60"
+          >
+            <Link to="/" aria-label="返回入口">
+              <Home className="size-4" />
+            </Link>
+          </Button>
+          <img
+            src={botwGameIconUrl}
+            alt="Zelda Breath of the Wild"
+            className="size-10 rounded-full border border-white/20 object-cover shadow-xl"
+            draggable={false}
+          />
+        </div>
+
+        <div className="pointer-events-auto absolute right-3 top-20 sm:right-4 sm:top-4">
+          {searchPanelOpen ? (
+            <section className="w-[min(calc(100vw-24px),390px)]">
+              <div className="grid gap-3 rounded-lg border bg-card/92 p-3 shadow-xl backdrop-blur">
+                <div className="flex items-center justify-between gap-3">
+                  <div className="min-w-0">
+                    <h2 className="flex items-center gap-2 text-sm font-semibold">
+                      <Search className="size-4" />
+                      搜索
+                    </h2>
+                    <p className="text-xs text-muted-foreground">
+                      {botwMapMarkers.length} 个标注，当前显示 {filteredMarkers.length} 个
+                    </p>
+                  </div>
+                  <div className="flex shrink-0 items-center gap-1">
+                    {query ? (
+                      <Button variant="ghost" size="icon" type="button" onClick={() => setQuery("")} aria-label="清空搜索" className="size-8">
+                        <X className="size-4" />
+                      </Button>
+                    ) : null}
+                    <Button variant="ghost" size="icon" type="button" onClick={() => setSearchPanelOpen(false)} aria-label="关闭搜索" className="size-8">
+                      <X className="size-4" />
+                    </Button>
+                  </div>
+                </div>
+                <Input ref={searchInputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索：Shrine、Tower、Korok..." />
+                <div className="grid max-h-[min(42svh,380px)] gap-2 overflow-auto pr-1">
+                  {filteredMarkers.length === 0 ? <p className="rounded-md border bg-muted/35 p-3 text-sm text-muted-foreground">没有匹配的标注。</p> : null}
+                  {filteredMarkers.map((marker) => {
+                    const category = categoryMap[marker.categoryId];
+                    return (
+                      <button
+                        key={marker.id}
+                        type="button"
+                        onClick={() => focusMarker(marker)}
+                        className="grid gap-1 rounded-md border bg-background/72 p-3 text-left transition hover:border-primary/35 hover:bg-background"
+                      >
+                        <div className="flex items-center justify-between gap-2">
+                          <strong className="truncate text-sm">{marker.name}</strong>
+                          <Badge variant="outline" className="shrink-0 bg-card/80">
+                            {category?.label ?? "标注"}
+                          </Badge>
+                        </div>
+                        <span className="truncate text-xs text-muted-foreground">
+                          {category?.parentName ?? category?.name ?? "未分类"} / x {marker.x.toFixed(3)}, y {marker.y.toFixed(3)}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-              <Button variant="outline" type="button" onClick={resetView}>
-                <LocateFixed />
-                复位
+            </section>
+          ) : (
+            <Button
+              variant={query ? "default" : "secondary"}
+              size="icon"
+              type="button"
+              onClick={() => setSearchPanelOpen(true)}
+              aria-label="展开搜索"
+              className="size-10 shadow-xl"
+            >
+              <Search className="size-4" />
+            </Button>
+          )}
+        </div>
+
+        <div className="pointer-events-auto absolute bottom-3 left-3 flex flex-col gap-2 sm:bottom-4 sm:left-4">
+          <Button variant="secondary" size="icon" type="button" onClick={resetView} aria-label="复位地图" className="size-10 shadow-xl">
+            <LocateFixed className="size-4" />
+          </Button>
+          <Button
+            variant={layerPanelOpen ? "default" : "secondary"}
+            size="icon"
+            type="button"
+            onClick={() => setLayerPanelOpen((open) => !open)}
+            aria-label="标注图层"
+            className="size-10 shadow-xl"
+          >
+            <Layers className="size-4" />
+          </Button>
+        </div>
+
+        {layerPanelOpen ? (
+          <section className="pointer-events-auto absolute bottom-28 left-3 w-[min(calc(100vw-24px),360px)] rounded-lg border bg-card/92 p-3 shadow-xl backdrop-blur sm:left-4">
+            <div className="mb-3 flex items-center justify-between gap-3">
+              <div>
+                <h2 className="flex items-center gap-2 text-sm font-semibold">
+                  <Layers className="size-4" />
+                  标注图层
+                </h2>
+                <p className="text-xs text-muted-foreground">默认显示神庙</p>
+              </div>
+              <Button variant="ghost" size="icon" type="button" onClick={() => setLayerPanelOpen(false)} aria-label="关闭图层" className="size-8">
+                <X className="size-4" />
               </Button>
             </div>
-          </CardHeader>
-          <CardContent className="p-0">
-            <div ref={mapElementRef} className="botw-map h-[min(72svh,720px)] min-h-[520px] w-full bg-stone-900" />
-          </CardContent>
-        </Card>
-
-        <aside className="grid gap-4 self-start xl:sticky xl:top-5">
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Search className="size-4" />
-                搜索
-              </CardTitle>
-              <CardDescription>叠加标注数据接入后，可按名称、区域或备注筛选。</CardDescription>
-            </CardHeader>
-            <CardContent className="grid gap-3">
-              <Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索：神庙、村镇、区域..." />
-              <div className="grid max-h-64 gap-2 overflow-auto pr-1">
-                {markers.length === 0 ? (
-                  <p className="rounded-lg border bg-muted/35 p-3 text-sm leading-6 text-muted-foreground">
-                    当前版本使用自带兴趣点的底图，全部呀哈哈位置已经画在图片上；可先通过拖拽和缩放查看。后续再接入结构化 POI 数据后，这里会恢复搜索定位。
-                  </p>
-                ) : null}
-                {markers.length > 0 && filteredMarkers.length === 0 ? <p className="text-sm text-muted-foreground">没有匹配的标注。</p> : null}
-                {filteredMarkers.map((marker) => {
-                  const type = markerTypeMap[marker.type];
-                  return (
-                    <button
-                      key={marker.id}
-                      type="button"
-                      onClick={() => focusMarker(marker)}
-                      className="grid gap-1 rounded-lg border bg-muted/35 p-3 text-left transition hover:border-primary/35 hover:bg-muted"
-                    >
-                      <div className="flex items-center justify-between gap-2">
-                        <strong className="text-sm">{marker.name}</strong>
-                        <Badge variant="outline">{type.label}</Badge>
-                      </div>
-                      <span className="text-xs text-muted-foreground">
-                        {marker.region} / x {marker.x}, y {marker.y}
-                      </span>
-                    </button>
-                  );
-                })}
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Layers className="size-4" />
-                标注图层
-              </CardTitle>
-              <CardDescription>结构化叠加标注接入后，可在这里切换类型。</CardDescription>
-            </CardHeader>
-            <CardContent className="grid gap-2">
-              {markers.length === 0 ? (
-                <div className="rounded-lg border bg-muted/35 p-3 text-sm text-muted-foreground">底图标注已内嵌在图片中，暂不支持按类型隐藏。</div>
-              ) : (
-                markerTypes.map((type) => (
-                  <label key={type.id} className="flex items-center justify-between gap-3 rounded-lg border bg-muted/35 p-3">
-                    <span className="flex items-center gap-2 text-sm">
-                      <span className="size-3 rounded-full border border-black/30" style={{ background: type.color }} />
-                      {type.label}
-                    </span>
-                    <input
-                      type="checkbox"
-                      checked={activeTypes.has(type.id)}
-                      onChange={() => toggleType(type.id)}
-                      className="size-4 accent-primary"
-                    />
-                  </label>
-                ))
-              )}
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>坐标</CardTitle>
-              <CardDescription>点击地图读取图片坐标，方便后续录入标注。</CardDescription>
-            </CardHeader>
-            <CardContent className="grid gap-3">
-              <div className="rounded-lg border bg-muted/35 p-3 font-mono text-sm">
-                {cursor ? `x: ${cursor.x}, y: ${cursor.y}` : "点击地图获取坐标"}
-              </div>
-              <div className="text-xs leading-5 text-muted-foreground">
-                当前底图来自在线高清图源：{mapImage.attribution}。后续替换为本地授权资源时，保持图片宽高和标注坐标体系一致即可。
-              </div>
-            </CardContent>
-          </Card>
-        </aside>
-      </section>
-    </ToolPage>
+            <div className="mb-3 grid grid-cols-2 gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                type="button"
+                onClick={() => setActiveCategoryIds(new Set(botwMarkerCategories.filter((category) => category.count > 0).map((category) => category.id)))}
+              >
+                全部
+              </Button>
+              <Button variant="outline" size="sm" type="button" onClick={() => setActiveCategoryIds(new Set())}>
+                清空
+              </Button>
+            </div>
+            <div className="grid max-h-[min(48svh,420px)] gap-3 overflow-auto pr-1">
+              {categoriesByParent.map((parent) => (
+                <div key={parent.id} className="grid gap-2">
+                  <div className="flex items-center justify-between gap-3 text-xs font-medium uppercase text-muted-foreground">
+                    <span>{parent.label}</span>
+                    {parent.groupCount > 0 ? <span>{parent.groupCount}</span> : null}
+                  </div>
+                  {[parent, ...parent.children].map((category) =>
+                    category.count > 0 ? (
+                      <label key={category.id} className="flex items-center justify-between gap-3 rounded-md border bg-background/72 p-3">
+                        <span className="flex min-w-0 items-center gap-2 text-sm">
+                          <span className="size-3 shrink-0 rounded-full border border-black/30" style={{ background: category.color }} />
+                          <span className="truncate">{category.label}</span>
+                          <span className="text-xs text-muted-foreground">({category.count})</span>
+                        </span>
+                        <input
+                          type="checkbox"
+                          checked={activeCategoryIds.has(category.id)}
+                          onChange={() => toggleCategory(category.id)}
+                          className="size-4 shrink-0 accent-primary"
+                        />
+                      </label>
+                    ) : null,
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        ) : null}
+      </div>
+    </main>
   );
 }
