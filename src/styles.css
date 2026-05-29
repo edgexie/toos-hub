@@ -140,3 +140,34 @@
     @apply cursor-pointer;
   }
 }
+
+.botw-map {
+  --botw-map-control-bg: color-mix(in oklch, var(--card) 92%, transparent);
+}
+
+.botw-map .leaflet-control-zoom {
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px oklch(0 0 0 / 16%);
+}
+
+.botw-map .leaflet-control-zoom a {
+  background: var(--botw-map-control-bg);
+  color: var(--foreground);
+  border-bottom-color: var(--border);
+}
+
+.botw-map .leaflet-control-zoom a:hover {
+  background: var(--muted);
+}
+
+.botw-map .leaflet-popup-content-wrapper,
+.botw-map .leaflet-popup-tip {
+  background: var(--card);
+  color: var(--card-foreground);
+}
+
+.botw-map .leaflet-popup-content {
+  min-width: 180px;
+  margin: 12px 14px;
+  line-height: 1.55;
+}

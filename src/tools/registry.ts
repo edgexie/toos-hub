@@ -1,4 +1,4 @@
-import { Binary, Braces, Clock3, Fingerprint, KeyRound, LinkIcon, Palette, Paintbrush, Regex, Ruler } from "lucide-react";
+import { Binary, Braces, Clock3, FileSearch, Fingerprint, KeyRound, LinkIcon, MapPinned, Palette, Paintbrush, Regex, Ruler } from "lucide-react";
 
 export const toolCategories = [
   { id: "all", label: "全部" },
@@ -7,6 +7,8 @@ export const toolCategories = [
   { id: "formatting", label: "格式化" },
   { id: "css", label: "CSS" },
   { id: "generation", label: "生成" },
+  { id: "file", label: "文件" },
+  { id: "map", label: "地图" },
 ] as const;
 
 export const tools = [
@@ -99,5 +101,23 @@ export const tools = [
     summary: "生成 SHA-1、SHA-256、SHA-384、SHA-512 文本摘要。",
     status: "已可用",
     icon: Fingerprint,
+  },
+  {
+    id: "cad-viewer",
+    path: "/cad-viewer",
+    category: "file",
+    title: "CAD 文件查看器",
+    summary: "上传 DXF 文件，在浏览器中预览常见 CAD 实体。",
+    status: "已可用",
+    icon: FileSearch,
+  },
+  {
+    id: "botw-map",
+    path: "/botw-map",
+    category: "map",
+    title: "旷野之息地图",
+    summary: "基于 Leaflet 的地图图片漫游、缩放、坐标读取和地点标注。",
+    status: "已可用",
+    icon: MapPinned,
   },
 ] as const;
