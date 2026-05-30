@@ -1,12 +1,17 @@
-import "leaflet/dist/leaflet.css";
-import L from "leaflet";
-import { Home, Layers, LocateFixed, Search, X } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { botwMapMarkers, botwMarkerCategories, defaultBotwCategoryIds, type BotwMapMarker } from "@/data/botw-map-data";
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import { Home, Layers, LocateFixed, Search, X } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { Link } from 'react-router';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import {
+  botwMapMarkers,
+  botwMarkerCategories,
+  defaultBotwCategoryIds,
+  type BotwMapMarker,
+} from '@/data/botw-map-data';
 
 const mapBounds = {
   northEast: [-206, 221] as L.LatLngTuple,
@@ -14,7 +19,7 @@ const mapBounds = {
 };
 
 const tileMap = {
-  attribution: "Map tiles: dragonir/zelda-map assets/maps",
+  attribution: 'Map tiles: dragonir/zelda-map assets/maps',
   maxZoom: 7,
   minZoom: 0,
   nativeMinZoom: 0,
@@ -23,49 +28,64 @@ const tileMap = {
 };
 
 const displayMarkerCategories = botwMarkerCategories.map((category) =>
-  category.id === "1925" ? { ...category, label: "神庙" } : category,
+  category.id === '1925' ? { ...category, label: '神庙' } : category,
 );
 
-const categoryMap = Object.fromEntries(displayMarkerCategories.map((category) => [category.id, category]));
+const categoryMap = Object.fromEntries(
+  displayMarkerCategories.map((category) => [category.id, category]),
+);
 
 const categoriesByParent = displayMarkerCategories
   .filter((category) => category.parentId === null)
   .map((parent) => ({
     ...parent,
-    children: displayMarkerCategories.filter((category) => category.parentId === parent.id),
+    children: displayMarkerCategories.filter(
+      (category) => category.parentId === parent.id,
+    ),
   }))
   .map((parent) => ({
     ...parent,
-    groupCount: parent.count + parent.children.reduce((total, child) => total + child.count, 0),
+    groupCount:
+      parent.count +
+      parent.children.reduce((total, child) => total + child.count, 0),
   }));
 
 const botwGameIconUrl = `${import.meta.env.BASE_URL}icons/botw-logo.jpg`;
 
 const escapeHtml = (value: string) =>
   value
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
 
-const getMarkerDisplayName = (marker: BotwMapMarker) => marker.nameZh || marker.name;
+const getMarkerDisplayName = (marker: BotwMapMarker) =>
+  marker.nameZh || marker.name;
 
-const getMarkerDisplayDescription = (marker: BotwMapMarker) => marker.descriptionZh || marker.description;
+const getMarkerDisplayDescription = (marker: BotwMapMarker) =>
+  marker.descriptionZh || marker.description;
 
 const isLocationMarker = (marker: BotwMapMarker) => {
   const category = categoryMap[marker.categoryId];
-  return marker.categoryId === "1920" || category?.parentId === "1920";
+  return marker.categoryId === '1920' || category?.parentId === '1920';
 };
 
-const getLocationLabelMinZoom = (marker: BotwMapMarker) => {
-  if (marker.categoryId === "1925") {
-    return 4;
+const shouldShowLabel = (marker: BotwMapMarker) => {
+  // 呀哈哈（Korok Seeds）数量太多，不显示文字标签，避免遮盖地图
+  if (marker.categoryId === '1916') return false;
+  return true;
+};
+
+const getLabelMinZoom = (marker: BotwMapMarker) => {
+  // 地点类：神庙在 zoom 4 才显示，时之神殿/大精灵在 zoom 3，其余地点 zoom 2
+  if (isLocationMarker(marker)) {
+    if (marker.categoryId === '1925') return 4;
+    if (marker.categoryId === '1927' || marker.categoryId === '1937') return 3;
+    return 2;
   }
-  if (marker.categoryId === "1927" || marker.categoryId === "1937") {
-    return 3;
-  }
-  return 2;
+  // 非地点类标注：在较高缩放级别才显示标签，避免低缩放时过于密集
+  return 5;
 };
 
 const getMarkerPopupHtml = (marker: BotwMapMarker) => {
@@ -75,12 +95,18 @@ const getMarkerPopupHtml = (marker: BotwMapMarker) => {
 
   return [
     `<strong>${escapeHtml(displayName)}</strong>`,
-    displayName !== marker.name ? `<br/><small>${escapeHtml(marker.name)}</small>` : "",
-    `<br/><span>${escapeHtml(category?.label ?? "未分类")} / ${escapeHtml(category?.parentName ?? category?.name ?? "标注")}</span>`,
-    displayDescription ? `<br/><small>${escapeHtml(displayDescription)}</small>` : "",
-    displayDescription && displayDescription !== marker.description ? `<br/><small>${escapeHtml(marker.description)}</small>` : "",
+    displayName !== marker.name
+      ? `<br/><small>${escapeHtml(marker.name)}</small>`
+      : '',
+    `<br/><span>${escapeHtml(category?.label ?? '未分类')} / ${escapeHtml(category?.parentName ?? category?.name ?? '标注')}</span>`,
+    displayDescription
+      ? `<br/><small>${escapeHtml(displayDescription)}</small>`
+      : '',
+    displayDescription && displayDescription !== marker.description
+      ? `<br/><small>${escapeHtml(marker.description)}</small>`
+      : '',
     `<br/><small>x: ${marker.x.toFixed(3)}, y: ${marker.y.toFixed(3)}</small>`,
-  ].join("");
+  ].join('');
 };
 
 export function BotwMapPage() {
@@ -88,8 +114,10 @@ export function BotwMapPage() {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const markerLayerRef = useRef<L.LayerGroup | null>(null);
-  const [activeCategoryIds, setActiveCategoryIds] = useState<Set<string>>(() => new Set(defaultBotwCategoryIds));
-  const [query, setQuery] = useState("");
+  const [activeCategoryIds, setActiveCategoryIds] = useState<Set<string>>(
+    () => new Set(defaultBotwCategoryIds),
+  );
+  const [query, setQuery] = useState('');
   const [searchPanelOpen, setSearchPanelOpen] = useState(false);
   const [layerPanelOpen, setLayerPanelOpen] = useState(false);
   const [zoom, setZoom] = useState(2);
@@ -98,9 +126,11 @@ export function BotwMapPage() {
     const normalizedQuery = query.trim().toLowerCase();
     return botwMapMarkers.filter((marker) => {
       const category = categoryMap[marker.categoryId];
-      const matchesCategory = normalizedQuery ? true : activeCategoryIds.has(marker.categoryId);
+      const matchesCategory = normalizedQuery
+        ? true
+        : activeCategoryIds.has(marker.categoryId);
       const matchesQuery = normalizedQuery
-        ? `${marker.name} ${marker.nameZh} ${marker.description} ${marker.descriptionZh} ${category?.label ?? ""} ${category?.name ?? ""} ${category?.parentName ?? ""}`
+        ? `${marker.name} ${marker.nameZh} ${marker.description} ${marker.descriptionZh} ${category?.label ?? ''} ${category?.name ?? ''} ${category?.parentName ?? ''}`
             .toLowerCase()
             .includes(normalizedQuery)
         : true;
@@ -138,7 +168,7 @@ export function BotwMapPage() {
     map.setView([0, 0], 2);
     setZoom(map.getZoom());
     window.setTimeout(() => map.invalidateSize(), 0);
-    map.on("zoomend", () => setZoom(map.getZoom()));
+    map.on('zoomend', () => setZoom(map.getZoom()));
     mapRef.current = map;
     markerLayerRef.current = L.layerGroup().addTo(map);
 
@@ -161,25 +191,28 @@ export function BotwMapPage() {
       const popupHtml = getMarkerPopupHtml(marker);
 
       L.circleMarker([marker.y, marker.x], {
-        color: "#111827",
-        fillColor: category?.color ?? "#38bdf8",
+        color: '#111827',
+        fillColor: category?.color ?? '#38bdf8',
         fillOpacity: 0.95,
-        radius: marker.categoryId === "1916" ? 5 : 7,
+        radius: marker.categoryId === '1916' ? 5 : 7,
         weight: 2,
       })
-        .bindPopup(popupHtml, { className: "botw-marker-popup" })
+        .bindPopup(popupHtml, { className: 'botw-marker-popup' })
         .addTo(markerLayer);
 
-      if (isLocationMarker(marker) && (query.trim() || zoom >= getLocationLabelMinZoom(marker))) {
+      if (
+        shouldShowLabel(marker) &&
+        (query.trim() || zoom >= getLabelMinZoom(marker))
+      ) {
         L.marker([marker.y, marker.x], {
           icon: L.divIcon({
-            className: "botw-location-label",
+            className: 'botw-location-label',
             html: escapeHtml(getMarkerDisplayName(marker)),
             iconAnchor: [-10, 14],
           }),
           keyboard: false,
         })
-          .bindPopup(popupHtml, { className: "botw-marker-popup" })
+          .bindPopup(popupHtml, { className: 'botw-marker-popup' })
           .addTo(markerLayer);
       }
     });
@@ -211,9 +244,14 @@ export function BotwMapPage() {
       return;
     }
 
-    map.setView([marker.y, marker.x], Math.max(map.getZoom(), 5), { animate: true });
+    map.setView([marker.y, marker.x], Math.max(map.getZoom(), 5), {
+      animate: true,
+    });
     window.setTimeout(() => {
-      L.popup({ className: "botw-marker-popup" }).setLatLng([marker.y, marker.x]).setContent(getMarkerPopupHtml(marker)).openOn(map);
+      L.popup({ className: 'botw-marker-popup' })
+        .setLatLng([marker.y, marker.x])
+        .setContent(getMarkerPopupHtml(marker))
+        .openOn(map);
     }, 260);
   };
 
@@ -223,7 +261,10 @@ export function BotwMapPage() {
 
   return (
     <main className="relative h-svh overflow-hidden bg-stone-950">
-      <div ref={mapElementRef} className="botw-map absolute inset-0 bg-stone-900" />
+      <div
+        ref={mapElementRef}
+        className="botw-map absolute inset-0 bg-stone-900"
+      />
 
       <div className="pointer-events-none absolute inset-0 z-[500] p-3 sm:p-4">
         <div className="pointer-events-auto flex items-center gap-2">
@@ -256,23 +297,47 @@ export function BotwMapPage() {
                       搜索
                     </h2>
                     <p className="text-xs text-muted-foreground">
-                      {botwMapMarkers.length} 个标注，当前显示 {filteredMarkers.length} 个
+                      {botwMapMarkers.length} 个标注，当前显示{' '}
+                      {filteredMarkers.length} 个
                     </p>
                   </div>
                   <div className="flex shrink-0 items-center gap-1">
                     {query ? (
-                      <Button variant="ghost" size="icon" type="button" onClick={() => setQuery("")} aria-label="清空搜索" className="size-8">
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        type="button"
+                        onClick={() => setQuery('')}
+                        aria-label="清空搜索"
+                        className="size-8"
+                      >
                         <X className="size-4" />
                       </Button>
                     ) : null}
-                    <Button variant="ghost" size="icon" type="button" onClick={() => setSearchPanelOpen(false)} aria-label="关闭搜索" className="size-8">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      type="button"
+                      onClick={() => setSearchPanelOpen(false)}
+                      aria-label="关闭搜索"
+                      className="size-8"
+                    >
                       <X className="size-4" />
                     </Button>
                   </div>
                 </div>
-                <Input ref={searchInputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索：神庙、驿站、Korok..." />
+                <Input
+                  ref={searchInputRef}
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                  placeholder="搜索：神庙、驿站、Korok..."
+                />
                 <div className="grid max-h-[min(42svh,380px)] gap-2 overflow-auto pr-1">
-                  {filteredMarkers.length === 0 ? <p className="rounded-md border bg-muted/35 p-3 text-sm text-muted-foreground">没有匹配的标注。</p> : null}
+                  {filteredMarkers.length === 0 ? (
+                    <p className="rounded-md border bg-muted/35 p-3 text-sm text-muted-foreground">
+                      没有匹配的标注。
+                    </p>
+                  ) : null}
                   {filteredMarkers.map((marker) => {
                     const category = categoryMap[marker.categoryId];
                     const displayName = getMarkerDisplayName(marker);
@@ -284,14 +349,24 @@ export function BotwMapPage() {
                         className="grid gap-1 rounded-md border bg-background/72 p-3 text-left transition hover:border-primary/35 hover:bg-background"
                       >
                         <div className="flex items-center justify-between gap-2">
-                          <strong className="truncate text-sm">{displayName}</strong>
-                          <Badge variant="outline" className="shrink-0 bg-card/80">
-                            {category?.label ?? "标注"}
+                          <strong className="truncate text-sm">
+                            {displayName}
+                          </strong>
+                          <Badge
+                            variant="outline"
+                            className="shrink-0 bg-card/80"
+                          >
+                            {category?.label ?? '标注'}
                           </Badge>
                         </div>
-                        {displayName !== marker.name ? <span className="truncate text-xs text-muted-foreground">{marker.name}</span> : null}
+                        {displayName !== marker.name ? (
+                          <span className="truncate text-xs text-muted-foreground">
+                            {marker.name}
+                          </span>
+                        ) : null}
                         <span className="truncate text-xs text-muted-foreground">
-                          {category?.parentName ?? category?.name ?? "未分类"} / x {marker.x.toFixed(3)}, y {marker.y.toFixed(3)}
+                          {category?.parentName ?? category?.name ?? '未分类'} /
+                          x {marker.x.toFixed(3)}, y {marker.y.toFixed(3)}
                         </span>
                       </button>
                     );
@@ -301,7 +376,7 @@ export function BotwMapPage() {
             </section>
           ) : (
             <Button
-              variant={query ? "default" : "secondary"}
+              variant={query ? 'default' : 'secondary'}
               size="icon"
               type="button"
               onClick={() => setSearchPanelOpen(true)}
@@ -314,11 +389,18 @@ export function BotwMapPage() {
         </div>
 
         <div className="pointer-events-auto absolute bottom-3 left-3 flex flex-col gap-2 sm:bottom-4 sm:left-4">
-          <Button variant="secondary" size="icon" type="button" onClick={resetView} aria-label="复位地图" className="size-10 shadow-xl">
+          <Button
+            variant="secondary"
+            size="icon"
+            type="button"
+            onClick={resetView}
+            aria-label="复位地图"
+            className="size-10 shadow-xl"
+          >
             <LocateFixed className="size-4" />
           </Button>
           <Button
-            variant={layerPanelOpen ? "default" : "secondary"}
+            variant={layerPanelOpen ? 'default' : 'secondary'}
             size="icon"
             type="button"
             onClick={() => setLayerPanelOpen((open) => !open)}
@@ -339,7 +421,14 @@ export function BotwMapPage() {
                 </h2>
                 <p className="text-xs text-muted-foreground">默认显示神庙</p>
               </div>
-              <Button variant="ghost" size="icon" type="button" onClick={() => setLayerPanelOpen(false)} aria-label="关闭图层" className="size-8">
+              <Button
+                variant="ghost"
+                size="icon"
+                type="button"
+                onClick={() => setLayerPanelOpen(false)}
+                aria-label="关闭图层"
+                className="size-8"
+              >
                 <X className="size-4" />
               </Button>
             </div>
@@ -348,11 +437,24 @@ export function BotwMapPage() {
                 variant="outline"
                 size="sm"
                 type="button"
-                onClick={() => setActiveCategoryIds(new Set(botwMarkerCategories.filter((category) => category.count > 0).map((category) => category.id)))}
+                onClick={() =>
+                  setActiveCategoryIds(
+                    new Set(
+                      botwMarkerCategories
+                        .filter((category) => category.count > 0)
+                        .map((category) => category.id),
+                    ),
+                  )
+                }
               >
                 全部
               </Button>
-              <Button variant="outline" size="sm" type="button" onClick={() => setActiveCategoryIds(new Set())}>
+              <Button
+                variant="outline"
+                size="sm"
+                type="button"
+                onClick={() => setActiveCategoryIds(new Set())}
+              >
                 清空
               </Button>
             </div>
@@ -361,15 +463,25 @@ export function BotwMapPage() {
                 <div key={parent.id} className="grid gap-2">
                   <div className="flex items-center justify-between gap-3 text-xs font-medium uppercase text-muted-foreground">
                     <span>{parent.label}</span>
-                    {parent.groupCount > 0 ? <span>{parent.groupCount}</span> : null}
+                    {parent.groupCount > 0 ? (
+                      <span>{parent.groupCount}</span>
+                    ) : null}
                   </div>
                   {[parent, ...parent.children].map((category) =>
                     category.count > 0 ? (
-                      <label key={category.id} className="flex items-center justify-between gap-3 rounded-md border bg-background/72 p-3">
+                      <label
+                        key={category.id}
+                        className="flex items-center justify-between gap-3 rounded-md border bg-background/72 p-3"
+                      >
                         <span className="flex min-w-0 items-center gap-2 text-sm">
-                          <span className="size-3 shrink-0 rounded-full border border-black/30" style={{ background: category.color }} />
+                          <span
+                            className="size-3 shrink-0 rounded-full border border-black/30"
+                            style={{ background: category.color }}
+                          />
                           <span className="truncate">{category.label}</span>
-                          <span className="text-xs text-muted-foreground">({category.count})</span>
+                          <span className="text-xs text-muted-foreground">
+                            ({category.count})
+                          </span>
                         </span>
                         <input
                           type="checkbox"
